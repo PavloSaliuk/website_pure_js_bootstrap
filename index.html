@@ -22,10 +22,10 @@
               <img class="header__logo" width="150" src="images/header/logo.svg" alt="Beer Logo">
           </a>
           <div class="header__menu">
-              <a href="#" class="header__menu-item">About Us</a>
-              <a href="#" class="header__menu-item">Beer Styles</a>
-              <a href="#" class="header__menu-item">Testimonials</a>
-              <a href="#" class="header__menu-item">Contact Us</a>
+            <a href="#about_us" class="header__menu-item">About Us</a>
+            <a href="#bestsellers" class="header__menu-item">Beer Styles</a>
+            <a href="#testimonials" class="header__menu-item">Testimonials</a>
+            <a href="#contacts" class="header__menu-item">Contact Us</a>
           </div>
           <div class="header__social-icons">
               <a href="#" class="header__social-icons-item">
@@ -47,10 +47,10 @@
               <p class="header__banner-text">Welcome to one of the oldest breweries of New York. We offer a variety of delicious craft beers, as well as exciting tours, tastings, and master-classes for those who want to learn more about the beer world.</p>
               <div class="header__banner-buttons">
                   <div class="header__banner-beer-types">
-                      <a class="header__banner-beer-types button" href="#">Beer Types</a>
+                      <a class="header__banner-beer-types button" href="#bestsellers">Beer Types</a>
                   </div>
                   <div class="header__banner-about-us">
-                      <a class="header__banner-about-us button" href="#">About Us</a>
+                      <a class="header__banner-about-us button" href="#about_us">About Us</a>
                   </div>
               </div>
           </div>
@@ -62,7 +62,7 @@
 
   <main>
     <!--Pavlo Saliuk-->
-    <div class="about-us">
+    <div  class="about_us" id="about_us">
       <div>
         <img src="images/type_of_bear_in_glasses.png" alt="type of bear in glasses" height="486"
           width="1170">
@@ -91,7 +91,7 @@
             and commemorated the dead.
           </p>
         </div>
-        <p class="about-us__words"> <em>
+        <p class="about_us__words"> <em>
             «Today our brewery is one of the largest craft beer venues in New
             York. We have kept the recipes of the late 19th century, and we
             strictly adhere to them. The combination of traditions and new
@@ -102,7 +102,7 @@
         <span>John Cliff</span>
       </div>
 
-      <div class="about-us__years">
+      <div class="about_us__years">
         <ul>
           <li>1896</li>
           <li>1990</li>
@@ -177,7 +177,7 @@
 
     <!-- Pavlo Didun -->
 
-    <div class="bestsellers">
+    <div class="bestsellers" id="bestsellers">
       <!-- Bestsellers Imperal Stout -->
       <div class="bestsellers__carousel">
         <img width="300" src="images/img4/imperial-stout.png" alt="Imperial stout" class="bestsellers__bottle">
@@ -357,7 +357,7 @@
     </div>
 
     <!--Rosalia Kulynska-->
-    <div>7</div>
+    <div class="testimonials" id="testimonials">7</div>
 
     <!--Olena Korol-->
     <div>
@@ -381,8 +381,8 @@
         directly.
       </span>
       <br>
-      <button class="answer__accordion">  <b> Can I order your beer online? </b></button>
-      <div class="answer__panel>
+      <button class="answer__accordion"> <b> Can I order your beer online? </b></button>
+      <div class="answer__panel">
         <p>You can place an order by emailing us. Our manager will contact you and clarify all the details.</p>
       </div>
       <button > <b> Do you sell only bottled or draft beer too? </b></button>
@@ -440,7 +440,7 @@
     </div>
 
     <!--Olena Vdovych-->
-    <div class="brewery__contacts">
+    <div class="brewery__contacts" id="contacts">
       <div class="contacts__left">
         <h2 class="contacts__title">Contacts</h2>
         <p class="contacts__text">Contact us to book a tour, tasting, or order our beer.</p>
@@ -477,12 +477,10 @@
       <div class="contacts__right">
         <form class="contacts__form" action="#" method="post">
           <div class="contacts__form_field">
-            <input class="form__name" type="text" name="fullname" id="fullname" placeholder="Enter your phone number*"
-              required>
+            <input class="form__name" type="text" name="fullname" id="fullname" placeholder="Enter your phone number*" required>
           </div>
           <div class="contacts__form_field">
-            <input class="form__phone" type="tel" name="phone" id="phone" placeholder="Enter your phone number*"
-              required>
+            <input class="form__phone" type="tel" name="phone" id="phone" placeholder="Enter your phone number*" required>
           </div>
           <div class="contacts__form_field">
             <input class="form__email" type="email" name="email" id="email" placeholder="Enter your e-mail*" required>

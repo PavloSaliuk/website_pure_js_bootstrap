@@ -8,7 +8,7 @@
 }
 .video_block{
     font-size: 0; 
-    background-image: url(../images/back_behind_video.png); 
+    background-image: url(images/back_behind_video.png); 
     background-repeat: no-repeat; 
     height: 1110px; 
     background-size: 100% 100%;
@@ -45,7 +45,7 @@
     text-align: center;
 }
 .video_block_backgroud_pict{
-    background-image: url(../images/beer_depart.webp); 
+    background-image: url(images/beer_depart.webp); 
     background-repeat: no-repeat; 
     height: 750px; 
     background-size: 52% 100%; 

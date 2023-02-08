@@ -1,15 +1,19 @@
-#id_photoes_carousel{
+.wrapper_photo_carousel{
     font-size: 0; 
     margin-bottom: 0px;
 }
-#id_video_block{
+.leisure_photoes_common{
+    width:20%; 
+    height :400px;
+}
+.video_block{
     font-size: 0; 
     background-image: url(/images/back_behind_video.png); 
     background-repeat: no-repeat; 
     height: 1110px; 
     background-size: 100% 100%;
 }
-#id_video_block_divider_text{
+.video_block_divider_text{
     font-size: 16px; 
     text-align: center; 
     padding-top: 140px; 
@@ -23,9 +27,15 @@
     font-size: 45px; 
     text-align: center;
 }
-#id_video_block_wheat_ear{
+.video_block_wheat_ear{
     margin : 0; 
     padding-top: 0px;
+}
+.video_block_divider_ear{
+    height:32px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
 }
 #id_video_block_paragr_text{
     font-family: Arial, Helvetica, sans-serif; 
@@ -34,7 +44,7 @@
     padding-top: 10px; 
     text-align: center;
 }
-#id_video_block_backgroud_pict{
+.video_block_backgroud_pict{
     background-image: url(/images/beer_depart.webp); 
     background-repeat: no-repeat; 
     height: 750px; 
@@ -47,14 +57,4 @@
     position: relative; 
     top: 50%; 
     transform: translateY(-50%);
-}
-.leisure_photoes_common{
-    width:20%; 
-    height :400px;
-}
-.video_block_ear{
-    height:32px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
 }

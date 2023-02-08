@@ -6,7 +6,7 @@
     width:20%; 
     height :400px;
 }
-.video_block{
+#video_block{
     font-size: 0; 
     background-image: url(../images/back_behind_video.png); 
     background-repeat: no-repeat; 

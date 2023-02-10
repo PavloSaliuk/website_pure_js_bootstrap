@@ -6,27 +6,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Craft Brewery</title>
-  <link rel="shortcut icon" type="image/png"
-    href="https://res2.weblium.site/res/5f20299a87b61e0022e950a4/5f2837d77eff3500217fab76_optimized" sizes="16x16">
+  <link rel="shortcut icon" href="images/web-icon.png">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <header>
-    <!-- Petro Pinchuk -->
-    <div>1</div>
+  <!-- Petro Pinchuk -->
+  <header class="header">
+    <div class="header__contacts">
+      <p class="header__address">6118 Jefferson St, West New York</p>
+      <a class="header__phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+    </div>
+    <nav class="header__nav">
+      <a href="#" class="header__logo-container">
+        <img class="header__logo" width="150" src="images/header_logo.svg" alt="Beer Logo">
+      </a>
+      <div class="header__menu">
+        <a href="#about_us" class="header__menu-item">About Us</a>
+        <a href="#bestsellers" class="header__menu-item">Beer Styles</a>
+        <a href="#testimonials" class="header__menu-item">Testimonials</a>
+        <a href="#contacts" class="header__menu-item">Contact Us</a>
+      </div>
+      <div class="header__social-icons">
+        <a href="https://facebook.com/" class="header__social-icons-item">
+          <img width="40" src="images/header_facebook-icon.svg" alt="Facebook">
+        </a>
+        <a href="https://instagram.com/" class="header__social-icons-item">
+          <img width="40" src="images/header_instagram-icon.svg" alt="Instagram">
+        </a>
+        <a href="https://youtube.com/" class="header__social-icons-item">
+          <img width="40" src="images/header_youtube-icon.svg" alt="YouTube">
+        </a>
+      </div>
+    </nav>
+    <div class="header__banner">
+      <div class="header__banner-title-section">
+        <h1 class="header__banner-title">BREWERY IN NEW YORK</h1>
+        <p class="header__banner-slogan">Sharp Taste of History</p>
+        <img width="90" src="images/spikelet-brown.svg" alt="spikelet">
+        <p class="header__banner-text">Welcome to one of the oldest breweries of New York. We offer a variety of
+          delicious craft beers, as well as exciting tours, tastings, and master-classes for those who want to learn
+          more about the beer world.</p>
+        <div class="header__banner-buttons">
+          <div class="header__banner-beer-types">
+            <a class="header__banner-beer-types button" href="#bestsellers">Beer Types</a>
+          </div>
+          <div class="header__banner-about-us">
+            <a class="header__banner-about-us button" href="#about_us">About Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__banner__image-section">
+        <img height="500" src="images/header_beer_bottle.png" alt="Beer bottle">
+      </div>
+    </div>
   </header>
 
   <main>
     <!--Pavlo Saliuk-->
-    <div class="history">
+    <section class="about_us" id="about_us">
       <div>
-        <img src="images/img2/TypeOfBearInGlasses.png" alt="TypeOfBearInGlasses" height="486"
-          width="1170">
+        <img src="images/type_of_bear_in_glasses.png" alt="type of bear in glasses" height="486" width="1170">
       </div>
-      <span style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
+      <span class="xxx_brown" style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
       <div>
         <h2>Crafted to Inspire You Since 1896</h2>
-        <img src="images/img2/Kolosok.svg" alt="Kolosok" height="32" width="150">
+        <img src="images/spikelet-brown.svg" alt="Spikelet" height="32" width="150">
         <h3>
           Even now, 120 years later, you can enjoy real beer brewed according to
           medieval recipes.
@@ -47,46 +92,50 @@
             and commemorated the dead.
           </p>
         </div>
-        <p class="john_cliff_words"> <em>
+        <p class="about_us__words"> <em>
             «Today our brewery is one of the largest craft beer venues in New
             York. We have kept the recipes of the late 19th century, and we
             strictly adhere to them. The combination of traditions and new
             technologies allowed us to offer the best beer styles for true
             connoisseurs.»</em>
         </p>
-        <img src="images/img2/SignatureOfHteOwner.png" alt="SignatureOfHteOwner" height="70" width="70">
+        <img src="images/signature_of_the_owner.png" alt="signature of the owner" height="70" width="70">
         <span>John Cliff</span>
       </div>
 
-      <div class="history_years">
-        <ul>
-          <li>1896</li>
-          <li>1990</li>
-          <li>2003</li>
-          <li>2022</li>
-        </ul>
-        <ul>
-          <li>Our brewery was opened</li>
-          <li>3 fantastic tastes were added</li>
-          <li>Modernization of all equipment</li>
-          <li>Restaurant opening</li>
-        </ul>
+      <div class="about_us__history">
+        <div class="about_us__history_data">
+          <span class="about_us__history_years">1896</span>
+          <span class="about_us__history_events">Our brewery was opened</span>
+        </div>
+        <div class="about_us__history_data">
+          <span class="about_us__history_years">1990</span>
+          <span class="about_us__history_events">3 fantastic tastes were added</span>
+        </div>
+        <div class="about_us__history_data">
+          <span class="about_us__history_years">2003</span>
+          <span class="about_us__history_events">Modernization of all equipment</span>
+        </div>
+        <div class="about_us__history_data">
+          <span class="about_us__history_years">2022</span>
+          <span class="about_us__history_events">Restaurant opening</span>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- Roman Didun -->
-    <div>
-      <div class="discover">
-        <span class="discover__xxx">X X X</span>
+    <section class="discover">
+      <div class="discover__discription">
+        <span class="xxx_yellow">X X X</span>
         <h2 class="discover__title">Discover Our Beer</h2>
-        <img width="100" src="images/img3/yellow_spike.svg" alt="yellow_spike">
+        <img width="100" src="images/spikelet-yellow.svg" alt="Yellow spikelet">
         <p class="discover__info">
           We offer not only delicious beer but also an opportunity to fully get acquainted with the brewing process.
         </p>
       </div>
       <div class="discover__carousel">
         <article class="discover__carousel-individual">
-          <img width="200" src="images/img3/indivsdual_tour.png" alt="individual tour">
+          <img width="200" src="images/individual_tour.png" alt="Beer barrel">
           <h3 class="discover__carousel-name">
             individual tour
           </h3>
@@ -94,10 +143,10 @@
             We will take you on the personal tour and show you how the beer is made from the very start to bottling or
             barrel filling.
           </p>
-          <input type="button" value="Learn more">
+          <a href="#contacts" class="discover__learn-more">Learn more</a>
         </article>
         <article class="discover__carousel-grouptour">
-          <img width="200" src="images/img3/group_tour.png" alt="group tour">
+          <img width="200" src="images/group_tour.png" alt="Beer barrels in the cellar">
           <h3 class="discover__carousel-name">
             group tour
           </h3>
@@ -105,20 +154,20 @@
             We offer exciting tours for groups of up to 10 people . You will learn more about the brewing process
             firsthand.
           </p>
-          <input type="button" value="Learn more">
+          <a href="#contacts" class="discover__learn-more">Learn more</a>
         </article>
         <article class="discover__carousel-tasting">
-          <img width="200" src="images/img3/tasting.png" alt="tasting">
+          <img width="200" src="images/tasting.png" alt="Four glasses of beer">
           <h3 class="discover__carousel-name">
             tasting
           </h3>
           <p class="discover__carousel-info">
             You can sign up for a delicious tasting of the most popular beer types with snacks included in the price.
           </p>
-          <input type="button" value="Learn more">
+          <a href="#contacts" class="discover__learn-more">Learn more</a>
         </article>
         <article class="discover__carousel-brewery">
-          <img width="200" src="images/img3/brewery_masterclass.png" alt="brewery masterclass">
+          <img width="200" src="images/brewery_masterclass.png" alt="People drinking beer">
           <h3 class="discover__carousel-name">
             brewery masterclass
           </h3>
@@ -126,22 +175,20 @@
             Do you want to feel like a real brewer? We will teach you how to make your own beer. You will become an
             expert.
           </p>
-          <input type="button" value="Learn more">
+          <a href="#contacts" class="discover__learn-more">Learn more</a>
         </article>
       </div>
-    </div>
+    </section>
 
     <!-- Pavlo Didun -->
-
-    <div class="bestsellers">
+    <section class="bestsellers" id="bestsellers">
       <!-- Bestsellers Imperal Stout -->
       <div class="bestsellers__carousel">
-        <img width="300" src="images/img4/imperial-stout.png" alt="Imperial stout" class="bestsellers__bottle">
+        <img width="300" src="images/imperial-stout.png" alt="Imperial stout" class="bestsellers__bottle">
         <div class="bestsellers__carousel-info">
-          <span>X X X</span>
+          <span class="xxx_yellow">X X X</span>
           <h4>Our Bestsellers</h4>
-          <!-- svg -->
-          <img width="100" src="images/img4/spike-icon.svg" alt="Spike icon">
+          <img width="100" src="images/spikelet-yellow.svg" alt="Spike icon">
           <p>WHEAT MALT</p>
           <h3>IMPERIAL STOUT</h3>
           <p>
@@ -152,25 +199,31 @@
           </p>
         </div>
         <div class="bestseller__carousel-contents">
-          <span>EXTRACT</span>
-          <span>18,00%</span>
-          <span>ALCOHOL</span>
-          <span>9%</span>
-          <span>IBU</span>
-          <span>28</span>
-          <span>SERVING TEMPERATURE</span>
-          <span>5-7°C</span>
+          <div>
+            <span>EXTRACT</span>
+            <span>18,00%</span>
+          </div>
+          <div>
+            <span>ALCOHOL</span>
+            <span>9%</span>
+          </div>
+          <div>
+            <span>IBU</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>SERVING TEMPERATURE</span>
+            <span>5-7°C</span>
+          </div>
         </div>
       </div>
-
       <!-- Bestsellers Indian Pale Ale -->
       <div class="bestsellers__carousel">
-        <img width="300" src="images/img4/indian-pale-ale.png" alt="Indian pale ale" class="bestsellers__bottle">
+        <img width="300" src="images/indian-pale-ale.png" alt="Indian pale ale" class="bestsellers__bottle">
         <div class="bestsellers__carousel-info">
-          <span>X X X</span>
+          <span class="xxx_yellow">X X X</span>
           <h4>Our Bestsellers</h4>
-          <!-- svg -->
-          <img width="100" src="images/img4/spike-icon.svg" alt="Spike icon">
+          <img width="100" src="images/spikelet-yellow.svg" alt="Spike icon">
           <p>MALT</p>
           <h3>INDIAN PALE ALE</h3>
           <p>
@@ -181,226 +234,232 @@
           </p>
         </div>
         <div class="bestseller__carousel-contents">
-          <span>EXTRACT</span>
-          <span>16,00%</span>
-          <span>ALCOHOL</span>
-          <span>5,7%</span>
-          <span>IBU</span>
-          <span>39</span>
-          <span>SERVING TEMPERATURE</span>
-          <span>10°C</span>
+          <div>
+            <span>EXTRACT</span>
+            <span>16,00%</span>
+          </div>
+          <div>
+            <span>ALCOHOL</span>
+            <span>5,7%</span>
+          </div>
+          <div>
+            <span>IBU</span>
+            <span>39</span>
+          </div>
+          <div>
+            <span>SERVING TEMPERATURE</span>
+            <span>10°C</span>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Bestsellers American Pale Ale -->
-    <div class="bestsellers__carousel">
-      <img width="300" src="images/img4/american-pale-ale.png" alt="American pale ale" class="bestsellers__bottle">
-      <div class="bestsellers__carousel-info">
-        <span>X X X</span>
-        <h4>Our Bestsellers</h4>
-        <!-- svg -->
-        <img width="100" src="images/img4/spike-icon.svg" alt="Spike icon">
-        <p>FRUITY</p>
-        <h3>AMERICAN PALE ALE</h3>
-        <p>
-          American pale ale is similar to Indian pale ale, but in this case, only American-made hops and malt are used.
-          At the same time, APA is characterized by a stunning combination of citrus notes: grapefruit, lemon, orange,
-          as well as hop bitterness, traditional for ale.
-        </p>
+      <!-- Bestsellers American Pale Ale -->
+      <div class="bestsellers__carousel">
+        <img width="300" src="images/american-pale-ale.png" alt="American pale ale" class="bestsellers__bottle">
+        <div class="bestsellers__carousel-info">
+          <span class="xxx_yellow">X X X</span>
+          <h4>Our Bestsellers</h4>
+          <img width="100" src="images/spikelet-yellow.svg" alt="Spike icon">
+          <p>FRUITY</p>
+          <h3>AMERICAN PALE ALE</h3>
+          <p>
+            American pale ale is similar to Indian pale ale, but in this case, only American-made hops and malt are
+            used.
+            At the same time, APA is characterized by a stunning combination of citrus notes: grapefruit, lemon,
+            orange,
+            as well as hop bitterness, traditional for ale.
+          </p>
+        </div>
+        <div class="bestseller__carousel-contents">
+          <div>
+            <span>EXTRACT</span>
+            <span>16,00%</span>
+          </div>
+          <div>
+            <span>ALCOHOL</span>
+            <span>5,8%</span>
+          </div>
+          <div>
+            <span>IBU</span>
+            <span>43</span>
+          </div>
+          <div>
+            <span>SERVING TEMPERATURE</span>
+            <span>10°C</span>
+          </div>
+        </div>
       </div>
-      <div class="bestseller__carousel-contents">
-        <span>EXTRACT</span>
-        <span>16,00%</span>
-        <span>ALCOHOL</span>
-        <span>5,8%</span>
-        <span>IBU</span>
-        <span>43</span>
-        <span>SERVING TEMPERATURE</span>
-        <span>10°C</span>
-      </div>
-    </div>
+    </section>
 
     <!--Prylutskyi Oleksii-->
-    <div class="wrapper" style="font-size: 0; margin-bottom: 0px;">
+    <div class="wrapper_photo_carousel">
       <!--<i id="left" class="fa-solid fa-angle-left"></i>-->
-      <div class="carousel">
-        <a href="#"><img style="width:20%; height :400px;" src="images/img5/section_5_beer_tank.png"
+      <div class="beer_leisure_photoes_carousel">
+        <a href="#"><img class="leisure_photoes_common" src="images/section_5_beer_tank.png"
             alt="beer tank with cup"></a>
-        <a href="#"><img style="width:20%; height :400px;" src="images/img5/comp_with_beer.png"
-            alt="comp with beer"></a>
-        <a href="#"><img style="width:20%; height :400px;" src="images/img5/beer_cup_fill.png" alt="beer cup fill"></a>
-        <a href="#"><img style="width:20%; height :400px;" src="images/img5/man_drink_beer.png"
-            alt="man drink beer"></a>
-        <a href="#"><img style="width:20%; height :400px;" src="images/img5/two_glasses.png"
-            alt="two glasses in two hands"></a>
+        <a href="#"><img class="leisure_photoes_common" src="images/comp_with_beer.png" alt="friends with beer"></a>
+        <a href="#"><img class="leisure_photoes_common" src="images/beer_cup_fill.png" alt="beer cup fill"></a>
+        <a href="#"><img class="leisure_photoes_common" src="images/man_drink_beer.png" alt="man drink beer"></a>
+        <a href="#"><img class="leisure_photoes_common" src="images/two_glasses.png" alt="two glasses in two hands"></a>
       </div>
       <!--<i id="right" class="fa-solid fa-angle-right"></i>-->
     </div>
-    <div
-      style="    font-size: 0; background-image: url(images/img5/back_behind_video.png); background-repeat: no-repeat; height: 1700px; background-size: 100% 100%;">
-     <!--<section>--> 
+
+    <section id="video_block">
+      <div>
         <div>
-          <div>
-            <p style="font-size: 26px; text-align: center; padding-top: 180px; color: brown;">
-              X X X
-            </p>
-            <p>
-              style="margin : 0; padding-top:0; margin-bottom :0px; font-family: 'Times New Roman', Times, serif;
-              font-size: 60px; text-align: center;">
-              Video Tour
-            </p>
-            <div style="margin : 0; padding-top: 0px;">
-              <img style="height:60px; margin-left: auto; margin-right: auto; display: block;"
-                src="images/img5/earOfWheat.svg" alt="earOfWheat">
-            </div>
-            <p style="font-size: 32px; color: lightcoral; padding-top: 10px; text-align: center;">
-              Want to see how the brewery works? Watch our video!
-            </p>
-            <div
-              style="    background-image: url(images/img5/beer_depart.webp); background-repeat: no-repeat; height: 850px; background-size: 50% 100%; background-position: center;">
-              <img style="height:70px; padding-left: 48%; position: relative; top: 50%; transform: translateY(-50%);"
-                src="images/img5/play_arrow.svg" alt="beer depart">
-            </div>
+          <p class="video_block_divider_text xxx_brown">
+            X X X
+          </p>
+          <h4 id="id_above_video_tour_text">
+            <b>Video Tour</b>
+          </h4>
+          <div class="video_block_wheat_ear">
+            <img class="video_block_divider_ear" src="images/spikelet-brown.svg" alt="earOfWheat">
+          </div>
+          <p id="id_video_block_paragr_text">
+            Want to see how the brewery works? Watch our video!
+          </p>
+          <div class="video_block_backgroud_pict">
+            <img id="id_video_block_arrow_pict" src="images/play_arrow.svg" alt="beer depart">
           </div>
         </div>
-      <!--</section>-->
+      </div>
+    </section>
 
-    </div>
+
 
     <!--Pavel Volik-->
-    <div>
-      <!--section our partners-->
-      <span class="xxx__our-ratners">X X X</span>
-      <h2 class="our__partners">Our Partners</h2>
-      <img src="images/img2/img6/kolosok.svg" alt="barley" height="32" width="150">
+    <section class="our__partners">
+      <div class="our_partners-intro">
+      <span class="xxx__brown-title">X X X</span>
+      <h2 class="our__partners_title">Our Partners</h2>
+      <img src="images/spikelet-brown.svg" alt="spikelet" height="32" width="150">
+      <p class="subtittle__we-work">We work with the best breweries in the United States.</p>
+      <p class="subtittle__we-share">We share our experience and develop new types of beer together.</p>
     </div>
-    <img src="images/img2/img6/premium-beer.svg" alt="premium beer">
-    <span class="signature__foto-premium-beer">Premium Beer Brewing</span>
-    <img src="images/img2/img6/lorems-brewimg.svg" alt="lorems brewimg">
-    <span class="signature__foto-lorems-brewimg">Lorem's Brewing Co.</span>
-    <img src="images/img2/img6/premium-quality.svg" alt="premium quality">
-    <span class="signature__foto-premium-quality">Premium Quality Beer</span>
-    <div>
-      <span class="subtittle__we-work">We work with the best breweries in the United States.</span>
-    </div>
-    <div>
-      <span class="subtittle__we-share">We share our experience and develop new types of beer together.</span>
-    </div>
-    <div>
-      <span class="xxx__our-ivents">X X X</span>
-      <h2 class="our__ivents">Our Events</h2>
-      <img src="images/img2/img6/kolosok.svg" alt="barley" height="32" width="150">
-    </div>
-    <div>
-      <span class="sibtittle__our-ivents">We regularly hold various events so that you can not only meet all types of
-        our beer but also have a great time at Craft Brewery.</span>
-    </div>
-    <div>
-      <img width="300" src="images/img2/img6/glassofbeer.png" alt="Glasofbeer">
+    <div class="partners_logos">
+    <img src="images/premium-beer.svg" alt="premium beer">
+    <p class="signature__foto-premium-beer">Premium Beer Brewing</p>
+    <img src="images/lorems-brewimg.svg" alt="lorems brewimg">
+    <p class="signature__foto-lorems-brewimg">Lorem's Brewing Co.</p>
+    <img src="images/premium-quality.svg" alt="premium quality">
+    <p class="signature__foto-premium-quality">Premium Quality Beer</p>
+  </div>
+    </section>
+    <section class="our__events-section">
+      <span class="xxx_yellow">X X X</span>
+      <h2 class="our__events">Our Events</h2>
+      <img src="images/spikelet-yellow.svg" alt="barley" height="32" width="150">
+      <p class="sibtittle__our-events">We regularly hold various events so that you can not only meet all types of
+        our beer but also have a great time at Craft Brewery.</p>
+    <div class="open_day-event" >
+      <img width="300" src="images/glassofbeer.png" alt="Glasofbeer">
       <p>Free</p>
       <p>Open Day</p>
       <p>AUGUST 19, 2022</p>
       <p>Do you want to know all the secrets of brewing? Want to understand how real craft beer is made? We will tell
         you, show you, and offer a free tasting.</p>
-      <a href="#">Book</a>
+      <a href="#contacts">Book</a>
     </div>
-    <div>
-      <img width="300" src="images/img2/img6/cheers.png" alt="Cheers">
+    <div class="beer__festival">
+      <img width="300" src="images/cheers.png" alt="Cheers">
       <p>From $80</p>
       <p>AUTUMN BEER FESTIVAL</p>
       <p>SEPTEMBER 01, 2022</p>
-      <p>Do you want to not only enjoy beer but also have fun? We're holding a festival! The best beers, live music and
+      <p>Do you want to not only enjoy beer but also have fun? We're holding a festival! The best beers, live music
+        and
         fantastic atmosphere are waiting!</p>
-      <a href="#">Book</a>
+      <a href="#contacts">Book</a>
     </div>
+  </section>
 
     <!--Rosalia Kulynska-->
-    <div>7</div>
+    <div class="testimonials" id="testimonials">7</div>
 
     <!--Olena Korol-->
-    <div>
-      <span class="schedule__letters">X X X</span>
-      <h2 class="schedule__title">Schedule Your Visit</h2>
-      <img src="images/img8/barley.svg" alt="barley" height="32" width="150">
-      <p class="schedule__text">Sign up for a tour or tasting to learn more about our beers and the brewery.</p>
-      <div class="section__buttons">
-        <a href="#" class="section__button">Book Now</a>
-        <a href="#" class="section__button">Learn more</a>
-      </div> >
-    </div>
+    <section class="schedule">
+      <div>
+        <span class="xxx_yellow">X X X</span>
+        <h2 class="schedule__title">Schedule Your Visit</h2>
+        <img src="images/barley.svg" alt="barley" height="32" width="150">
+        <p class="schedule__text">Sign up for a tour or tasting to learn more about our beers and the brewery.</p>
+        <div class="section__buttons">
+          <a href="#" class="section__button">Book Now</a>
+          <a href="#" class="section__button">Learn more</a>
+        </div> >
+      </div>
+    </section>
+
 
     <!--Pavlo Saliuk-->
-    <div class="answer">
-      <img src="images/img2/3BottlesOfBeer.png" alt="3BottlesOfBeer" width="670" height="635">
-      <span style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
-      <h2>Meet Our Beer and Make Your Choice.</h2>
-      <img src="images/img2/Kolosok.svg" alt="Kolosok" height="32" width="150">
-      <span> If you have any questions or suggestions, you can always contact us
-        directly.
-      </span>
+    <section class="answer">
+      <img src="images/3bottles_of_beer.png" alt=" 3 bottles Of Beer" width="670" height="635">
       <br>
-      <button class="answer__accordion"><b> Can I order your beer online? </b></button>
-      <div class="panel">
+      <span class="xxx_brown" style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
+      <h2 class="answer__paragraph">Meet Our Beer and Make Your Choice.</h2>
+      <img src="images/spikelet-brown.svg" alt="spikelet" height="32" width="150">
+      <h4> If you have any questions or suggestions, you can always contact us
+        directly.
+      </h4>
+      <br>
+      <button class="answer__accordion"> <b> Can I order your beer online? </b></button>
+      <div class="answer__panel">
         <p>You can place an order by emailing us. Our manager will contact you and clarify all the details.</p>
       </div>
-
-      <button class="answer__accordion"><b> Do you sell only bottled or draft beer too? </b></button>
-      <div class="panel">
+      <button> <b> Do you sell only bottled or draft beer too? </b></button>
+      <div class="answer__panel">
         <p>You can buy bottled, canned, and draft beer.</p>
       </div>
 
       <button class="answer__accordion"><b> Do you have Blanche beer? </b></button>
-      <div class="panel">
+      <div class="answer__panel">
         <p>Of course. We have over 20 different types of beer, you can order any of them.</p>
       </div>
       <button class="answer__accordion"><b> Do I need to sign up in advance for a tour or tasting? </b></button>
-      <div class="panel">
+      <div class="answer__panel">
         <p>Yes, we recommend that you book tours and tastings at least a few weeks in advance.</p>
       </div>
-    </div>
+    </section>
 
     <!--Olena Vdovych-->
-    <div class="our__brewery">
-      <span class="our__brewery_line">X X X</span>
+    <section class="our__brewery">
+      <span class="xxx_yellow">X X X</span>
       <div class="our__brewery_text">
         <h2 class="our__brewery_title">Our Brewery</h2>
-        <img height="30" width="130" class="our__brewery_icon" src="images/img10/icon-ear.svg" alt="Icon ear">
+        <img height="30" width="130" class="our__brewery_icon" src="images/spikelet-yellow.svg" alt="Spikelet yellow">
         <p class="our__bewery_text">Our brewery is a combination
           of old traditions and modern equipment. We brew beer with love and attention to detail.</p>
       </div>
       <div class="our__brewery_slider">
-        <img width="550" class="brewery__slider" src="images/img10/brewery-workers.png" alt="Brewery workers">
-        <img width="550" class="brewery__slider1" src="images/img10/brewery-barrels.png" alt="Brewery barrels">
-        <img width="550" class="brewery__slider2" src="images/img10/brewery-plant.png" alt="Brewery plant">
-        <img width="550" class="brewery__slider3" src="images/img10/brewery-product.png" alt="Brewery product">
-        <img width="550" class="brewery__slider4" src="images/img10/brewery-work.png" alt="Brewery work">
-        <img width="550" class="brewery__slider5" src="images/img10/brewery-bottels.png" alt="Brewery bottels">
+        <img width="550" class="brewery__slider" src="images/brewery-workers.png" alt="Brewery workers">
+        <img width="550" class="brewery__slider1" src="images/brewery-barrels.png" alt="Brewery barrels">
+        <img width="550" class="brewery__slider2" src="images/brewery-plant.png" alt="Brewery plant">
+        <img width="550" class="brewery__slider3" src="images/brewery-product.png" alt="Brewery product">
+        <img width="550" class="brewery__slider4" src="images/brewery-work.png" alt="Brewery work">
+        <img width="550" class="brewery__slider5" src="images/brewery-bottels.png" alt="Brewery bottels">
       </div>
-    </div>
+    </section>
 
     <!--Polina Chebukina-->
-    <div>
-      <div class="three_x">
-        <p>☓ ☓ ☓</p>
-      </div>
-      <div class="beer_blog">
+    <section class="beer_blog">
+      <span class="xxx_brown">X X X</span>
+      <div class="beer_blog_paragraph">
         <h2>Beer Blog</h2>
-        <img height="32" width="150" src="images/img11/Kolosok.svg" alt="kolosok">
+        <img height="32" width="150" src="images/spikelet-brown.svg" alt="spikelet">
       </div>
-      <div class="learn_about_beer">
+      <div class="beer_blog_learn_beer">
         <p>Want to learn more about craft beer and become a beer expert?
           We suggest reading articles written by our brewers.
         </p>
-        <div class="no_blogs">
-          <h3>No blog posts yet...</h3>
-        </div>
-        <a href="#">Read more</a>
       </div>
-    </div>
+      <div class="beer-blog_no_blogs">
+        <h3>No blog posts yet...</h3>
+      </div>
+      <a href="#" class="beer_blog_read_more">Read more</a>
+    </section>
 
     <!--Olena Vdovych-->
-    <div class="brewery__contacts">
+    <section class="brewery__contacts" id="contacts">
       <div class="contacts__left">
         <h2 class="contacts__title">Contacts</h2>
         <p class="contacts__text">Contact us to book a tour, tasting, or order our beer.</p>
@@ -431,30 +490,31 @@
           </div>
         </div>
         <div class="contacts__map">
-
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.647683619366!2d-74.02098332161465!3d40.79175905219763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2580577c2bb8b%3A0x18a781b633089821!2zNjExOCBKZWZmZXJzb24gU3QsIFdlc3QgTmV3IFlvcmssIE5KIDA3MDkzLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1675722765647!5m2!1suk!2sua"
+            width="400" height="300" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
       <div class="contacts__right">
         <form class="contacts__form" action="#" method="post">
           <div class="contacts__form_field">
-            <input class="form__name" type="text" name="fullname" id="fullname" placeholder="Enter your phone number*"
-              required>
+            <input class="form__name" type="text" name="fullname" placeholder="Enter your full name*" required>
           </div>
           <div class="contacts__form_field">
-            <input class="form__phone" type="tel" name="phone" id="phone" placeholder="Enter your phone number*"
-              required>
+            <input class="form__phone" type="tel" name="phone" placeholder="Enter your phone number*" required>
           </div>
           <div class="contacts__form_field">
-            <input class="form__email" type="email" name="email" id="email" placeholder="Enter your e-mail*" required>
+            <input class="form__email" type="email" name="email" placeholder="Enter your e-mail*" required>
           </div>
           <div class="contacts__form_field">
-            <textarea class="form__message" name="message" id="message" cols="30" rows="10"
+            <textarea class="form__message" name="message" cols="30" rows="10"
               placeholder="Type your message"></textarea>
           </div>
           <button class="contacts__form_btn" type="submit">Submit</button>
         </form>
       </div>
-    </div>
+    </section>
   </main>
 
   <!--Olena Vdovych-->
@@ -462,15 +522,15 @@
     <div class="footer__content">
       <div class="logo__img">
         <a href="#">
-          <img class="logo__brewery" src="images/img12/logo-brewery.svg" alt="logo-brewery">
+          <img class="logo__brewery" src="images/logo-brewery.svg" alt="logo-brewery">
         </a>
       </div>
       <div class="footer__menu">
         <nav class="footer__nav">
-          <a class="footer__nav_menu" href="#">About us</a>
-          <a class="footer__nav_menu" href="#">Beer Styles</a>
-          <a class="footer__nav_menu" href="#">Testimonials</a>
-          <a class="footer__nav_menu" href="#">Contacts Us</a>
+          <a class="footer__nav_menu" href="#about_us">About us</a>
+          <a class="footer__nav_menu" href="#bestsellers">Beer Styles</a>
+          <a class="footer__nav_menu" href="#testimonials">Testimonials</a>
+          <a class="footer__nav_menu" href="#contacts">Contacts Us</a>
         </nav>
       </div>
       <div class="footer__line">

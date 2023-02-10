@@ -31,3 +31,8 @@
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;
 }
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }

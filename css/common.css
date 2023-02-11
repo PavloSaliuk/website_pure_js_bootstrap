@@ -15,7 +15,7 @@
     --dark-title-color: rgb(38, 29, 23);
     --dark-shade-color: #261d17;
     --text-primer-color: rgb(97, 78, 68);
-    --text-john-color: rgb(170, 124, 90);
+    --text-color: rgb(170, 124, 90);
     --years-color: rgb(44,133,54);
     --light-title-color: rgb(255, 255, 255);
     --light-accent-color: #f4eee1;
@@ -25,9 +25,10 @@
     --title-under-img-color: rgb(44,133,54);
     --text-under-photo: rgba(89,68,64,0.6);
     --form-border-color: rgba(170, 124, 90, 0.15);
-    --form-background-color: rgba(50, 39, 34, 0);
+    --form-background-color: rgba(52, 41, 36);
     --btn-primary-bg-color: #2c8536;
     --divide-color: rgb(150,90,28);
+    --contacts-background-color: rgb(44, 34, 29);
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;
 }

@@ -1,4 +1,5 @@
 .about_us {
+    display: flex;
     background-color: var(--light-title-color);
 }
 .xxx_brown {

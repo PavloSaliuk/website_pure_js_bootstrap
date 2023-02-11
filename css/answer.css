@@ -1,4 +1,5 @@
 .answer { 
+    display: flex;
     background-image: url(../images/answer_background.png); 
     background-repeat: no-repeat; 
     background-size: 100% 100%;

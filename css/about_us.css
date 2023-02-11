@@ -9,7 +9,10 @@
 .xxx_brown {
     color: var(--divide-color);
 }
-.about_us_title {
+.about_us__title {
+    flex-direction: column;
+}
+.about_us__title_foundation {
     color: var(--dark-title-color);
 }
 .about_us__title_years {

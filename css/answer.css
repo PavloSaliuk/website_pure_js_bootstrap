@@ -1,0 +1,15 @@
+.answer {
+}
+.xxx_brown {
+}
+.answer__paragraph {
+    color: var(--dark-title-color);
+}
+.answer_question {
+    color: var(--text-primer-color);
+}
+.answer__accordion {
+}
+.answer__panel {
+}
+.answer__panel_answer

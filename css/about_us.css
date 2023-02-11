@@ -27,6 +27,9 @@
     color: var(--text-john-color);
 }
 .about_us__history {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .about_us__history_data {
 }

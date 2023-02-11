@@ -1,5 +1,5 @@
 .about_us {
-
+    background-color: var(--light-title-color);
 }
 .xxx_brown {
     color: var(--divide-color);
@@ -16,6 +16,7 @@
 .about_us__title_words {
 }
 .about_us_title_owner {
+    color: var(--text-john-color);
 }
 .about_us__history {
 }

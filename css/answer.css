@@ -12,4 +12,6 @@
 }
 .answer__panel {
 }
-.answer__panel_answer
+.answer__panel_answer {
+    color: var(--text-primer-color);
+}

@@ -33,14 +33,18 @@
     align-items: center;
 }
 .about_us__history_data {
-    justify-content: center;
-    align-items: center;
 }
 .about_us__history_years {
     font-size: 60px;
-    justify-content: center;
-    align-items: center;
     color: var(--years-color);
 }
 .about_us__history_events {
 }
+@media (min-width: 768px) {
+    .about_us__history {
+        flex-direction: row;
+    }
+    .about_us__history_data {
+        padding: 0 15px;
+    }
+  }

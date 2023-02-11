@@ -2,6 +2,10 @@
     display: flex;
     background-color: var(--light-accent-color);
 }
+.about_us__img_glasses {
+    max-width: 1170px;
+    max-height: 486px;
+}
 .xxx_brown {
     color: var(--divide-color);
 }

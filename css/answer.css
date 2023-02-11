@@ -5,6 +5,10 @@
     background-size: 100% 100%;
     background-size: cover;
 }
+.answer__img_3botless {
+    max-width: 670px;
+    max-height: 635px;
+}
 .xxx_brown {
 }
 .answer__paragraph {

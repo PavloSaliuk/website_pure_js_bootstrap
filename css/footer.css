@@ -1,0 +1,63 @@
+.footer {
+    background-color: var(--dark-title-color);
+}
+
+.footer__content, .footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content {
+    margin: auto;
+    padding: 0px 24px 20px 24px;
+    text-align: center;
+}
+
+.before__line {
+    padding: 40px 0 20px 0;
+}
+
+.logo__brewery {
+    width: 103px;
+    height: 63.275px;
+}
+
+.footer__nav {
+    font-family: var(--text-font-family);
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.footer__menu {
+    margin-top: 30px;
+}
+
+.footer__nav_menu {
+    color: var(--light-title-color);
+    margin: 10px 5px;
+}
+
+.footer__underline {
+    padding: 0 24px 0 24px;
+}
+
+.footer__underline_content, .footer__underline_block {
+    padding: 15px 0 15px 0;
+    color: var(--text-picture-color);
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .before__line {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .footer__nav {
+        flex-direction: row;
+    }
+}

@@ -1,6 +1,6 @@
 .about_us {
     display: flex;
-    background-color: var(--light-title-color);
+    background-color: var(--light-accent-color);
 }
 .xxx_brown {
     color: var(--divide-color);

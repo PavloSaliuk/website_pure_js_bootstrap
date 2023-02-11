@@ -1,5 +1,5 @@
 .about_us {
-    padding: 0 24px;
+    padding: 35px 24px 90px;
     display: flex;
     flex-direction: column;
     background-color: var(--light-accent-color);

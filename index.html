@@ -12,79 +12,97 @@
 
 <body>
   <!-- Petro Pinchuk -->
-  <header class="header">
-    <div class="header__contacts">
-      <p class="header__address">6118 Jefferson St, West New York</p>
-      <a class="header__phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+  <header class="header container">
+    <div class="header__contacts-wrapper">
+      <div class="header__contacts">
+        <p class="header__address">6118 Jefferson St, West New York</p>
+        <a class="header__phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+      </div>
     </div>
-    <nav class="header__nav">
-      <a href="#" class="header__logo-container">
-        <img class="header__logo" width="150" src="images/header_logo.svg" alt="Beer Logo">
-      </a>
-      <div class="header__menu">
-        <a href="#about_us" class="header__menu-item">About Us</a>
-        <a href="#bestsellers" class="header__menu-item">Beer Styles</a>
-        <a href="#testimonials" class="header__menu-item">Testimonials</a>
-        <a href="#contacts" class="header__menu-item">Contact Us</a>
-      </div>
-      <div class="header__social-icons">
-        <a href="https://facebook.com/" class="header__social-icons-item">
-          <img width="40" src="images/header_facebook-icon.svg" alt="Facebook">
+    <div class="header__nav">
+      <div class="header__nav_container">
+        <a href="#" class="header__logo-container">
+          <img width="103" class="header__logo" src="images/header_logo.svg" alt="Beer Logo">
         </a>
-        <a href="https://instagram.com/" class="header__social-icons-item">
-          <img width="40" src="images/header_instagram-icon.svg" alt="Instagram">
-        </a>
-        <a href="https://youtube.com/" class="header__social-icons-item">
-          <img width="40" src="images/header_youtube-icon.svg" alt="YouTube">
-        </a>
-      </div>
-    </nav>
-    <div class="header__banner">
-      <div class="header__banner-title-section">
-        <h1 class="header__banner-title">BREWERY IN NEW YORK</h1>
-        <p class="header__banner-slogan">Sharp Taste of History</p>
-        <img width="90" src="images/spikelet-brown.svg" alt="spikelet">
-        <p class="header__banner-text">Welcome to one of the oldest breweries of New York. We offer a variety of
-          delicious craft beers, as well as exciting tours, tastings, and master-classes for those who want to learn
-          more about the beer world.</p>
-        <div class="header__banner-buttons">
-          <div class="header__banner-beer-types">
-            <a class="header__banner-beer-types button" href="#bestsellers">Beer Types</a>
-          </div>
-          <div class="header__banner-about-us">
-            <a class="header__banner-about-us button" href="#about_us">About Us</a>
-          </div>
+        <button type="button" class="header__burger_button">
+          <span class="header__burger_inner">
+            <span class="header__burger_line"></span>
+            <span class="header__burger_line"></span>
+            <span class="header__burger_line"></span>
+          </span>
+        </button>
+        <div class="header__menu">
+          <a href="#about_us" class="header__menu-item">About Us</a>
+          <a href="#bestsellers" class="header__menu-item">Beer Styles</a>
+          <a href="#testimonials" class="header__menu-item">Testimonials</a>
+          <a href="#contacts" class="header__menu-item">Contact Us</a>
         </div>
-      </div>
-      <div class="header__banner__image-section">
-        <img height="500" src="images/header_beer_bottle.png" alt="Beer bottle">
+        <div class="header__social-icons">
+          <a href="https://facebook.com/" class="header__social-icons-item">
+            <img width="40" src="images/header_facebook-icon.svg" alt="Facebook">
+          </a>
+          <a href="https://instagram.com/" class="header__social-icons-item">
+            <img width="40" src="images/header_instagram-icon.svg" alt="Instagram">
+          </a>
+          <a href="https://youtube.com/" class="header__social-icons-item">
+            <img width="40" src="images/header_youtube-icon.svg" alt="YouTube">
+          </a>
       </div>
     </div>
+    </div>
+    <div class="header__section">
+      <div class="header__section_main">
+          <div class="header__banner">
+            <h1 class="header__banner_title">BREWERY IN NEW YORK</h1>
+            <p class="header__banner_slogan">Sharp Taste of History</p>
+            <div class="header__spikelet">
+              <img src="images/spikelet-yellow.svg" alt="spikelet">
+            </div>
+            <p class="header__banner_text">Welcome to one of the oldest breweries of New York. We offer a variety of
+              delicious craft beers, as well as exciting tours, tastings, and master-classes for those who want to learn
+              more about the beer world.</p>
+            <br>
+            <div class="header__banner_btns">
+                <div class="header__btn">
+                  <a class="header__btn_item" href="#bestsellers">Beer Types</a>
+                </div>
+                <div class="header__btn header__btn_hover">
+                  <a class="header__btn_item" href="#about_us">About Us</a>
+                </div>
+            </div>
+            <div class="header__banner_image">
+              <img src="images/header_beer_bottle.png" alt="Beer bottle">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="header__bottom_element"></div>
   </header>
 
   <main>
     <!--Pavlo Saliuk-->
     <section class="about_us" id="about_us">
       <div>
-        <img src="images/type_of_bear_in_glasses.png" alt="type of bear in glasses" height="486" width="1170">
+        <img class="about_us__img_glasses" src="images/type_of_bear_in_glasses.png" alt="type of bear in glasses">
       </div>
-      <span class="xxx_brown" style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
+      <div class="about_us__title">
+      <span class="xxx_brown">☓ ☓ ☓</span>
       <div>
-        <h2>Crafted to Inspire You Since 1896</h2>
+        <h2 class="about_us__title_foundation">Crafted to Inspire You Since 1896</h2>
         <img src="images/spikelet-brown.svg" alt="Spikelet" height="32" width="150">
-        <h3>
+        <h3 class="about_us__title_years">
           Even now, 120 years later, you can enjoy real beer brewed according to
           medieval recipes.
         </h3>
         <div>
-          <p>
+          <p class="about_us_title_start">
             In 1896, a small brewery was opened by brewers from Europe. Despite
             the fact that New York had already been a huge metropolis, fame
             about our brewery went all over the city. Within 5 years, our small
             brewery was serving several each month thousand customers who were
             true craft beer fans.
           </p>
-          <p>
+          <p class="about_us_title_development">
             Time passed, and the brewery expanded. Our business was threatened
             with closure during the Great Depression but we survived. After the
             Second World War, meetings of veterans were often held in our
@@ -92,35 +110,38 @@
             and commemorated the dead.
           </p>
         </div>
-        <p class="about_us__words"> <em>
+        <p class="about_us__title_words"> <em>
             «Today our brewery is one of the largest craft beer venues in New
             York. We have kept the recipes of the late 19th century, and we
             strictly adhere to them. The combination of traditions and new
             technologies allowed us to offer the best beer styles for true
             connoisseurs.»</em>
-        </p>
+        </p> 
+        <div class="about_us__title_signature">
         <img src="images/signature_of_the_owner.png" alt="signature of the owner" height="70" width="70">
-        <span>John Cliff</span>
+        <span class="about_us_title_owner">John Cliff</span>
+      </div>
       </div>
 
       <div class="about_us__history">
         <div class="about_us__history_data">
           <span class="about_us__history_years">1896</span>
-          <span class="about_us__history_events">Our brewery was opened</span>
+          <p class="about_us__history_events">●Our brewery was opened</p>
         </div>
         <div class="about_us__history_data">
           <span class="about_us__history_years">1990</span>
-          <span class="about_us__history_events">3 fantastic tastes were added</span>
+          <p class="about_us__history_events">●3 fantastic tastes were added</p>
         </div>
         <div class="about_us__history_data">
           <span class="about_us__history_years">2003</span>
-          <span class="about_us__history_events">Modernization of all equipment</span>
+          <p class="about_us__history_events">●Modernization of all equipment</p>
         </div>
         <div class="about_us__history_data">
           <span class="about_us__history_years">2022</span>
-          <span class="about_us__history_events">Restaurant opening</span>
+          <p class="about_us__history_events">●Restaurant opening</p>
         </div>
       </div>
+    </div>
     </section>
 
     <!-- Roman Didun -->
@@ -403,31 +424,30 @@
 
     <!--Pavlo Saliuk-->
     <section class="answer">
-      <img src="images/3bottles_of_beer.png" alt=" 3 bottles Of Beer" width="670" height="635">
+      <img class="answer__img_3botless" src="images/3bottles_of_beer.png" alt=" 3 bottles Of Beer" >
       <br>
       <span class="xxx_brown" style="color: rgb(150, 90, 28)">☓ ☓ ☓</span>
       <h2 class="answer__paragraph">Meet Our Beer and Make Your Choice.</h2>
       <img src="images/spikelet-brown.svg" alt="spikelet" height="32" width="150">
-      <h4> If you have any questions or suggestions, you can always contact us
+      <h4 class="answer_question"> If you have any questions or suggestions, you can always contact us
         directly.
       </h4>
       <br>
       <button class="answer__accordion"> <b> Can I order your beer online? </b></button>
       <div class="answer__panel">
-        <p>You can place an order by emailing us. Our manager will contact you and clarify all the details.</p>
+        <p class="answer__panel_answer">You can place an order by emailing us. Our manager will contact you and clarify all the details.</p>
       </div>
       <button> <b> Do you sell only bottled or draft beer too? </b></button>
       <div class="answer__panel">
-        <p>You can buy bottled, canned, and draft beer.</p>
+        <p class="answer__panel_answer">You can buy bottled, canned, and draft beer.</p>
       </div>
-
       <button class="answer__accordion"><b> Do you have Blanche beer? </b></button>
       <div class="answer__panel">
-        <p>Of course. We have over 20 different types of beer, you can order any of them.</p>
+        <p class="answer__panel_answer">Of course. We have over 20 different types of beer, you can order any of them.</p>
       </div>
       <button class="answer__accordion"><b> Do I need to sign up in advance for a tour or tasting? </b></button>
       <div class="answer__panel">
-        <p>Yes, we recommend that you book tours and tastings at least a few weeks in advance.</p>
+        <p class="answer__panel_answer">Yes, we recommend that you book tours and tastings at least a few weeks in advance.</p>
       </div>
     </section>
 

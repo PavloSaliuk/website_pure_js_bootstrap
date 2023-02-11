@@ -1,0 +1,29 @@
+.answer { 
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/answer_background.png); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-size: cover;
+}
+.answer__img_3botless {
+    padding: 0 15px;
+    max-width: 100%;
+    max-width: 700px;
+}
+.xxx_brown {
+}
+.answer__paragraph {
+    color: var(--dark-title-color);
+}
+.answer_question {
+    color: var(--text-primer-color);
+}
+.answer__accordion {
+}
+.answer__panel {
+}
+.answer__panel_answer {
+    color: var(--text-primer-color);
+}

@@ -1,12 +1,16 @@
 .about_us {
+
 }
 .xxx_brown {
 }
 .about_us_title {
+    color: var(--dark-title-color);
 }
 .about_us__title_years {
+    color: var(--dark-shade-color);
 }
 .about_us_title_story {
+    color: var(--brand-color);
 }
 .about_us__title_words {
 }
@@ -17,6 +21,7 @@
 .about_us__history_data {
 }
 .about_us__history_years {
+    color: var(--years-color);
 }
 .about_us__history_events {
 }

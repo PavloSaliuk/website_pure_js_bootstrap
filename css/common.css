@@ -27,6 +27,8 @@
     --form-border-color: rgba(170, 124, 90, 0.15);
     --form-background-color: rgba(50, 39, 34, 0);
     --btn-primary-bg-color: #2c8536;
+    --btn-hover-bg-color: #0c3b10;
+    --btn-text-color: #fff;
     --divide-color: rgb(150,90,28);
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;

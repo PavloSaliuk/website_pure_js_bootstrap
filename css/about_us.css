@@ -1,5 +1,5 @@
 .about_us {
-    padding: 35px 24px 90px 24px;
+    padding: 35px 12px 90px 12px;
     display: flex;
     flex-direction: column;
     background-color: var(--light-accent-color);
@@ -18,6 +18,9 @@
     font-size: 34px;
     margin-top: 20px;
     color: var(--dark-title-color);
+}
+.about_us__title_svg{
+    margin-top: 25px;
 }
 .about_us__title_years {
     font-size: 20px;
@@ -39,9 +42,10 @@
     margin-top: 20px;
 }
 .about_us__title_signature {
-    margin-top: 30px;
+    margin: 30px -7.5px 0 -7.5px;
 }
 .about_us_title_owner {
+    font-size: 22px;
     color: var(--text-john-color);
 }
 .about_us__history {
@@ -72,8 +76,8 @@
     margin: 25px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     .about_us__history {
         flex-direction: row;
     }
-  } */
+  }

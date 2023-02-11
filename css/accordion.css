@@ -1,0 +1,45 @@
+.accordion { 
+    padding:0 24px;
+    padding-top: 85px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/accordion_background.png); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-size: cover;
+}
+.accordion__img_3botless {
+    padding: 0 15px;
+    max-width: 100%;
+    max-width: 700px;
+}
+.accordion__text {
+    margin-top: 50px;
+}
+.xxx_brown {
+    margin-top: 25px;
+}
+.accordion__paragraph {
+    margin-top: 20px;
+    color: var(--dark-title-color);
+}
+.accordion__paragraph_svg{
+    margin-top: 25px;
+}
+.accordion__question {
+    margin-top: 25px;
+    font-size: 20px;
+    color: var(--text-primer-color);
+}
+.accordion__item{
+
+}
+.accordion__button {
+    margin-top: 20px;
+}
+.accordion__panel {
+}
+.accordion__panel_answer {
+    color: var(--text-primer-color);
+}

@@ -1,16 +1,16 @@
 .about_us {
+    padding: 0 24px;
     display: flex;
+    flex-direction: column;
     background-color: var(--light-accent-color);
 }
 .about_us__img_glasses {
-    max-width: 1170px;
-    max-height: 486px;
+    max-width: 100%;
 }
 .xxx_brown {
     color: var(--divide-color);
 }
 .about_us__title {
-    flex-direction: column;
 }
 .about_us__title_foundation {
     color: var(--dark-title-color);
@@ -27,13 +27,19 @@
     color: var(--text-john-color);
 }
 .about_us__history {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .about_us__history_data {
+    justify-content: center;
+    align-items: center;
 }
 .about_us__history_years {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
     color: var(--years-color);
 }
 .about_us__history_events {

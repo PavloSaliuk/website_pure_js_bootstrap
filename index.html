@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-пше scale=1.0">
   <title>Craft Brewery</title>
   <link rel="shortcut icon" href="images/web-icon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,6 +19,12 @@
 
 
   <link rel="stylesheet" href="css/index.css">
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+
 </head>
 
 <body>
@@ -373,7 +379,22 @@
           <img id="id_video_block_arrow_pict" src="images/play_arrow.svg" alt="beer depart">
         </div>
       </section>
-    </div>
+      
+      <script>
+
+        $('.slick-carousel').slick({
+          arrows: true,
+          
+          lazyLoad: 'ondemand',
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          variableWidth: true
+      
+      
+        });
+        </script>
+
+    <!-- </div> -->
 
 
 
@@ -668,20 +689,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-</body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
-
-  $('.slick-carousel').slick({
-    arrows: true,
-    
-    lazyLoad: 'ondemand',
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    variableWidth: true
 
 
-  });
-  </script>
+
+
+  </body>
+
+
+
 </html >

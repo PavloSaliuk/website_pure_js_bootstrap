@@ -14,7 +14,7 @@
 }
 
 .before__line {
-    padding: 40px 0 20px 0;
+    padding-top: 40px;
 }
 
 .logo__brewery {
@@ -25,7 +25,6 @@
 .footer__nav {
     font-family: var(--text-font-family);
     font-size: 17px;
-    line-height: 16px;
     font-weight: 500;
 }
 
@@ -36,6 +35,11 @@
 .footer__nav_menu {
     color: var(--light-title-color);
     margin: 10px 5px;
+    text-decoration: none;
+}
+
+.footer__line {
+    color: var(--light-title-color);
 }
 
 .footer__underline {
@@ -43,11 +47,13 @@
 }
 
 .footer__underline_content, .footer__underline_block {
-    padding: 15px 0 15px 0;
+    /* padding: 15px 0 15px 0; */
     color: var(--text-picture-color);
     font-family: var(--title-font-family);
     font-size: 14px;
     font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 1.4px;
 }
 
 @media (min-width: 768px) {

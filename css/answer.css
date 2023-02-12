@@ -11,7 +11,7 @@
     max-width: 100%;
 }
 .xxx_brown {
-    font-family: --title-font-family;
+    font-family: var(--title-font-family);
 }
 .answer__paragraph {
     color: var(--dark-title-color);

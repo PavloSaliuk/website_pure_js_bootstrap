@@ -1,11 +1,41 @@
-.wrapper_photo_carousel {
-    margin-bottom: 0px;
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
 }
 
 
+.main_wrapper {
+    max-width: 1200px;
+}
+
+.wrapper_photo_carousel {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 .leisure_photoes_common {
-    width: 20%;
+    /* width: 20%; */
     height: 400px;
+    display: grid;
+    width: 300px;
+    float: left;
+    margin: 0;
+
+    padding: 0;
+    position: relative;
 }
 
 
@@ -13,7 +43,7 @@
 
     background-image: url(../images/back_behind_video.png);
     height: 1200px;
-    width: 1200px;
+    width: auto;
     max-width: 1200px;
     background-repeat: no-repeat;
     padding: 0;
@@ -24,21 +54,17 @@
 .video_block_divider_text {
     font-size: 16px;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 110px;
     color: var(--divide-color);
-    /* margin-block-start: 0;
-    margin-block-end: 0;
-    margin-bottom: 0; */
+    margin: unset;
 }
 
 #id_above_video_tour_text {
-    margin: 0;
-    padding-top: 0;
-    margin-bottom: 0px;
     font-family: var(--title-font-family);
     font-size: 34px;
     text-align: center;
     color: var(--dark-title-color);
+
 }
 
 .video_block_wheat_ear {
@@ -48,8 +74,7 @@
 
 .video_block_divider_ear {
     height: 32px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 47%;
     display: block;
 }
 
@@ -64,19 +89,20 @@
 .video_block_backgroud_pict {
 
     background-image: url(../images/beer_depart.webp);
-    width: 100%;
+    width: auto;
     height: 750px;
-    background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
 
 }
 
 #id_video_block_arrow_pict {
     height: 70px;
-    /*padding-left: 48%; */
-    /*position: relative; */
     position: absolute;
-    /*top: 50%; */
     background-position: 50% 50%;
-    /*transform: translateY(-50%);*/
 }

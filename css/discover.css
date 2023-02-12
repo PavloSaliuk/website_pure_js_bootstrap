@@ -29,3 +29,15 @@
     margin-top: 20px;
     line-height: 32px;
 }
+
+.discover__carousel-name {
+    font-family: var(--title-font-family);
+    font-weight: bold;
+    color: var(--light-title-color);
+    text-transform: uppercase;
+}
+
+.discover__carousel-info {
+    font-family: var(--text-font-family);
+    color: var(--text-picture-color);
+}

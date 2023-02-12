@@ -1,70 +1,86 @@
 .our__brewery {
     background-color: var(--dark-shade-color);
     text-align: center;
+    padding: 50px 0 90px 0;
+    object-fit: contain;
 }
 
 .our__brewery_section {
     display: flex;
     flex-direction: column;
+    padding: 0px 15px 0px 15px;
 }
 
 .xxx_yellow {
     font-family: var(--title-font-family);
     color: var(--subtitle-name-color);
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .our__brewery_title {
     font-family: var(--title-font-family);
     color: var(--light-title-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.our__brewery_icon {
+    object-fit: contain;
+    height: 32px;
+    margin-top: 25px;
 }
 
 .our__brewery_text {
     font-family: var(--text-font-family);
     color: var(--light-accent-color);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 32px;
 }
 
-@media (min-width: 320px) {
-    .our__brewery {
-        padding: 50px 0 90px 0;
-        width: 320px;
-    }
+.our__brewery_slider {
+    margin-top: 45px;
+}
 
-    .xxx_yellow {
-        font-size: 14px;
-    }
-
-    .our__brewery_title {
-        font-size: 34px;
-        margin-top: 20px;
-    }
-
-    .our__brewery_section {
-        padding: 0px 15px 0px 15px;
-    }
-
-    .our__brewery_icon {
-        object-fit: contain;
-        height: 32px;
-        margin-top: 25px;
-    }
-
-    .our__brewery_text {
-        font-size: 20px;
-        margin-top: 20px;
-    }
-
-    .our__brewery_slider {
-        margin-top: 45px;
-    }
-
-    .brewery__slider {
-        width: 272px;
-        height: 167px;
-    }
+.brewery__slider {
+    width: 272px;
+    height: 167px;
 }
 
 @media (min-width: 480px) {
-    .our__brewery {
-        width: 480px;
+    .brewery__slider {
+        width: 434px;
+        height: 266.675px;
+    }
+}
+
+@media (min-width: 768px) {
+    .xxx_yellow, .our__brewery_text {
+        width: auto;
+        height: auto;
+    }
+
+    .our__brewery_title {
+        font-size: 39px;
+    }
+
+    .brewery__slider {
+        width: 706px;
+        height: 434px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .our__brewery_title {
+        width: auto;
+        height: auto;
+    }
+
+    .brewery__slider {
+        width: 947px;
+        height: 582px;
     }
 }

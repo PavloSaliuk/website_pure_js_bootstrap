@@ -2,11 +2,29 @@
     padding: 0;
 }
 
-.bestsellers h3 {
+.bestsellers__carousel-info h3 {
     color: var(--subtitle-name-color);
+}
+.bestsellers__carousel-info h4,
+.bestsellers__carousel-taste,
+.bestseller__carousel-contents-number {
+    color: var(--menu-color);
 }
 
 .bestsellers__carousel {
     background-image: url(../images/barrels-warehouse.webp);
     background-size: cover;
+}
+
+.bestsellers__carousel-text {
+    color: var(--text-picture-color);
+}
+
+.bestseller__carousel-contents-text {
+    color: var(--light-accent-color);
+}
+
+.bestseller__carousel-contents-part {
+    display: flex;
+    flex-direction: column;
 }

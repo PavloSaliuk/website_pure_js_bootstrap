@@ -14,7 +14,6 @@
 @media (min-width: 320px) {
     .beer_blog {
         padding: 50px 0 90px 0;
-        width: 320px;
     }
 .beer_blog_spikelet {
     object-fit: contain;

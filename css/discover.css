@@ -1,0 +1,31 @@
+.discover {
+    background-color: var(--dark-shade-color);
+    text-align: center;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+}
+
+.xxx__yellow {
+    font-family: var(--title-font-family);
+    color: var(--subtitle-name-color);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.discover__title {
+    font-family: var(--title-font-family);
+    color: var(--light-title-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.discover__info {
+    font-family: var(--text-font-family);
+    color: var(--light-accent-color);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 32px;
+}

@@ -18,9 +18,9 @@
 }
 
 .wrapper_photo_carousel {
-    
+    display: flex;
     height: 250px;
-    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     
@@ -28,13 +28,13 @@
 
 
 .image_div{
-    display: table;
-  margin-right: auto;
-  margin-left: auto;
+    width: 20%;
+    height: auto;
 }
 
 
 .leisure_photoes_common {
+<<<<<<< HEAD
     /* width: 20%; */
     /* height: 400px; */
     display: grid;
@@ -45,17 +45,24 @@
     padding: 0; */
     position: relative;
     
+=======
+
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+>>>>>>> c649077 (Staged 2)
 }
 
 
 .video_block {
 
     background-image: url(../images/back_behind_video.png);
-    height: 1200px;
+    height: 1030px;
     width: auto;
     max-width: 1200px;
     background-repeat: no-repeat;
-    padding: 0;
+    
 
 }
 
@@ -99,6 +106,7 @@
 
     background-image: url(../images/beer_depart.webp);
     width: auto;
+    
     height: 750px;
     background-repeat: no-repeat;
     position: relative;
@@ -115,7 +123,7 @@
     height: 10%;
     width: auto;
     position: relative;
-    margin-top:30%;
-    margin-left:50%;
+    margin-top:32%;
+    margin-left:45%;
 
 }

@@ -102,23 +102,7 @@
 }
 
 #id_video_block_arrow_pict {
-<<<<<<< HEAD
     height: 70px;
     position: absolute;
     background-position: 50% 50%;
-=======
-    /* width: 75px;
-    height: auto;
-    max-height: 75px;
-    position: relative;
-    top: 50%;
-    left:50%;
-    margin: auto auto ; */
-
-    height: 75px;
-    width: 75px;
-    position: relative;
-    margin-top: 20%;
-    margin-left: 25%;
->>>>>>> 969f015 (Slider added and size adjusted)
 }

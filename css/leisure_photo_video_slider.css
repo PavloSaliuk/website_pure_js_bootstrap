@@ -102,7 +102,11 @@
 }
 
 #id_video_block_arrow_pict {
-    height: 70px;
-    position: absolute;
-    background-position: 50% 50%;
+    box-sizing: border-box;
+    height: 10%;
+    width: auto;
+    position: relative;
+    margin-top:30%;
+    margin-left:50%;
+
 }

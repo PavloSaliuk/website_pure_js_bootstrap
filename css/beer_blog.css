@@ -2,12 +2,17 @@
     text-align: center;
     padding: 50px 0 90px 0;
     background-color:var( --light-accent-color);
+    object-fit: contain;
     }
 .beer_blog_section{
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
-    text-align: center;
+}
+.beer_blog_icon{
+    object-fit: contain;
+    height: 32px;
+    margin-top: 25px; 
 }
 .xxx_brown {
     font-family: var( --title-font-family);
@@ -20,11 +25,7 @@
         padding: 50px 0 90px 0;
     }
     }
-.beer_blog_spikelet {
-    object-fit: contain;
-    height: 32px;
-    margin-top: 25px;
-    }
+
 .main_title{
     font-family: var(--title-font-family);
     color:var(--dark-shade-color);

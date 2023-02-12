@@ -260,7 +260,7 @@
 }
 
 @media (max-width:991px) {
-    .header__contacts-wrapper, .header__menu, .header__social-icons {
+    .header__contacts-wrapper, .header__menu, .header__social_icons {
         display: none;
     }
 }

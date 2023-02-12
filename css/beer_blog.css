@@ -1,67 +1,77 @@
 .beer_blog{
+    text-align: center;
+    padding: 50px 0 90px 0;
+    background-color:var( --light-accent-color);
+    object-fit: contain;
+    }
+.beer_blog_section{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    background-color:var( --light-accent-color);
     padding: 0 15px 0 15px;
-    }
+}
+.beer_blog_icon{
+    object-fit: contain;
+    height: 32px;
+    margin-top: 25px; 
+}
 .xxx_brown {
     font-family: var( --title-font-family);
     color:var( --divide-color);
     font-size: 14px;
-    margin: 20px auto;
+    font-weight: 900;
 }
 @media (min-width: 320px) {
     .beer_blog {
         padding: 50px 0 90px 0;
     }
-.beer_blog_spikelet {
-    object-fit: contain;
-    height: 32px;
-    margin-top: 25px;
     }
+
 .main_title{
     font-family: var(--title-font-family);
     color:var(--dark-shade-color);
-    font-size: 34px;
+    font-size: 44px;
+    line-height: 1.1;
     margin-top: 20px;
     font-weight: 700;
 }
-.beer_blog_learn_beer{
+.beer_blog_text{
     font-family:var(--text-font-family);
     color:var(--text-primer-color);
     font-size: 20px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    margin-top: 20px;
     line-height: 1.6;
     font-weight: 400;
-    margin-top: 20px;
    }
 .beer_blog_no_blogs{
     display: flex;
     height: 450px;
+    margin-top: 45px;
     justify-content: center;
+    border: 1px solid rgba(33, 39, 54, 0.12);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.no_blog{
+    display: flex;
     font-size: 24px;
     font-weight: 600;
     line-height: 32;
     align-items: center;
-    border: 1px solid rgba(33, 39, 54, 0.12);
     font-family:var(--text-font-family);
-    margin-left: 20px;
-    margin-right: 20px;
 }
-.button{
+.beer_blog_button{
     border-width: 2px;
     border-radius: 25px;
-    margin:20px auto;
+    margin:50px auto;
+    background-color:var( --btn-primary-bg-color);
     width: 148px;
     height: 40px;
-    color:var(--btn-text-color);
-    background-color:var( --btn-primary-bg-color);
+    padding: 13px 37px;
     font-size: 14px;
     font-weight: 700;
     font-family: var(--text-font-family);
     line-height: 1;
-    padding: 13px 37px;
     }
-}
+    .button{
+        color:var(--btn-text-color); 
+    }

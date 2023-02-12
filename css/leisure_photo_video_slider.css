@@ -1,34 +1,20 @@
-/* #id_wrapper_photo_video {
-
-    background-image: url(../images/back_behind_video.png);
-
-    width: 100%;
-    height: 1600px;
-
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    display: block;
-} */
-
-
 .wrapper_photo_carousel {
     margin-bottom: 0px;
 }
 
 
 .leisure_photoes_common {
-    width:  20%;
+    width: 20%;
     height: 400px;
 }
 
 
 #video_block {
 
-    background-image: url(../images/back_behind_video.png); 
-    background-repeat: no-repeat; 
-    height: 1200px;
-    width: auto;
+    background-image: url(../images/back_behind_video.png);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
     /* display: block; */
 
 }

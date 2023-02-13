@@ -34,24 +34,11 @@
 
 
 .leisure_photoes_common {
-<<<<<<< HEAD
-    /* width: 20%; */
-    /* height: 400px; */
-    display: grid;
-    width: 300px;
-    /* float: left;
-    margin: 0;
-
-    padding: 0; */
-    position: relative;
-    
-=======
 
     height: 100%;
     width: 100%;
     object-fit: fill;
 
->>>>>>> c649077 (Staged 2)
 }
 
 

@@ -1,30 +1,101 @@
-.bestsellers {
-    padding: 0;
+.bestsellers {}
+
+.bestseller__american-ale,
+.bestseller__imperial-stout {
+    color: var(--subtitle-name-color);
+    font-family: var(--title-font-family);
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.632px;
 }
 
-.bestsellers__carousel-info h3 {
-    color: var(--subtitle-name-color);
+.bestseller__indian-ale {
+    color: var(--beer-name-color);
+    font-family: var(--title-font-family);
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.632px;
 }
+
+.bestsellers__carousel-info,
+.bestseller__carousel-contents {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.bestsellers__carousel-info h4 {
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: var(--title-font-family);
+    letter-spacing: 1.632px;
+}
+
 .bestsellers__carousel-info h4,
 .bestsellers__carousel-taste,
 .bestseller__carousel-contents-number {
     color: var(--menu-color);
 }
 
+.bestsellers__carousel-taste {
+    margin-top: 20px;
+    font-family: var(--title-font-family);
+    font-size: 22px;
+    font-weight: 700;
+}
+
 .bestsellers__carousel {
+    padding-top: 90px;
+    padding-bottom: 90px;
     background-image: url(../images/barrels-warehouse.webp);
     background-size: cover;
 }
 
 .bestsellers__carousel-text {
+    margin-top: 25px;
+    font-family: var(--text-font-family);
     color: var(--text-picture-color);
+    font-size: 17px;
+}
+
+.bestseller__carousel-contents {
+    margin-top: 20px;
+    font-family: var(--title-font-family);
 }
 
 .bestseller__carousel-contents-text {
     color: var(--light-accent-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bestseller__carousel-contents-segment {
+    margin-bottom: 16px;
+}
+
+.bestseller__carousel-contents-number {
+    color: var(--menu-color);
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .bestseller__carousel-contents-part {
     display: flex;
     flex-direction: column;
+    
 }
+
+.bestseller__carousel-icon {
+    font-size: 17px;
+    margin-top: 25px;
+    height: 32px;
+    translate: -19px;
+}
+
+.contents-number {
+    margin-bottom: 5px;
+}
+
+
+
+

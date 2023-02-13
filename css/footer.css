@@ -25,7 +25,7 @@
 .footer__nav {
     font-family: var(--text-font-family);
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .footer__menu {
@@ -38,6 +38,10 @@
     text-decoration: none;
 }
 
+.footer__nav_menu:hover {
+    color: var(--hover-header-color);
+}
+
 .footer__line {
     color: var(--light-title-color);
 }
@@ -47,7 +51,6 @@
 }
 
 .footer__underline_content, .footer__underline_block {
-    /* padding: 15px 0 15px 0; */
     color: var(--text-picture-color);
     font-family: var(--title-font-family);
     font-size: 14px;
@@ -57,13 +60,20 @@
 }
 
 @media (min-width: 768px) {
-    .before__line {
+    .before__line, .footer__underline {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
     }
 
     .footer__nav {
         flex-direction: row;
+        font-size: 15px;
+    }
+
+     {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

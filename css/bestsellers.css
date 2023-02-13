@@ -19,6 +19,7 @@
 
 .bestsellers__carousel-info,
 .bestseller__carousel-contents {
+    margin-top: 50px;
     padding-left: 24px;
     padding-right: 24px;
 }

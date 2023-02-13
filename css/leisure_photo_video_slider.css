@@ -19,15 +19,15 @@
 
 .wrapper_photo_carousel {
     display: flex;
-    height: 250px;
-    max-width: 1200px;
+    height: 320px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 
-.image_div{
+.image_div {
     width: 20%;
     height: auto;
 }
@@ -45,12 +45,11 @@
 .video_block {
 
     background-image: url(../images/back_behind_video.png);
-    height: 1080px;
+    /* height: 1080px; */
+    height: 100%;
     width: 100%;
     max-width: 100%;
     background-repeat: no-repeat;
-    
-
 }
 
 
@@ -97,24 +96,21 @@
 
     background-image: url(../images/beer_depart.webp);
     width: auto;
-    
+
     height: 750px;
     background-repeat: no-repeat;
     position: relative;
-    background-size: contain;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-
-
+    margin-left: 23%;
+    margin-right: 15%;
 }
 
 #id_video_block_arrow_pict {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     height: 10%;
     width: auto;
     position: relative;
-    margin-top:32%;
-    margin-left:45%;
+    top: 50%;
+    left:43%;
+    
 
 }

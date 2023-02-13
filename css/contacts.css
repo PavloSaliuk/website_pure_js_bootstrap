@@ -67,6 +67,10 @@
     text-decoration: none;
 }
 
+.contacts__phone p, .contacts__email p{
+    margin-bottom: 0;
+}
+
 .contacts__map {
     margin-top: 30px;
 }
@@ -165,6 +169,15 @@ iframe {
     }
 
     .contacts__left {
+        width: 100%;
+    }
+
+    .contacts__names, .contacts__address, .contacts__hours, .contacts__communication, .contacts__phone, .contacts__email {
+        display: flex;
+        width: 100%;
+    }
+
+    .contacts__address, .contacts__work_hours, .contacts__communication_phone, .contacts__communication_email{
         width: 100%;
     }
 

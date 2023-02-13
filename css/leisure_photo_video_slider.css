@@ -16,7 +16,7 @@
 .wrapper_photo_carousel {
     /* display: flex; */
     /* background-size: cover; */
-    height: 320px;
+    height: 400px;
     /* width: auto; */
     max-width: 100%;
     /* min-width: 320px; */
@@ -33,9 +33,11 @@
 }
 
 .leisure_photoes_common {
-    height: 320px;
+    height: 400px;
     /* width: 20%; */
     /* background-repeat: no-repeat; */
+    min-width: 100%;
+    min-height: 100%
 }
 .video_block {
     background-image: url(../images/back_behind_video.png);

@@ -4,7 +4,7 @@ $('.slick-carousel').slick({
     lazyLoad: 'ondemand',
     slidesToShow: 3,
     slidesToScroll: 1,
-    variableWidth: true
+    // variableWidth: true
 
 
   });

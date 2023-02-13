@@ -89,7 +89,7 @@
     font-size: 17px;
     margin-top: 25px;
     height: 32px;
-    translate: -19px;
+    transform: translate(-19px);
 }
 
 .contents-number {

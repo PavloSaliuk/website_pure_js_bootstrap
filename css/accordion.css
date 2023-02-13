@@ -23,28 +23,24 @@
 .choise__paragraph {
     margin-top: 20px;
     color: var(--dark-title-color);
+    font-family: var(--title-font-family);
+    font-size: 34px;
+    font-weight: 700;
 }
 .choise__paragraph_svg{
     margin-top: 25px;
+}
+.choise__paragraph_svg img{
+    height:32px;
+    width:150px;
 }
 .choise__question {
     margin-top: 25px;
     font-size: 20px;
     color: var(--text-primer-color);
     font-family: var(--text-font-family);
-    font-weight: bold;
+    font-weight: 400;
 }
-/* .choise__item{
-}
-.choise__button {
-    margin-top: 20px;
-    font-family: var(--text-font-family);
-}
-.choise__panel {
-}
-.choise__panel_answer {
-    color: var(--text-primer-color);
-} */
 #accordionFlushExample {
 }
 .accordion, .accordion-flush {
@@ -55,6 +51,7 @@
 .accordion-header {
 }
 .accordion-button {
+    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0);
     font-weight: bold;
     font-family: var(--text-font-family);
@@ -63,13 +60,23 @@
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     content: "+";
+    margin: 0;
 }
 .accordion-button:not(.collapsed) {
     color: var(--text-font-family);
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
+    padding: 0 22.5px 18px 22.5px;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    margin-left: 0;
+    transform: none;
 }
 .accordion-button:focus{
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
     border-color: rgba(0, 0, 0, 0);
 }
 .collapsed {
@@ -80,9 +87,11 @@
     font-size: 17px;
 }
 .accordion-body {
+    margin-top: 20px;
     font-size: 17px;
     color: var(--text-primer-color);
     font-family: var(--text-font-family);
+    font-weight: 400;
 }
 @media (min-width: 768px) {
     .choise {

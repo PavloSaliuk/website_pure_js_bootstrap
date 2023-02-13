@@ -12,7 +12,7 @@
     color: var(--divide-color);
 }
 .about_us__title {
-    margin: 0 15px ;
+    margin:  15px 0;
 }
 .about_us__title_foundation {
     padding-right: 10px;
@@ -23,6 +23,10 @@
 }
 .about_us__title_svg{
     margin-top: 25px;
+}
+.about_us__title_svg img {
+    height:32px;
+    width: 150px;
 }
 .about_us__title_years {
     font-weight: bold;

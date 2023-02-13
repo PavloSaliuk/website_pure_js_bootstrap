@@ -1,4 +1,6 @@
-.bestsellers {}
+.bestsellers {   
+     
+    }
 
 .bestseller__american-ale,
 .bestseller__imperial-stout {
@@ -50,6 +52,7 @@
     padding-bottom: 90px;
     background-image: url(../images/barrels-warehouse.webp);
     background-size: cover;
+    /* background-color: linear-gradient(#6a656300 0%, #2c221d00 100%); */
 }
 
 .bestsellers__carousel-text {
@@ -95,6 +98,27 @@
 
 .contents-number {
     margin-bottom: 5px;
+}
+
+.bestsellers__bottle img{
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .bestsellers__carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* .bestseller__carousel-contents {
+        display: flex;
+        flex-direction: column;
+    } */
+    .bestseller__carousel-contents-item, 
+    .bestseller__carousel-contents-segment {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 

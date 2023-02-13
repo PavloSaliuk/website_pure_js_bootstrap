@@ -85,12 +85,16 @@
 
 .video_block_wheat_ear {
     margin: 0;
-    padding-top: 0px;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .video_block_divider_ear {
     height: 32px;
-    margin-left: 47%;
+    width: auto;
+    left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 

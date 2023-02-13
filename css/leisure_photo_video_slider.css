@@ -58,9 +58,9 @@
 .video_block {
 
     background-image: url(../images/back_behind_video.png);
-    height: 1030px;
-    width: auto;
-    max-width: 1200px;
+    height: 1080px;
+    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
     
 

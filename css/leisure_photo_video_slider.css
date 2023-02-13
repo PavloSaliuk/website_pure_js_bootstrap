@@ -14,11 +14,12 @@
     max-width: 1200px;
 }
 .wrapper_photo_carousel {
-    display: flex;
-    background-size: cover;
-    height: 320px;
+    /* display: flex; */
+    /* background-size: cover; */
+    /* height: 320px; */
+    /* width: auto; */
     max-width: 100%;
-    min-width: 320px;
+    /* min-width: 320px; */
     /* margin-left: auto; */
     /* margin-right: auto; */
 }
@@ -27,9 +28,11 @@
     height: auto;
 }
 .leisure_photoes_common {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+    height: 320px;
+    width: 20%;
+    background-repeat: no-repeat;
+
+    /* object-fit: fill; */
 }
 .video_block {
     background-image: url(../images/back_behind_video.png);

@@ -27,6 +27,11 @@
     width: 20%;
     height: auto;
 }
+
+.slick-slide {
+    width: 20%;
+}
+
 .leisure_photoes_common {
     height: 320px;
     /* width: 20%; */

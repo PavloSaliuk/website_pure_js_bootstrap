@@ -96,7 +96,7 @@
     width: auto;
     background-repeat: no-repeat;
     object-fit: fill;   
-    display: block; 
+    display: inline-block; 
 }
 
 

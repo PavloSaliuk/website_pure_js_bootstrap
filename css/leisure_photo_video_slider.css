@@ -93,8 +93,8 @@
     /* display: block; */
 }
 .beer_depart_pict_properts{
-    /* height: auto;
-    width: auto; */
+    height: 100px;
+    width: auto;
     background-repeat: no-repeat;
     object-fit: fill;   
     /* display: inline-block;  */

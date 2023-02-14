@@ -105,6 +105,16 @@
     width: 100%;
 }
 
+.id_arrow_pict_div{
+    height: 60px;
+    width: 60px
+}
+
+#id_video_block_arrow_pict{
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (max-width: 1000px){
     .wrapper_photo_carousel{
         height: 450px;

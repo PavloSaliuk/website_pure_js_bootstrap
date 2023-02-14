@@ -25,7 +25,7 @@
    font-family: var(--title-font-family); 
 }
 
-.contacts__text, .contacts__address, .contacts__work_hours, .contacts__communication_info {
+.contacts__text, .contacts__address, .contacts__work_hours, .contacts__phone, .contacts__email {
     font-family: var(--text-font-family);
 }
 
@@ -56,7 +56,7 @@
     padding-bottom: 16px;
 }
 
-.contacts__address, .contacts__work_hours, .contacts__communication_info {
+.contacts__address, .contacts__work_hours, .contacts__phone, .contacts__email {
     font-size: 17px;
     font-weight: 400;
     line-height: 28.9px;
@@ -69,6 +69,14 @@
 
 .contacts__phone p, .contacts__email p{
     margin-bottom: 0;
+}
+
+.contacts__communication_phone:hover {
+    color: var(--hover-header-color);
+}
+
+.contacts__communication_email:hover{
+    color: var(--hover-header-color);
 }
 
 .contacts__map {

@@ -83,17 +83,17 @@
 
 
 .video_block_backgroud_pict {
-    height: 300px;
+    height: 750px;
     /* max-width: 100%; */
-    width: 100px;
+    width: 100%;
     /* max-height: 750px; */
     /*background-size: cover;*/
     
 }
 .beer_depart_pict_properts{
     /* object-fit:cover; */
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
     /* width: 100%;
     min-width: 100%;
     min-height: 100% */

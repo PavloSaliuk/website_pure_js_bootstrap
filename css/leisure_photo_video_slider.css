@@ -107,7 +107,9 @@
 
 .id_arrow_pict_div{
     height: 60px;
-    width: 60px
+    width: 60px;
+    position: absolute;
+    margin: calc(-40%*0.98) calc(42%*0.98);
 }
 
 #id_video_block_arrow_pict{

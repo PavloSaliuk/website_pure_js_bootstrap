@@ -83,19 +83,21 @@
 
 
 .video_block_backgroud_pict {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-ll;
+     width: auto;
+     height: 750px;
+    max-height: 750px;
+    /*background-size: cover;*/
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    display: fill;
 }
 .beer_depart_pict_properts{
-    flex-shrink: 0;
+    object-fit:cover;
+    height: 300px;
+    width: 100%;
     min-width: 100%;
-    min-height: 100%;
-    
-       
-    /* display: inline-block;  */
+    min-height: 100%
 }
 
 

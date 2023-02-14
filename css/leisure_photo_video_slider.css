@@ -96,7 +96,7 @@
 .id_video_block_arrow_pict {
     height: 10%;
     width: auto;
-    margin-left: 50%;
+    margin: 50% 50%;
 }
 @media screen and (max-width: 1000px){
     .wrapper_photo_carousel{

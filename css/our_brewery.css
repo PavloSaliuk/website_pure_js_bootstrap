@@ -50,6 +50,11 @@
     height: 167px;
 }
 
+.brewery__section_bottom {
+    height: 85px;
+    background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, rgb(244, 238, 225);
+}
+
 @media (min-width: 480px) {
     .brewery__slider {
         width: 434px;

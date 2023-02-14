@@ -85,7 +85,7 @@
 .video_block_backgroud_pict {
      width: auto;
      height: 750px;
-    max-height: 750px;
+    /* max-height: 750px; */
     /*background-size: cover;*/
     
     margin-left: 10px;

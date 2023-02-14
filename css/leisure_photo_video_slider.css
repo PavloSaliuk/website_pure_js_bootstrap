@@ -86,14 +86,17 @@
     width: auto;
     height: 750px;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-}
-.beer_depart_pict_properts{
+    
     margin-left: 10px;
     margin-right: 10px;
-    max-width: 750px;
-    object-fit: cover;    
+    /* display: block; */
+}
+.beer_depart_pict_properts{
+    height: 750px;
+    width: auto;
+    background-repeat: no-repeat;
+    object-fit: fill;   
+    display: block; 
 }
 
 

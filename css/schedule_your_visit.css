@@ -36,6 +36,8 @@
    font-style: normal;
    line-height: 1.1;
    margin-top: 20px;
+   position: fixed;
+  
  }
 
  .schedule__icon {

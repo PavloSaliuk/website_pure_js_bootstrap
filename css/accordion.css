@@ -12,9 +12,14 @@
 .choise__img_3botless {
     padding: 0 15px;
     max-width: 100%;
-    max-width: 700px;
+    max-width: 600px;
+    object-fit: contain;
 }
+.choise__img_3botless img {
+}
+
 .choise__text {
+    max-width: 600px;
     margin-top: 50px;
 }
 .xxx_brown {

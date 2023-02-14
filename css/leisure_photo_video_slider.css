@@ -97,7 +97,7 @@
     width: auto; */
     background-repeat: no-repeat;
     object-fit: fill;   
-    display: inline-block; 
+    /* display: inline-block;  */
 }
 
 

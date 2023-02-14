@@ -93,8 +93,8 @@
 
 
 .id_video_block_arrow_pict {
-    height: 1px;
-    width: auto;
+    height: 10px ;
+    width: 10px;
     margin: 50% 50%;
 }
 @media screen and (max-width: 1000px){

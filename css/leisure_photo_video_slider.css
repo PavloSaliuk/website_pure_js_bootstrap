@@ -132,7 +132,7 @@
     position: absolute;
 
     margin: -30% -12%;
-
+}
     @media screen and (max-width: 1000px) {
         .wrapper_photo_carousel {
             height: 450px;
@@ -142,4 +142,3 @@
             height: 450px;
         }
     }
-}

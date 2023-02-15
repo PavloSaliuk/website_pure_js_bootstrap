@@ -114,10 +114,9 @@
 
 .id_arrow_pict_div{
     height: 50px;
-    width: 50px;
+    width: 100%;
     position: absolute;
-    margin: -30% 36%;
-}
+    margin: -30% -12%;
 
 #id_video_block_arrow_pict{
     height: 100%;

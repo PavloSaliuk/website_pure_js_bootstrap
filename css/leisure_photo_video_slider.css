@@ -41,7 +41,7 @@
     background-image: url(../images/back_behind_video.png);
     height: 100%;
     width: 100%;
-    /* max-width: 100%; */
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }

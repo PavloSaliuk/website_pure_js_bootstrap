@@ -128,10 +128,9 @@
 
 .id_arrow_pict_div {
     height: 50px;
-    width: 100%;
+    width: 50%;
     position: absolute;
-
-    margin: -30% -12%;
+    margin: -33% 13%;
 }
     @media screen and (max-width: 1000px) {
         .wrapper_photo_carousel {

@@ -1,0 +1,68 @@
+.header_beer_blog{
+    font-family: var(--text-font-family);
+    position: relative;
+    background-color: var(--dark-shade-color);
+}
+.read_more{
+    text-align: center;
+    padding: 50px 0 90px 0;
+    background-color:var(--dark-shade-color);
+    object-fit: contain;
+    }
+.read_more_section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+.read_more_icon{
+    object-fit: contain;
+    height: 32px;
+    margin-top: 25px;
+}
+.xxx_yellow{
+    font-family: var(--title-font-family);
+    color: var(--subtitle-name-color);
+    font-size: 14px;
+    font-weight: 900;
+}
+.read_more_title{
+    font-family: var(--title-font-family);
+    color: var(--light-title-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.read_more_no_blogs{
+    display: flex;
+    height: 450px;
+    margin-top: 45px;
+    justify-content: center;
+    border: 1px solid rgba(33, 39, 54, 0.12);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.read_more_no_blog{
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32;
+    align-items: center;
+    font-family:var(--text-font-family);
+    color: var(--light-title-color);
+}
+    @media (min-width: 768px) {
+        .read_more_section {
+            width: auto;
+            height: auto;
+        }
+        .read_more_title {
+            font-size: 39px;
+        }
+    }
+    @media (min-width: 1025px) {
+        .read_more_title {
+            width: auto;
+            height: auto;
+        }
+    }
+    

@@ -63,10 +63,13 @@
     padding-left: 40px;
     box-sizing: border-box;
 }
+.video_block_divider_ear_div{
+    padding-left: 150px;
+}
 .video_block_divider_ear {
     height: 32px;
     width: auto;
-    left: 260px;
+    /* left: 150px; */
     margin-left: auto;
     margin-right: auto;
     display: block;

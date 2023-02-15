@@ -68,7 +68,9 @@
     line-height: 1;
     }
 .button{
-        color:var(--btn-text-color); 
+        color:var(--btn-text-color);
+        text-decoration: none;
+
     }
     @media (min-width: 768px) {
         .beer_blog_section {

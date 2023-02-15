@@ -1,9 +1,10 @@
 
  .schedule {
+  display: flex;
    padding-top: 200px;
    padding-bottom: 200px;
    background-color: var(--dark-shade-color);
-   background-image: url("/images/parallax.png");
+   background-image: url("../images/parallax.png");
    background-size: cover;
    background-repeat: no-repeat;
 

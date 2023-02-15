@@ -116,7 +116,7 @@
     }
 
     .bestsellers__bottle {
-        grid-column: 1 ;
+        grid-column: 1;
         grid-row: 1;
     }
 
@@ -130,4 +130,12 @@
 .bestseller__carousel-contents-segment {
     display: flex;
     flex-direction: row;
+}
+
+.contents-ibu {
+    margin-right: 97px;
+}
+
+.contents-extra {
+    margin-right: 50px;
 }

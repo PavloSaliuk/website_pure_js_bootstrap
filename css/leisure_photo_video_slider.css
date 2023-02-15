@@ -100,12 +100,12 @@
 }
 
 
-.id_video_block_arrow_pict {
+/* .id_video_block_arrow_pict {
     height: 100% ;
     width: 100%;
     margin-bottom: 50%;
     
-}
+} */
 
 #id_beer_depart_pict{
     height: 100%;
@@ -118,6 +118,10 @@
     position: absolute;
     margin: -30% -12%;
 
+#id_video_block_arrow_pict{
+    height: 100%;
+    width: 100%;
+}
 
 @media screen and (max-width: 1000px){
     .wrapper_photo_carousel{

@@ -43,14 +43,8 @@
     font-family: var(--text-font-family);
     font-weight: 400;
 }
-#accordionFlushExample {
-}
-.accordion, .accordion-flush {
-}
 .accordion-item {
     background-color: rgba(0, 0, 0, 0);
-}
-.accordion-header {
 }
 .accordion-button {
     justify-content: space-between;
@@ -81,10 +75,6 @@
     border-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     border-color: rgba(0, 0, 0, 0);
-}
-.collapsed {
-}
-.accordion-collapse {
 }
 .collapse {
     font-size: 17px;

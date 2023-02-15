@@ -12,12 +12,9 @@
 .choise__img_3botless {
     padding: 0 15px;
     max-width: 100%;
-    max-width: 600px;
+    justify-content: center;
     object-fit: contain;
 }
-.choise__img_3botless img {
-}
-
 .choise__text {
     max-width: 600px;
     margin-top: 50px;
@@ -103,5 +100,16 @@
     .choise {
         flex-direction: row;
         justify-content: center;
+    }
+    .choise__img_3botless {
+        object-position: 72.745% 50%;
+        max-width: 50%;
+    }
+  }
+  @media (min-width: 992px) {
+    .choise__img_3botless {
+        object-position: 72.745% 50%;
+        max-width: 40%;
+        max-width: 600px;
     }
   }

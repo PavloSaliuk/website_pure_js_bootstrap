@@ -98,9 +98,13 @@
     margin-top: 35px;
     font-family: var(--text-font-family);
 }
-
 @media (min-width: 768px) {
     .about_us__history {
         flex-direction: row;
     }
   }
+@media (min-width: 768px) {
+    .about_us_text {
+        display: flex;
+    }
+}

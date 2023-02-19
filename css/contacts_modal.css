@@ -1,35 +1,47 @@
+.modal__contacts {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--light-backround-modal);
+    opacity: 0.5;
+}
+
 .contacts__modal_form {
     background-color: var(--dark-shade-color);
-    font-family: var(--title-font-family);
-    display: none;
-}
-
-/* .modal__message {
-    width: 280px;
-} */
-
-.modal__close_btn {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    right: 24px;
-    background: none;
+    margin: 70% auto;
+    padding: 20px;
     border: none;
-    color: var(--menu-color);
-    font-size: 25px;
-}
-
-.modal__content {
+    width: 320px;
+    padding: 43px 32px 65px 32px;
     display: flex;
     justify-content: center;
-    padding: 43px 32px 65px 32px;
     text-align: center;
     flex-direction: column;
+    align-items: center;
+    font-family: var(--title-font-family);
+}
+
+.modal__close_btn {
+    color: var(--menu-color);
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    opacity: 1;
 }
 
 .modal__icon {
     width: 34px;
     height: 34px;
+    fill: var(--text-color);
+    display: flex;
+    
 }
 
 .modal__content_title, .modal__content_message {
@@ -52,4 +64,5 @@
     background-color: var(--text-color);
     font-size: 12px;
     border-radius: 20px;
+    width: 90%;
 }

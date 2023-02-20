@@ -42,12 +42,51 @@
 }
 
 .our__brewery_slider {
+    position: relative;
     margin-top: 45px;
 }
 
+.brewery__slider_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .brewery__slider {
-    width: 272px;
     height: 167px;
+    object-fit: cover;
+}
+
+.brewery__slider-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.brewery__nav_item {
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.brewery__nav_item img {
+    width: 90%;
+    height: 75%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.brewery__nav_item.active img,
+.brewery__nav_item:hover img {
+    opacity: 1;
 }
 
 .brewery__section_bottom {

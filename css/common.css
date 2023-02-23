@@ -37,6 +37,7 @@
     --dark-background-modal: rgba(0, 0, 0, 0.85);
     --background-brewery-toolbar: rgba(0, 0, 0, 0.5);
     --background-modal-btn: rgba(0, 0, 0, 0.2);
+    --overlay-bg-color: rgba(0, 0, 0, .5);
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;
 }

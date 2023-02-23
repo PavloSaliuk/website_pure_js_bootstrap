@@ -1,0 +1,39 @@
+.brewery__slider_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--dark-background-modal);
+}
+
+.brewery__modal_form {
+    position: relative;
+    margin: 40% auto;
+    border: none;
+    max-width: 344px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items__zoom_in {
+    background-image: url(../images/brewery-modal-zoom-in.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.items__zoom_out {
+    background-image: url(../images/brewery-modal-zoom-out.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+}

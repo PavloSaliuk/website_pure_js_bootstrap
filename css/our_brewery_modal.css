@@ -12,9 +12,7 @@
 
 .brewery__modal_form {
     position: relative;
-    margin: 40% auto;
     border: none;
-    max-width: 344px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -22,18 +20,68 @@
     align-items: center;
 }
 
+.brewery__form_toolbar {
+    width: 100%;
+    height: 100%;
+}
+
+.brewery__toolbar {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background-brewery-toolbar);
+}
+
+.brewery__toolbar_items {
+    list-style-type: none;
+}
+
 .items__zoom_in {
     background-image: url(../images/brewery-modal-zoom-in.svg);
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    text-align: center;
 }
 
 .items__zoom_out {
     background-image: url(../images/brewery-modal-zoom-out.svg);
-    width: 20px;
-    height: 20px;
+}
+
+.items__close {
+    font-size: 25px;
+}
+
+.items__zoom_in, .items__zoom_out {
     background-repeat: no-repeat;
     text-align: center;
+}
+
+.items__zoom_in, .items__zoom_out, .items__close {
+    color: var(--menu-color);
+    background: none;
+    border: none;
+    width: 40px;
+    height: 35px;
+    opacity: 0.7;
+    vertical-align: middle;
+}
+
+.brewery__btn_prev {
+    left: 0;
+}
+
+.brewery__btn_next {
+    right: 0;
+}
+
+.brewery__btn_prev, .brewery__btn_next {
+    background-color: var(--background-modal-btn);
+    color: var(--light-title-color);
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 34px;
+    padding: 40px 30px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.7;
 }

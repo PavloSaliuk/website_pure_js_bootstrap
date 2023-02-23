@@ -22,12 +22,14 @@
 .xxx_brown {
     margin-top: 25px;
 }
-.choise__paragraph {
+.choise__paragraph  {
     margin-top: 20px;
     color: var(--dark-title-color);
     font-family: var(--title-font-family);
     font-size: 34px;
     font-weight: 700;
+}
+.choise__paragraph_question  {
 }
 .choise__paragraph_svg{
     margin-top: 25px;
@@ -36,6 +38,7 @@
     height:32px;
     width:150px;
 }
+
 .choise__question {
     margin-top: 25px;
     font-size: 20px;

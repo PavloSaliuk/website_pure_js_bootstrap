@@ -69,6 +69,10 @@
     font-size: 22px;
     color: var(--brand-color);
 }
+.about_us_title_clock{
+    font-size: x-large;
+    color: goldenrod;
+}
 .about_us__history {
     display: flex;
     flex-direction: column;
@@ -97,6 +101,10 @@
     margin-top: 35px;
     font-family: var(--text-font-family);
 }
+/* .about_us__bottom_element{
+    height: 85px;
+    background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, rgb(244, 238, 225);
+} */
 @media (min-width: 768px) {
     .about_us__history {
         flex-direction: row;

@@ -141,6 +141,12 @@ iframe {
     width: 100%;
 }
 
+.form__name.invalid,
+.form__phone.invalid,
+.form__email.invalid {
+  border: 6px double var(--validation-field-invalid);
+}
+
 .contacts__form_btn {
     background-color: var(--title-under-img-color);
     color: var(--light-title-color);

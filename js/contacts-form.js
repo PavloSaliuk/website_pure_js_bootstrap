@@ -61,12 +61,13 @@
       const closeButton = modal.querySelector(".modal__close_btn");
   
       closeButton.addEventListener("click", function () {
+        clearForm();
         modal.style.display = "none";
       });
   
-      const okButton = modal.querySelector(".modal__btn");
+      const submitBtn = modal.querySelector(".modal__btn");
   
-      okButton.addEventListener("click", function () {
+      submitBtn.addEventListener("click", function () {
         clearForm();
         modal.style.display = "none";
       });
@@ -86,4 +87,3 @@
   
     closeModal();
   })();
-  

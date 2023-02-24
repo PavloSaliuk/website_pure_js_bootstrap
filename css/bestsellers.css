@@ -1,5 +1,48 @@
 .bestsellers {}
 
+.bestsellers__carousel {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to top, #6a656300, #2c221d), url(../images/barrels-warehouse.webp);
+    background-size: cover;
+}
+
+.bestseller__carousel-arrow {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestseller__carousel-arrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(44, 153, 57, 0.8);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.bestseller__carousel-arrow-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.bestseller__carousel-arrow button:nth-of-type(1) {
+    margin-left: 12px;
+}
+
+.bestseller__carousel-arrow button:nth-of-type(2) {
+    margin-right: 12px;
+}
+
 .bestseller__american-ale,
 .bestseller__imperial-stout {
     color: var(--subtitle-name-color);
@@ -43,14 +86,6 @@
     font-family: var(--title-font-family);
     font-size: 22px;
     font-weight: 700;
-}
-
-.bestsellers__carousel {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-image: linear-gradient(to top, #6a656300, #2c221d), url(../images/barrels-warehouse.webp);
-    background-size: cover;
-    /* background: linear-gradient(#6a656300, #2c221d); */
 }
 
 .bestsellers__carousel-text {
@@ -101,7 +136,8 @@
 }
 
 .bestsellers__bottle img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 545px;
 }
 
 @media (min-width: 768px) {
@@ -137,6 +173,11 @@
     .bestseller__carousel-contents-segment {
         display: flex;
         flex-direction: row;
+    }
+
+    .bestseller__carousel-arrow button {
+        width: 32px;
+        height: 32px;
     }
 }
 

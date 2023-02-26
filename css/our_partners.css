@@ -55,9 +55,40 @@
     justify-content: space-around;
     align-items: center;
     flex: 1;
+    max-width: 100%;
+    text-align: center;
 }
-@media (min-width: 500px) { 
+.partners__logos_beer {
+    object-fit: contain;
+    margin-top: 50px;
+}
+.partners__logos_img {
+    width: 90%;
+}
+.partners_logos_container{
+    justify-content: center;
+    width: 90%;
+}
+@media (min-width: 768px) { 
+    .partners_logos_container { 
+        display: flex;
+    }
+}
+@media (min-width: 992px) { 
     .partners_logos { 
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 15px;
+    }
+    .our__partners {
+        display: flex;
+        flex-direction: row;
+    }
+    .our_partners-intro{
+        width: 30%;
+    }
+    .partners__logos_beer{
+        margin-top: 0;
     }
 }

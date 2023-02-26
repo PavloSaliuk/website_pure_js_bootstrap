@@ -103,7 +103,7 @@
 }
 .about_us__bottom_element{
     height: 85px;
-    background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, rgb(244, 238, 225);
+    background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, var(--light-accent-color);
     transform: rotate(180deg);
     margin-bottom: 0;
 }

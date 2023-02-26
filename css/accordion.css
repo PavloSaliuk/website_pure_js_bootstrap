@@ -89,6 +89,12 @@
     font-family: var(--text-font-family);
     font-weight: 400;
 }
+.accordion__bottom_element {
+    height: 85px;
+    background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, rgb(244, 238, 225);
+    transform: rotate(180deg);
+    margin-bottom: 0;
+}
 @media (min-width: 768px) {
     .choise {
         flex-direction: row;

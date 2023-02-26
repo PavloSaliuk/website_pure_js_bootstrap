@@ -17,6 +17,7 @@
   function renderSlides(slides) {
     const slidesContainer = document.querySelector('.brewery__slider_wrapper');
     slidesContainer.innerHTML = slides[currentSlide];
+    handleSliderClick();
   }
 
   function nextSlide() {
@@ -50,6 +51,69 @@
   renderSlides(slides);
   setActiveNavItem();
 
+  function handleSliderClick() {
+    const modal = document.querySelector('.brewery__slider_modal');
+    const modalImg = document.querySelector('.brewery__modal_form .brewery__slider');
+    const sliders = document.querySelectorAll('.brewery__slider');
+  
+    sliders.forEach((slider, i) => {
+      slider.removeEventListener('click', openModal);
+      slider.addEventListener('click', openModal);
+    });
+  
+    const closeBtn = document.querySelector('.items__close');
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    function openModal() {
+      modal.style.display = 'block';
+      modalImg.src = this.src;
+    }
+  }
+
+  function modalItem() {
+    const slidesModal = [
+      '<div><img class="brewery__slider_item" src="images/brewery-workers.png" alt="Brewery workers"></div>',
+      '<div><img class="brewery__slider_item" src="images/brewery-barrels.png" alt="Brewery barrels"></div>',
+      '<div><img class="brewery__slider_item" src="images/brewery-plant.png" alt="Brewery plant"></div>',
+      '<div><img class="brewery__slider_item" src="images/brewery-product.png" alt="Brewery product"></div>',
+      '<div><img class="brewery__slider_item" src="images/brewery-work.png" alt="Brewery work"></div>',
+      '<div><img class="brewery__slider_item" src="images/brewery-bottels.png" alt="Brewery bottels"></div>',
+    ];
+
+    let currentSlideModal = 0;
+
+    function renderSlidesModal(slidesModal) {
+      const slidesContainerModal = document.querySelector('.brewery__wrapper_modal');
+      slidesContainerModal.innerHTML = slides[currentSlideModal];
+    }
+
+    function nextSlideModal() {
+      currentSlideModal = currentSlideModal + 1 >= slidesModal.length ? 0 : currentSlideModal + 1;
+      renderSlidesModal(slidesModal);
+    }
+
+    function prevSlideModal() {
+      currentSlideModal = currentSlideModal - 1 < 0 ? slidesModal.length - 1 : currentSlideModal - 1;
+      renderSlidesModal(slidesModal);
+    }
+
+    renderSlidesModal(slidesModal);
+
+    const nextBtnModal = document.querySelector('.brewery__btn_next');
+    nextBtnModal.addEventListener('click', nextSlideModal);
+
+    const prevBtnModal = document.querySelector('.brewery__btn_prev');
+    prevBtnModal.addEventListener('click', prevSlideModal);
+
+    window.addEventListener('resize', () => {
+      renderSlidesModal(slidesModal);
+    })
+  }
+
+  modalItem();
+  
   nextButton.addEventListener('click', nextSlide);
   prevButton.addEventListener('click', prevSlide);
   navItems.forEach(item => item.addEventListener('click', handleNavItemClick));

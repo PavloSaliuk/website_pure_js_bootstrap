@@ -50,6 +50,17 @@
     font-family:var(--text-font-family);
     color: var(--light-title-color);
 }
+.read_more_countdown{
+    color: var(--light-title-color);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32;
+    align-items: center;
+    font-family:var(--text-font-family);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
     @media (min-width: 768px) {
         .read_more_section {
             width: auto;

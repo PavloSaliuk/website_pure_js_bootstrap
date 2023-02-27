@@ -20,6 +20,7 @@
     margin-top: 20px;
     color: var(--dark-title-color);
     font-family: var(--title-font-family);
+    font-weight: 700;
 }
 .about_us__title_svg{
     margin-top: 25px;

@@ -14,4 +14,4 @@
       title.innerHTML = getRandomParagraph();
     }
     setInterval(changeChoiseParagraph, 3000);
-  })();
+})();

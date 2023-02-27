@@ -73,7 +73,7 @@
 }
 .about_us_title_clock{
     font-size: x-large;
-    color: goldenrod;
+    color: var(--hover-header-color);
 }
 .about_us_text {
     margin-top: 45px;

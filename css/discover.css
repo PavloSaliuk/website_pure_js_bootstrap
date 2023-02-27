@@ -1,5 +1,5 @@
 .discover {
-    background-color: var(--dark-shade-color);
+    background-color: var(--contacts-background-color);
     text-align: center;
     object-fit: contain;
     display: flex;

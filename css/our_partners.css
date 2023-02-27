@@ -1,11 +1,13 @@
 .our__partners {
     padding: 0 15px;
-    background-color:var(--light-accent-color);
+    background-color: var(--light-accent-color);
     justify-content: center;
 }
-.our_partners-intro{
+
+.our_partners-intro {
     max-width: 400px;
 }
+
 .xxx__brown-title {
     font-family: var(--text-font-family);
     color: var(--divide-color);
@@ -13,7 +15,6 @@
     font-size: 14px;
     text-align: left;
     letter-spacing: 1.4px;
-    margin-block-start: 25px;
 }
 
 .our__partners_title {
@@ -39,7 +40,6 @@
 }
 
 .subtittle__we-work {
-    margin-block-start: 25px;
     font-family: var(--text-font-family);
     font-size: 20px;
     font-weight: 400;
@@ -55,9 +55,9 @@
     color: var(--text-color);
     text-align: left;
     margin: 0px 0px 16px;
-    margin-block-start: 25px;
 }
-.partners_logos { 
+
+.partners_logos {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -66,37 +66,45 @@
     flex: 1;
     text-align: center;
 }
+
 .partners__logos_beer {
     object-fit: contain;
     margin-top: 50px;
 }
+
 .partners__logos_img {
     width: 90%;
 }
-.partners_logos_container{
+
+.partners_logos_container {
     justify-content: center;
     width: 90%;
 }
-@media (min-width: 768px) { 
-    .partners_logos_container { 
+
+@media (min-width: 768px) {
+    .partners_logos_container {
         display: flex;
     }
 }
-@media (min-width: 992px) { 
-    .partners_logos { 
+
+@media (min-width: 992px) {
+    .partners_logos {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 0 15px;
     }
+
     .our__partners {
         display: flex;
         flex-direction: row;
     }
-    .our_partners-intro{
+
+    .our_partners-intro {
         width: 30%;
     }
-    .partners__logos_beer{
+
+    .partners__logos_beer {
         margin-top: 0;
     }
 }

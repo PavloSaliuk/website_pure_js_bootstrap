@@ -44,10 +44,10 @@
     color: var(--text-picture-color);
 }
 
-img.discover__carousel {
-    width: 200px;
-}
-
 .discover__icon {
     width: 100px;
+}
+
+.discover__img {
+    width: 300px;
 }

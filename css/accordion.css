@@ -104,8 +104,8 @@
         object-position: 72.745% 50%;
         max-width: 50%;
     }
-  }
-  @media (min-width: 992px) {
+}
+@media (min-width: 992px) {
     .choise__img_3botless {
         object-position: 72.745% 50%;
         max-width: 40%;

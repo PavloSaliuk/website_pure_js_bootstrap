@@ -1,0 +1,98 @@
+.our__partners { 
+    padding: 0 15px;
+    background-color:var(--light-accent-color);
+    justify-content: center;
+}
+.our_partners-intro{
+    max-width: 400px;
+}
+.xxx__brown-title { 
+    font-family: var(--text-font-family);
+    color: var(--divide-color);
+    padding: 15px;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1.4px;
+    /* margin-block-start: 25px; */
+}
+.our__partners_title { 
+    margin: 20px;
+    font-size: 34px;
+    line-height: 37.4px;
+    letter-spacing: 1.632px;
+    text-align: left;
+    font-family: var(--title-font-family);
+    font-weight: bold;
+    color: var(--dark-title-color);
+    margin-top: 20px;
+
+}
+.our__partners_spikelet { 
+   box-sizing: border-box;
+    display: flex;
+    height: 32px;
+    width: auto;
+    left: 15px;
+    display: block;
+}
+.subtittle__we-work { 
+    /* margin-block-start: 25px; */
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-primer-color);
+    text-align: left;
+    margin: 0px 0px 16px;
+}
+.subtittle__we-share { 
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    margin: 0px 0px 16px;
+    /* margin-block-start: 25px; */
+}
+.partners_logos { 
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+.partners__logos_beer {
+    object-fit: contain;
+    margin-top: 50px;
+}
+.partners__logos_img {
+    width: 90%;
+}
+.partners_logos_container{
+    justify-content: center;
+    width: 90%;
+}
+@media (min-width: 768px) { 
+    .partners_logos_container { 
+        display: flex;
+    }
+}
+@media (min-width: 992px) { 
+    .partners_logos { 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 15px;
+    }
+    .our__partners {
+        display: flex;
+        flex-direction: row;
+    }
+    .our_partners-intro{
+        width: 30%;
+    }
+    .partners__logos_beer{
+        margin-top: 0;
+    }
+}

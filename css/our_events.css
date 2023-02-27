@@ -1,0 +1,32 @@
+.our__events-section { 
+    background-color: var(--dark-title-color);
+    padding: 90px 24px;
+}
+.brown_page-up { 
+    box-sizing: border-box;
+}
+.our__events_content{
+    text-align: center;
+}
+.our__events {
+    color: var(--light-title-color);
+}
+.sibtittle__our-events {
+    color: var(--light-accent-color);
+}
+.beer__festival_img {
+    margin-top: 30px;
+    max-width: 100%;
+}
+.open_day-event_text {
+    margin-top: 30px;
+}
+.beer__festival_book {
+    background-color: var(--years-color);
+    border-radius: 25px;
+    padding: 13px 37px;
+    margin: 35px 10px 10px 10px;
+}
+.beer__festival_text{
+    margin-bottom: 25px;
+}

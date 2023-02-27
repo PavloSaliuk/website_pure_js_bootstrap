@@ -12,44 +12,42 @@
     z-index: 1;
 }
 
-
 .main_wrapper {
     max-width: 1200px;
 }
 
 .wrapper_photo_carousel {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
+    max-width: 100%;
+    width: 100%;
+
 }
 
+.image_div {
+    width: 20%;
+    height: auto;
+}
 
-
+.slick-slide {
+    width: 20%;
+}
 
 .leisure_photoes_common {
-    /* width: 20%; */
-    height: 400px;
-    display: grid;
-    width: 300px;
-    float: left;
-    margin: 0;
-
-    padding: 0;
-    position: relative;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%
 }
-
 
 .video_block {
-
     background-image: url(../images/back_behind_video.png);
-    height: 1200px;
-    width: auto;
-    max-width: 1200px;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
-    padding: 0;
-
+    background-size: cover;
+    max-width: 100%;
 }
-
 
 .video_block_divider_text {
     font-size: 16px;
@@ -64,17 +62,24 @@
     font-size: 34px;
     text-align: center;
     color: var(--dark-title-color);
-
 }
 
 .video_block_wheat_ear {
     margin: 0;
-    padding-top: 0px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.video_block_divider_ear_div {
+    padding-left: 36px;
 }
 
 .video_block_divider_ear {
     height: 32px;
-    margin-left: 47%;
+    width: auto;
+    /* left: 150px; */
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
@@ -86,23 +91,52 @@
     text-align: center;
 }
 
+
 .video_block_backgroud_pict {
-
-    background-image: url(../images/beer_depart.webp);
-    width: auto;
-    height: 750px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: contain;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
 
 }
 
+.beer_depart_pict_properts {
+
+    height: 100%;
+    width: 100%;
+}
+
 #id_video_block_arrow_pict {
-    height: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+.id_video_block_arrow_pict {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50%;
+
+}
+
+#id_beer_depart_pict {
+    height: 100%;
+    width: 100%;
+}
+
+.id_arrow_pict_div {
+    height: 50px;
+    width: 50%;
     position: absolute;
-    background-position: 50% 50%;
+    margin: -33% 13%;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper_photo_carousel {
+        height: 450px;
+    }
+
+    .leisure_photoes_common {
+        height: 450px;
+    }
 }

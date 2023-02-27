@@ -8,12 +8,12 @@
     max-width: 100%; 
 }
 
-.xxx__yellow {
+.xxx_yellow {
     font-family: var(--title-font-family);
     color: var(--subtitle-name-color);
     font-size: 14px;
     font-weight: 900;
-}
+    }
 
 .discover__title {
     font-family: var(--title-font-family);
@@ -45,5 +45,9 @@
 }
 
 img.discover__carousel {
-    width: 100%;
+    width: 200px;
+}
+
+.discover__icon {
+    width: 100px;
 }

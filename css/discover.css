@@ -4,6 +4,7 @@
     object-fit: contain;
     display: flex;
     flex-direction: column;
+    padding: 90px 24px;
 }
 
 .xxx__yellow {

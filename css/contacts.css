@@ -2,12 +2,13 @@
     background-color: var(--contacts-background-color);
     padding: 90px 24px 90px 24px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
 }
 
 .contacts__left {
     padding: 0 15px 0 15px;
+    max-width: 600px;
 }
 
 .contacts__title {
@@ -92,6 +93,7 @@ iframe {
 .contacts__right {
     margin-top: 50px;
     padding: 0 15px 0 15px;
+    max-width: 600px;
 }
 
 .contacts__form {
@@ -139,6 +141,12 @@ iframe {
     height: 150px;
     margin-top: 12px;
     width: 100%;
+}
+
+.form__name.invalid,
+.form__phone.invalid,
+.form__email.invalid {
+  border: 6px double var(--validation-field-invalid);
 }
 
 .contacts__form_btn {
@@ -194,4 +202,3 @@ iframe {
         width: 100%;
     }
 }
-

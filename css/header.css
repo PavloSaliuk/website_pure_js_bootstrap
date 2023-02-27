@@ -163,7 +163,13 @@
 .header__btn:hover, .header__btn_hover {
     background-color: var(--btn-hover-bg-color);
     min-width: 70px;
+    cursor: pointer;
 }
+
+a:hover {
+    color: white;
+}
+
 
 .header__btn_item {
     cursor: pointer;

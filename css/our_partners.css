@@ -1,12 +1,10 @@
 .our__partners {
     padding: 0 15px;
-    background-color: var(--light-accent-color);
-    display: flex;
-    flex-direction: row;
-    align-items:center;
+    background-color:var(--light-accent-color);
+    justify-content: center;
 }
-@media (min-width: 767px) { 
-    flex-direction: row;
+.our_partners-intro{
+    max-width: 400px;
 }
 .xxx__brown-title {
     font-family: var(--text-font-family);
@@ -60,24 +58,45 @@
     margin-block-start: 25px;
 }
 .partners_logos { 
+    max-width: 800px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    max-height: 100px;
-  margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
 }
-@media (max-width: 320px) {
-    .partners_logos {
-      max-height: 100px;
+.partners__logos_beer {
+    object-fit: contain;
+    margin-top: 50px;
+}
+.partners__logos_img {
+    width: 90%;
+}
+.partners_logos_container{
+    justify-content: center;
+    width: 90%;
+}
+@media (min-width: 768px) { 
+    .partners_logos_container { 
+        display: flex;
     }
-.signature__foto-premium-beer {
-    text-align: center;
 }
-
-.signature__foto-lorems-brewimg {
-    text-align: center;
-}
-
-.signature__foto-premium-quality {
-    text-align: center;
+@media (min-width: 992px) { 
+    .partners_logos { 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 15px;
+    }
+    .our__partners {
+        display: flex;
+        flex-direction: row;
+    }
+    .our_partners-intro{
+        width: 30%;
+    }
+    .partners__logos_beer{
+        margin-top: 0;
+    }
 }

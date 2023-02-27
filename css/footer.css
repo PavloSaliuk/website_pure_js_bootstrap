@@ -9,7 +9,7 @@
 
 .footer__content {
     margin: auto;
-    padding: 0px 24px 20px 24px;
+    padding: 40px 24px 20px 24px;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@
     color: var(--light-title-color);
 }
 
-.footer__underline {
+.footer__underline, .before__line {
     padding: 0 24px 0 24px;
 }
 
@@ -60,6 +60,12 @@
 }
 
 @media (min-width: 768px) {
+    .logo__brewery {
+        width: 100%;
+        height: 51.6px;
+        margin-top: 25px;
+    }
+
     .before__line, .footer__underline {
         display: flex;
         justify-content: space-between;
@@ -69,5 +75,13 @@
     .footer__nav {
         flex-direction: row;
         font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo__brewery {
+        width: 103px;
+        height: 63px;
+        margin-top: 25px;
     }
 }

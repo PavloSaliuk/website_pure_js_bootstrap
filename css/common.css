@@ -18,7 +18,7 @@
     --text-color: rgb(170, 124, 90);
     --years-color: rgb(44,133,54);
     --light-title-color: rgb(255, 255, 255);
-    --light-accent-color: #f4eee1;
+    --light-accent-color: rgb(244, 238, 225);
     --text-picture-color: rgb(210, 201, 186);
     --subtitle-name-color: rgb(248,184,3);
     --beer-name-color: rgb(174,205,76);
@@ -33,6 +33,12 @@
     --contacts-background-color: rgb(44, 34, 29);
     --field-outline-color: #3b99fc;
     --hover-header-color: rgb(230, 183, 10);
+    --light-background-modal: rgb(242, 244, 247, 0.5);
+    --dark-background-modal: rgba(0, 0, 0, 0.85);
+    --background-brewery-toolbar: rgba(0, 0, 0, 0.5);
+    --background-modal-btn: rgba(0, 0, 0, 0.2);
+    --overlay-bg-color: rgba(0, 0, 0, .5);
+    --validation-field-invalid: rgb(255, 0, 0);
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;
 }

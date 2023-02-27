@@ -86,6 +86,12 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="modal">
+      <p>Контент містить інформацію про алкогольну продукцію.</p>
+      <p>Ви повнолітні?</p>
+      <button class="modal__button">Так. Мені 18+</button>
+    </div>
+    <div id="overlay"></div>
     <div class="header__bottom_element"></div>
   </header>
 
@@ -102,7 +108,7 @@
               <span class="xxx_brown">☓ ☓ ☓</span>
             </div>
             <h2 class="about_us__title_foundation">Crafted to Inspire You Since 1896</h2>
-            <div class="about_us__title_svg">
+            <div class="about_us__title_svg about_us_title_clock">
               <img src="images/spikelet-brown.svg" alt="Spikelet">
             </div>
             <h3 class="about_us__title_years">
@@ -133,8 +139,8 @@
                 connoisseurs.»</em>
             </p>
             <div class="about_us__title_signature">
-              <div class="about_us__title_png">
-                <img src="images/signature_of_the_owner.png" alt="signature of the owner">
+              <div >
+                <img class="about_us__title_png" src="images/signature_of_the_owner.png" alt="signature of the owner">
               </div>
               <span class="about_us_title_owner">John Cliff</span>
             </div>
@@ -160,9 +166,10 @@
         </div>
       </div>
     </section>
+    <p class="about_us__bottom_element"></p>
 
     <!-- Roman Didun -->
-    <section class="discover">
+    <section class="discover container">
       <div class="discover__discription">
         <span class="xxx_yellow">X X X</span>
         <h2 class="discover__title">Discover Our Beer</h2>
@@ -222,6 +229,10 @@
     <section class="bestsellers" id="bestsellers">
       <!-- Bestsellers Imperal Stout -->
       <div class="bestsellers__carousel">
+        <div class="bestseller__carousel-arrow">
+          <button><img class="bestseller__carousel-arrow-icon" src="images/left-arrow-icon.png" alt="White arrow icon"></button>
+          <button><img class="bestseller__carousel-arrow-icon" src="images/arrow-icon.png" alt="White arrow icon"></button>
+        </div>
         <div class="bestsellers__bottle">
           <img src="images/imperial-stout.png" alt="Imperial stout">
         </div>
@@ -285,7 +296,7 @@
           </div>
           <div class="bestseller__carousel-contents">
             <div class="bestseller__carousel-contents-segment">
-              <div class="bestseller__carousel-contents-part">
+              <div class="bestseller__carousel-contents-part contents-extra">
                 <span class="bestseller__carousel-contents-text">EXTRACT</span>
                 <span class="bestseller__carousel-contents-number contents-number">16,00%</span>
               </div>
@@ -295,7 +306,7 @@
               </div>
             </div>
             <div class="bestseller__carousel-contents-item">
-              <div class="bestseller__carousel-contents-part">
+              <div class="bestseller__carousel-contents-part contents-ibu">
                 <span class="bestseller__carousel-contents-text">IBU</span>
                 <span class="bestseller__carousel-contents-number contents-number">39</span>
               </div>
@@ -329,7 +340,7 @@
           </div>
           <div class="bestseller__carousel-contents">
             <div class="bestseller__carousel-contents-segment">
-              <div class="bestseller__carousel-contents-part">
+              <div class="bestseller__carousel-contents-part contents-extra">
                 <span class="bestseller__carousel-contents-text">EXTRACT</span>
                 <span class="bestseller__carousel-contents-number contents-number">16,00%</span>
               </div>
@@ -339,7 +350,7 @@
               </div>
             </div>
             <div class="bestseller__carousel-contents-item">
-              <div class="bestseller__carousel-contents-part">
+              <div class="bestseller__carousel-contents-part contents-ibu">
                 <span class="bestseller__carousel-contents-text">IBU</span>
                 <span class="bestseller__carousel-contents-number contents-number">43</span>
               </div>
@@ -383,10 +394,10 @@
         <div>
           <h4 id="id_above_video_tour_text"> Video Tour </h4>
         </div>
-        <div>
+        <div class="video_block_divider_ear_div">
           <img class="video_block_divider_ear" src="images/spikelet-brown.svg" alt="earOfWheat">
         </div>
-        <div>
+        <div class="video_block_divider_ear_div">
           <p id="id_video_block_paragr_text"> Want to see how the brewery works? Watch our video! </p>
         </div>
       </div>
@@ -402,57 +413,65 @@
 
 
 
+    <!--Pavel Volik-->
 
-
-    <section class="our__partners">
-      <div class="our_partners-intro">
-        <span class="xxx__brown-title">X X X</span>
-        <h2 class="our__partners_title">Our Partners</h2>
-        <img class="our__partners_spikelet" src="images/spikelet-brown.svg" alt="spikelet">
-        <p class="subtittle__we-work">We work with the best breweries in the United States.</p>
-        <p class="subtittle__we-share">We share our experience and develop new types of beer together.</p>
-      </div>
-      <div class="partners_logos">
-        <div class="partners__logos_beer">
-          <img src="images/premium-beer.svg" alt="premium beer">
-          <p class="signature__foto-premium-beer">Premium Beer Brewing</p>
+    
+      <section class="our__partners">
+        <div class="our_partners-intro">
+          <span class="xxx__brown-title">X X X</span>
+          <h2 class="our__partners_title">Our Partners</h2>
+          <img class="our__partners_spikelet" src="images/spikelet-brown.svg" alt="spikelet">
+          <p class="subtittle__we-work">We work with the best breweries in the United States.</p>
+          <p class="subtittle__we-share">We share our experience and develop new types of beer together.</p>
         </div>
-        <div class="lorems__brewimg-logo">
-          <img src="images/lorems-brewimg.svg" alt="lorems brewimg">
-          <p class="signature__foto-lorems-brewimg">Lorem's Brewing Co.</p>
+        <div class="partners_logos">
+          <div class="partners_logos_container">
+          <div class="partners__logos_beer">
+            <img class="partners__logos_img" src="images/premium-beer.svg" alt="premium beer">
+            <p class="signature__foto-premium-beer">Premium Beer Brewing</p>
+          </div>
+          <div class="partners__logos_beer">
+            <img class="partners__logos_img" src="images/lorems-brewimg.svg" alt="lorems brewimg">
+            <p class="signature__foto-lorems-brewimg">Lorem's Brewing Co.</p>
+          </div>
         </div>
-        <div class="premium__quality-logo">
-          <img src="images/premium-quality.svg" alt="premium quality">
-          <p class="signature__foto-premium-quality">Premium Quality Beer</p>
+        <div class="partners_logos_container">
+          <div class="partners__logos_beer">
+            <img class="partners__logos_img" src="images/premium-quality.svg" alt="premium quality">
+            <p class="signature__foto-premium-quality">Premium Quality Beer</p>
+          </div>
         </div>
-      </div>
-    </section>
-
+        </div> 
+      </section> 
 
     <section class="our__events-section">
+      <div class="our__events_content">
       <span class="xxx_yellow">X X X</span>
       <h2 class="our__events">Our Events</h2>
       <img src="images/spikelet-yellow.svg" alt="barley" height="32" width="150">
       <p class="sibtittle__our-events">We regularly hold various events so that you can not only meet all types of
         our beer but also have a great time at Craft Brewery.</p>
+      </div>
       <div class="open_day-event">
-        <img width="300" src="images/glassofbeer.png" alt="Glasofbeer">
+        <img class="beer__festival_img" src="images/glassofbeer.png" alt="Glasofbeer">
+        <div class="open_day-event_text">
         <p>Free</p>
-        <p>Open Day</p>
+        <h3>Open Day</h3>
         <p>AUGUST 19, 2022</p>
         <p>Do you want to know all the secrets of brewing? Want to understand how real craft beer is made? We will tell
           you, show you, and offer a free tasting.</p>
-        <a href="#contacts">Book</a>
+        <a class="beer__festival_book" href="#contacts">Book</a>
+      </div>
       </div>
       <div class="beer__festival">
-        <img width="300" src="images/cheers.png" alt="Cheers">
+        <img class="beer__festival_img" src="images/cheers.png" alt="Cheers">
         <p>From $80</p>
         <p>AUTUMN BEER FESTIVAL</p>
         <p>SEPTEMBER 01, 2022</p>
-        <p>Do you want to not only enjoy beer but also have fun? We're holding a festival! The best beers, live music
+        <p class="beer__festival_text">Do you want to not only enjoy beer but also have fun? We're holding a festival! The best beers, live music
           and
           fantastic atmosphere are waiting!</p>
-        <a href="#contacts">Book</a>
+        <a class="beer__festival_book" href="#contacts">Book</a>
       </div>
     </section>
 
@@ -472,23 +491,21 @@
     <!--Olena Korol-->
     <section class="schedule">
       <div class="container">
-
-        <div class="background__wrapper">
-          <span class="xxx_yellow">X X X</span>
-          <h2 class="schedule__title">Schedule Your Visit</h2>
-          <img class="schedule__icon" src="images/spikelet-yellow.svg" alt="barley" height="32" width="109">
-          <p class="schedule__text">Sign up for a tour or tasting to learn more about our beers and the brewery.</p>
-          <div class="section__buttons">
-            <a href="#" class="section__button">Book Now</a>
-            <a href="#" class="section__button accent__button">Learn more</a>
-          </div> >
-
-
-
+        <div class="grid__container">
+          <div>
+            <span class="xxx_yellow">☓ ☓ ☓</span>
+            <h2 class="schedule__title">Schedule Your Visit</h2>
+            <img class="schedule__icon" src="images/spikelet-yellow.svg" alt="barley" height="32" width="109">
+            <p class="schedule__text">Sign up for a tour or tasting to learn more about our beers and the brewery.</p>
+            <div class="section__buttons">
+              <a href="#" class="section__button">Book Now</a>
+              <a href="#" class="section__button accent__button">Learn more</a>
+            </div> >
+          </div>
+          <div>
+          </div>
         </div>
-
       </div>
-
     </section>
 
     <!--Pavlo Saliuk-->
@@ -496,7 +513,7 @@
       <img class="choise__img_3botless" src="images/3bottles_of_beer.png" alt=" 3 bottles Of Beer">
       <div class="choise__text">
         <span class="xxx_brown">☓ ☓ ☓</span>
-        <h2 class="choise__paragraph">Meet Our Beer and Make Your choise.</h2>
+        <h2 class="choise__paragraph choise__paragraph_question">Meet Our Beer and Make Your choise.</h2>
         <div class="choise__paragraph_svg">
           <img src="images/spikelet-brown.svg" alt="spikelet">
         </div>
@@ -560,6 +577,7 @@
         </div>
       </div>
     </section>
+    <p class="accordion__bottom_element"></p>
 
     <!--Olena Vdovych-->
     <section class="our__brewery">
@@ -571,12 +589,41 @@
           of old traditions and modern equipment. We brew beer with love and attention to detail.</p>
       </div>
       <div class="our__brewery_slider container">
-        <img class="brewery__slider" src="images/brewery-workers.png" alt="Brewery workers">
-        <img class="brewery__slider" src="images/brewery-barrels.png" alt="Brewery barrels">
-        <img class="brewery__slider" src="images/brewery-plant.png" alt="Brewery plant">
-        <img class="brewery__slider" src="images/brewery-product.png" alt="Brewery product">
-        <img class="brewery__slider" src="images/brewery-work.png" alt="Brewery work">
-        <img class="brewery__slider" src="images/brewery-bottels.png" alt="Brewery bottels">
+        <div class="brewery_slider">
+          <button class="brewery__slider_btn_prev">❮</button>
+          <div class="brewery__slider_wrapper"></div>
+          <button class="brewery__slider_btn_next">❯</button>
+        </div>
+        <div class="brewery__slider-nav">
+          <div class="brewery__nav_item"><img src="images/brewery-workers.png" alt="Brewery workers"></div>
+          <div class="brewery__nav_item"><img src="images/brewery-barrels.png" alt="Brewery barrels"></div>
+          <div class="brewery__nav_item"><img src="images/brewery-plant.png" alt="Brewery plant"></div>
+          <div class="brewery__nav_item"><img src="images/brewery-product.png" alt="Brewery product"></div>
+          <div class="brewery__nav_item"><img src="images/brewery-work.png" alt="Brewery work"></div>
+          <div class="brewery__nav_item"><img src="images/brewery-bottels.png" alt="Brewery bottels"></div>
+        </div>
+      </div>
+      <!--Modal for our-brewery-slider-->
+      <div class="brewery__slider_modal">
+        <div class="brewery__modal_form">
+          <div class="brewery__form_toolbar">
+            <ul class="brewery__toolbar">
+              <li class="brewery__toolbar_items">
+                <button type="button" class="items__zoom_in" aria-label="Items zoom in"></button>
+              </li>
+              <li class="brewery__toolbar_items">
+                <button type="button" class="items__zoom_out" aria-label="Items zoom out"></button>
+              </li>
+              <li class="brewery__toolbar_items">
+                <button type="button" class="items__close" aria-label="Items close">&times;</button>
+              </li>
+            </ul>
+            <button class="brewery__btn_prev">❮</button>
+            <div class="brewery__wrapper_modal">
+            </div>
+            <button class="brewery__btn_next">❯</button>
+          </div>
+        </div>
       </div>
     </section>
     <div class="brewery__section_bottom"></div>
@@ -595,7 +642,7 @@
         <h3 class="no_blog">No blog posts yet...</h3>
       </div>
       <div class="beer_blog_button">
-        <a class="button" href="#">Read more</a>
+        <a class="button" href="blog.html">Read more</a>
       </div>
     </section>
     <!--Olena Vdovych-->
@@ -665,6 +712,26 @@
           </button>
         </form>
       </div>
+       <!--Modal for contacts form-->
+      <div class="modal__contacts">
+        <div class="contacts__modal_form">
+          <button class="modal__close_btn">&times;</button>
+          <div class="modal__message">
+            <div class="modal__content">
+              <div class="modal__icon">
+                <img id="modal_svg" class="icon__modal" src="images/modal-icon.svg" alt="Modal icon">
+              </div>
+              <div class="modal__content_title">
+                Thank you!
+              </div>
+              <div class="modal__content_message">
+                We will contact you shortly.
+              </div>
+              <button class="modal__btn" type="button">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -695,14 +762,22 @@
       </div>
     </div>
   </footer>
-
-  <script src="js/burger-menu.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="js/header__modal_window.js"></script>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/bestsellers.js"></script>
   <script src="js/video_photo_section.js"></script>
+  <script src="js/our-brewery-slider.js"></script>
+  <script src="js/about_us.js"></script>
+  <script src="js/accordion.js"></script>
+  <script src="js/contacts-form.js"></script>
+
 </body>
 
 </html>

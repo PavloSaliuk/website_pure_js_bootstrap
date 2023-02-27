@@ -53,14 +53,13 @@
     font-family: var(--title-font-family);
 }
 .about_us__title_signature {
-    padding: 7.5px 0;
+    margin: 7.5px 0;
     display: flex;
     margin-top: 30px;
 }
-.about_us__title_png img {
-    max-height: 70px;
-    max-width: 70px;
-     margin: 7.5px;
+.about_us__title_png {
+    height: 70px;
+    width: 70px;
 }
 .about_us_title_owner {
     margin: 7.5px;
@@ -68,10 +67,15 @@
     font-family: var(--title-font-family);
     font-size: 22px;
     color: var(--brand-color);
+    font-weight: bold;
+    font-style: italic;
 }
 .about_us_title_clock{
     font-size: x-large;
     color: goldenrod;
+}
+.about_us_text {
+    margin-top: 45px;
 }
 .about_us__history {
     display: flex;
@@ -110,6 +114,12 @@
 @media (min-width: 768px) {
     .about_us__history {
         flex-direction: row;
+    }
+    .about_us_text_left {
+        padding-right: 15px;
+    }
+    .about_us_text_right {
+        padding-left: 15px;
     }
   }
 @media (min-width: 768px) {

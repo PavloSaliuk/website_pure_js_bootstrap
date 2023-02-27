@@ -14,3 +14,6 @@
 .sibtittle__our-events {
     color: var(--light-accent-color);
 }
+.beer__festival_img {
+    max-width: 100%;
+}

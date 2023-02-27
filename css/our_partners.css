@@ -80,7 +80,6 @@
     justify-content: center;
     width: 90%;
 }
-
 @media (min-width: 768px) {
     .partners_logos_container {
         display: flex;

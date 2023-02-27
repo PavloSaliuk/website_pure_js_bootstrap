@@ -44,12 +44,6 @@
     color: var(--text-picture-color);
 }
 
-
-.discover__info {
-    font-family: var(--text-font-family);
-    color: var(--light-accent-color);
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-    line-height: 32px;
+img.discover__carousel {
+    width: 100;
 }

@@ -36,15 +36,7 @@
     list-style-type: none;
 }
 
-.items__zoom_in {
-    background-image: url(../images/brewery-modal-zoom-in.svg);
-}
-
-.items__zoom_out {
-    background-image: url(../images/brewery-modal-zoom-out.svg);
-}
-
-.items__close {
+.items__zoom_in, .items__zoom_out, .items__close {
     font-size: 25px;
 }
 

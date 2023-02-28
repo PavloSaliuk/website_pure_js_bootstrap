@@ -26,7 +26,7 @@
    font-family: var(--title-font-family); 
 }
 
-.contacts__text, .contacts__address, .contacts__work_hours, .contacts__phone, .contacts__email {
+.contacts__text, .contacts__address, .contacts__work_hours, .contacts__communication_phone, .contacts__communication_email {
     font-family: var(--text-font-family);
 }
 
@@ -57,18 +57,24 @@
     padding-bottom: 16px;
 }
 
-.contacts__address, .contacts__work_hours, .contacts__phone, .contacts__email {
+.contacts__address_street, .contacts__work_hours, .contacts__communication_info {
     font-size: 17px;
     font-weight: 400;
     line-height: 28.9px;
 }
+
+.contacts__communication_info {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .contacts__communication_phone, .contacts__communication_email {
     color: var(--light-title-color);
     text-decoration: none;
 }
 
-.contacts__phone p, .contacts__email p{
+.contacts__communication_phone, .contacts__communication_email{
     margin-bottom: 0;
 }
 
@@ -188,13 +194,17 @@ iframe {
         width: 100%;
     }
 
-    .contacts__names, .contacts__address, .contacts__hours, .contacts__communication, .contacts__phone, .contacts__email {
+    .contacts__names, .contacts__address, .contacts__hours, .contacts__communication, .contacts__communication_phone, .contacts__communication_email {
         display: flex;
         width: 100%;
     }
 
-    .contacts__address, .contacts__work_hours, .contacts__communication_phone, .contacts__communication_email{
+    .contacts__address_street, .contacts__work_hours, .contacts__communication_info{
         width: 100%;
+    }
+
+    .contacts__names {
+        width: 40%;
     }
 
     .contacts__right {

@@ -63,6 +63,10 @@
     vertical-align: middle;
 }
 
+.brewery__wrapper_modal {
+    margin: 50% auto;
+}
+
 .brewery__btn_prev {
     left: 0;
 }
@@ -83,4 +87,22 @@
     padding: 40px 30px;
     margin: auto;
     opacity: 0.7;
+}
+
+@media (min-width: 480px) {
+    .brewery__wrapper_modal {
+        margin: 25% auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .brewery__wrapper_modal {
+        margin: 10% auto;
+    }
+}
+
+@media (min-width: 990px) {
+    .brewery__wrapper_modal {
+        margin: 5% auto;
+    }
 }

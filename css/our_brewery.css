@@ -96,13 +96,13 @@
 }
 
 .brewery__nav_item {
-    margin-top: 25px;
+    padding: 7.5px 3.75px 0;
     overflow: hidden;
     background-size: cover;
 }
 
 .brewery__nav_item img {
-    width: 50%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
@@ -110,7 +110,7 @@
 }
 
 .brewery__nav_item.active img,
-.brewery__nav_item:hover img {
+.brewery__nav_item img:hover {
     opacity: 1;
 }
 

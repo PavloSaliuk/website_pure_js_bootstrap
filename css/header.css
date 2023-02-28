@@ -42,7 +42,7 @@
 .header__logo {
     display: block;
     position: relative;
-    max-width: 100%;
+    max-width: 103px;
     flex: 0 0 auto;
     margin: 0 auto;
     z-index: 10;
@@ -279,6 +279,9 @@
     }
     .header__nav_container.active {
         top: 0;
+    }
+    .header__nav_container {
+        padding: 30px 5px;
     }
     .header__menu {
         position: relative;

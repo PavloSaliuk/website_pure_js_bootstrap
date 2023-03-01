@@ -30,7 +30,8 @@
     cursor: pointer;
 }
 
-.bestseller__carousel-arrow-icon {
+.bestseller__carousel-arrow-icon-next,
+.bestseller__carousel-arrow-icon-prev {
     width: 15px;
     height: 15px;
 }

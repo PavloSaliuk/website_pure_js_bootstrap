@@ -1,4 +1,5 @@
 (function() {
+
   const slides = [
       '<div><img class="brewery__slider" src="images/brewery-workers.png" alt="Brewery workers"></div>', 
       '<div><img class="brewery__slider" src="images/brewery-barrels.png" alt="Brewery barrels"></div>',    
@@ -101,19 +102,21 @@
       const zoomInButton = document.querySelector('.items__zoom_in');
       const zoomOutButton = document.querySelector('.items__zoom_out');
       const imageModal = document.querySelector('.brewery__wrapper_modal');
-
-      let currentSizeImg = 100;
+      const currentScaleImg = parseFloat(localStorage.getItem('currentScaleImg')) || 1;
+      
+      let scale = currentScaleImg;
 
       zoomInButton.addEventListener('click', () => {
-        currentSizeImg += 10;
-        imageModal.style.width = `${currentSizeImg}%`;
-        imageModal.style.heigth = 'auto';
+        scale += 0.1;
+        imageModal.style.transform = `scale(${scale})`;
+        localStorage.setItem('currentScaleImg', scale.toString());
       });
 
       zoomOutButton.addEventListener('click', () => {
-        currentSizeImg -= 10;
-        imageModal.style.width = `${currentSizeImg}%`;
-        imageModal.style.heigth = 'auto';
+        if (scale <= 0.2) return;
+        scale -= 0.1;
+        imageModal.style.transform = `scale(${scale})`;
+        localStorage.setItem('currentScaleImg', scale.toString());
       });
     }
 

@@ -1,7 +1,8 @@
-.bestsellers {}
+.bestsellers {
+    position: relative;
+}
 
 .bestsellers__carousel {
-    position: relative;
     padding-top: 90px;
     padding-bottom: 90px;
     background-image: linear-gradient(to top, #6a656300, #2c221d), url(../images/barrels-warehouse.webp);
@@ -139,6 +140,16 @@
 .bestsellers__bottle img {
     width: 100%;
     max-width: 545px;
+}
+
+/* slider */
+
+.bestseller__hidden-slide {
+    display: none;
+}
+
+.bestseller__visible-slide {
+    display: block;
 }
 
 @media (min-width: 768px) {

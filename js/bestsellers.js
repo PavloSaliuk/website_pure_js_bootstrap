@@ -14,13 +14,34 @@
             moveToPrevSlide();
         })
 
-    function moveToNextSlide() {
-        console.log('hello next');
-    }
-    function moveToPrevSlide() {
-        console.log('hello prev');
+    function updateSlidePosition() {
+        for (let slide of slides) {
+            slide.classList.remove('bestseller__visible-slide');
+            slide.classList.add('bestseller__hidden-slide');
+        }
+
+        slides[slidePosition].classList.add('bestseller__visible-slide');
     }
 
+    function moveToNextSlide() {
+        updateSlidePosition();
+
+        if (slidePosition === totalSlides - 1) {
+            slidePosition = 0;
+        } else {
+            slidePosition++;
+        }
+    }
+
+    function moveToPrevSlide() {
+        updateSlidePosition();
+
+        if (slidePosition === 0) {
+            slidePosition = totalSlides - 1;
+        } else {
+            slidePosition--;
+        }
+    }
 })();
 
 

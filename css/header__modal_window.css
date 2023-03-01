@@ -6,9 +6,9 @@
     transition: 200ms ease-in-out;
     border-radius: 6px;
     z-index: 10;
-    background-color: #261d17;
+    background-color: var(--dark-shade-color);
     opacity: 1;
-    height: 200px;
+    height: 240px;
     width: 320px;
     max-width: 80%;
     display: grid;
@@ -18,7 +18,7 @@
 .modal > p {
     font-family: var(--text-font-family);
     font-size: larger;
-    color: white;
+    color: var(--light-title-color);
     text-align: center;
   }
 
@@ -39,7 +39,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: var(--dark-background-modal);
+    /* background-color: rgba(0, 0, 0, .5); */
     pointer-events: none;
   }
   

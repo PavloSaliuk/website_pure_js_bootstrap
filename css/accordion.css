@@ -17,7 +17,7 @@
 }
 .choise__text {
     max-width: 600px;
-    margin-top: 50px;
+    padding-top: 20px;
 }
 .xxx_brown {
     margin-top: 25px;
@@ -31,6 +31,7 @@
 }
 .choise__paragraph_svg{
     margin-top: 25px;
+    padding-top: 10px;
 }
 .choise__paragraph_svg img{
     height:32px;
@@ -52,24 +53,26 @@
     background-color: rgba(0, 0, 0, 0);
     font-weight: bold;
     font-family: var(--text-font-family);
+    padding: 18px 0;
 }
 .accordion-button::after{
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     content: "+";
-    margin: 0;
+    margin: 0 0 0 15px;
 }
 .accordion-button:not(.collapsed) {
     color: var(--text-font-family);
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
-    padding: 18px 22.5px 18px 22.5px;
+    padding: 18px 0;
 }
 .accordion-button:not(.collapsed)::after {
     background-image: none;
     content: "-";
     margin-left: 0;
     transform: none;
+    margin: 0 0 0 15px;
 }
 .accordion-button:focus{
     border-color: rgba(0, 0, 0, 0);
@@ -85,6 +88,7 @@
     color: var(--text-primer-color);
     font-family: var(--text-font-family);
     font-weight: 400;
+    padding: 0 0 10px 0;
 }
 .accordion__bottom_element {
     height: 85px;

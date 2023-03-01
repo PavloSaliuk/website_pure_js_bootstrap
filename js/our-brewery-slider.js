@@ -53,7 +53,6 @@
 
   function handleSliderClick() {
     const modal = document.querySelector('.brewery__slider_modal');
-    const modalImg = document.querySelector('.brewery__modal_form .brewery__slider');
     const sliders = document.querySelectorAll('.brewery__slider');
   
     sliders.forEach((slider, i) => {
@@ -68,7 +67,6 @@
 
     function openModal() {
       modal.style.display = 'block';
-      modalImg.src = this.src;
     }
   }
 
@@ -84,7 +82,7 @@
 
     let currentSlideModal = 0;
 
-    function renderSlidesModal(slidesModal) {
+    function renderSlidesModal() {
       const slidesContainerModal = document.querySelector('.brewery__wrapper_modal');
       slidesContainerModal.innerHTML = slides[currentSlideModal];
     }
@@ -98,6 +96,28 @@
       currentSlideModal = currentSlideModal - 1 < 0 ? slidesModal.length - 1 : currentSlideModal - 1;
       renderSlidesModal(slidesModal);
     }
+
+    function zoomModal() {
+      const zoomInButton = document.querySelector('.items__zoom_in');
+      const zoomOutButton = document.querySelector('.items__zoom_out');
+      const imageModal = document.querySelector('.brewery__wrapper_modal');
+
+      let currentSizeImg = 100;
+
+      zoomInButton.addEventListener('click', () => {
+        currentSizeImg += 10;
+        imageModal.style.width = `${currentSizeImg}%`;
+        imageModal.style.heigth = 'auto';
+      });
+
+      zoomOutButton.addEventListener('click', () => {
+        currentSizeImg -= 10;
+        imageModal.style.width = `${currentSizeImg}%`;
+        imageModal.style.heigth = 'auto';
+      });
+    }
+
+    zoomModal();
 
     renderSlidesModal(slidesModal);
 

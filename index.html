@@ -29,36 +29,36 @@
         <a class="header__phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
       </div>
     </div>
-    <div class="container">
-      <div class="header__nav">
-        <div class="header__nav_container">
-          <a href="#" class="header__logo-container">
-            <img width="103" class="header__logo" src="images/header_logo.svg" alt="Beer Logo">
-          </a>
-          <div class="header__navigation_burger">
-            <span></span>
+    <div class="header__nav ">
+      <div class="header__nav_container container">
+        <a href="#" class="header__logo-container">
+          <img class="header__logo" src="images/header_logo.svg" alt="Beer Logo">
+        </a>
+        <div class="header__navigation_burger">
+          <span></span>
+        </div>
+        <div class="header__navigation_wrapper">
+          <div class="header__menu">
+            <a href="#about_us" class="header__menu-item navigation__link">About Us</a>
+            <a href="#bestsellers" class="header__menu-item navigation__link">Beer Styles</a>
+            <a href="#testimonials" class="header__menu-item navigation__link">Testimonials</a>
+            <a href="#contacts" class="header__menu-item navigation__link">Contact Us</a>
           </div>
-          <div class="header__navigation_wrapper">
-            <div class="header__menu">
-              <a href="#about_us" class="header__menu-item navigation__link">About Us</a>
-              <a href="#bestsellers" class="header__menu-item navigation__link">Beer Styles</a>
-              <a href="#testimonials" class="header__menu-item navigation__link">Testimonials</a>
-              <a href="#contacts" class="header__menu-item navigation__link">Contact Us</a>
-            </div>
-            <div class="header__social_icons">
-              <a href="https://facebook.com/" class="header__social_icons_item">
-                <img width="40" src="images/header_facebook-icon.svg" alt="Facebook">
-              </a>
-              <a href="https://instagram.com/" class="header__social_icons_item">
-                <img width="40" src="images/header_instagram-icon.svg" alt="Instagram">
-              </a>
-              <a href="https://youtube.com/" class="header__social_icons_item">
-                <img width="40" src="images/header_youtube-icon.svg" alt="YouTube">
-              </a>
-            </div>
+          <div class="header__social_icons">
+            <a href="https://facebook.com/" target="_blank" class="header__social_icons_item">
+              <img src="images/header_facebook-icon.svg" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/" target="_blank" class="header__social_icons_item">
+              <img src="images/header_instagram-icon.svg" alt="Instagram">
+            </a>
+            <a href="https://youtube.com/" target="_blank" class="header__social_icons_item">
+              <img src="images/header_youtube-icon.svg" alt="YouTube">
+            </a>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="header__section">
         <div class="header__section_main">
           <div class="header__banner">
@@ -519,12 +519,11 @@
       <img class="choise__img_3botless" src="images/3bottles_of_beer.png" alt=" 3 bottles Of Beer">
       <div class="choise__text">
         <span class="xxx_brown">☓ ☓ ☓</span>
-        <h2 class="choise__paragraph choise__paragraph_question">Meet Our Beer and Make Your choise.</h2>
+           <h2 class="choise__paragraph choise__paragraph_question">Meet Our Beer and Make Your choice.</h2>
         <div class="choise__paragraph_svg">
           <img src="images/spikelet-brown.svg" alt="spikelet">
         </div>
-        <h4 class="choise__question"> If you have any questions or suggestions, you can always contact us
-          directly.
+        <h4 class="choise__question"> If you have any questions or suggestions, you can always contact us directly.
         </h4>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
@@ -615,10 +614,10 @@
           <div class="brewery__form_toolbar">
             <ul class="brewery__toolbar">
               <li class="brewery__toolbar_items">
-                <button type="button" class="items__zoom_in" aria-label="Items zoom in"></button>
+                <button type="button" class="items__zoom_in" aria-label="Items zoom in">+</button>
               </li>
               <li class="brewery__toolbar_items">
-                <button type="button" class="items__zoom_out" aria-label="Items zoom out"></button>
+                <button type="button" class="items__zoom_out" aria-label="Items zoom out">-</button>
               </li>
               <li class="brewery__toolbar_items">
                 <button type="button" class="items__close" aria-label="Items close">&times;</button>
@@ -661,7 +660,7 @@
             <div class="contacts__names">
               <h3 class="contacts__address_title">Address</h3>
             </div>
-            <div class="contacts__address">6118 Jefferson St,
+            <div class="contacts__address_street">6118 Jefferson St,
               <br>
               West New York,
               NJ 07093, USA
@@ -681,14 +680,8 @@
               <h3 class="contacts__communication_title">Contacts</h3>
             </div>
             <div class="contacts__communication_info">
-              <div class="contacts__phone">
-                <p><a class="contacts__communication_phone" href="tel:+1(234)5678900">+1 (234) 567 89 00</a></p>
-              </div>
-              <div class="contacts__email">
-                <p><a class="contacts__communication_email"
-                    href="mailto:craftbrewery@email.com">craftbrewery@email.com</a>
-                </p>
-              </div>
+                <a class="contacts__communication_phone" href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                <a class="contacts__communication_email" href="mailto:craftbrewery@email.com">craftbrewery@email.com</a>
             </div>
           </div>
         </div>

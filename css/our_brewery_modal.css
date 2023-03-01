@@ -36,15 +36,7 @@
     list-style-type: none;
 }
 
-.items__zoom_in {
-    background-image: url(../images/brewery-modal-zoom-in.svg);
-}
-
-.items__zoom_out {
-    background-image: url(../images/brewery-modal-zoom-out.svg);
-}
-
-.items__close {
+.items__zoom_in, .items__zoom_out, .items__close {
     font-size: 25px;
 }
 
@@ -61,6 +53,10 @@
     height: 35px;
     opacity: 0.7;
     vertical-align: middle;
+}
+
+.brewery__wrapper_modal {
+    margin: 50% auto;
 }
 
 .brewery__btn_prev {
@@ -83,4 +79,22 @@
     padding: 40px 30px;
     margin: auto;
     opacity: 0.7;
+}
+
+@media (min-width: 480px) {
+    .brewery__wrapper_modal {
+        margin: 25% auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .brewery__wrapper_modal {
+        margin: 10% auto;
+    }
+}
+
+@media (min-width: 990px) {
+    .brewery__wrapper_modal {
+        margin: 5% auto;
+    }
 }

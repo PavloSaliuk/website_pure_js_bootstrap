@@ -4,7 +4,7 @@
     object-fit: contain;
     display: flex;
     flex-direction: column;
-    padding: 90px 24px;
+    padding: 50px 24px;
     max-width: 100%; 
 }
 
@@ -50,4 +50,15 @@
 
 .discover__img {
     width: 100%;
+}
+
+.discover__learn-more {
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
 }

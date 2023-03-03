@@ -191,6 +191,14 @@
         width: 32px;
         height: 32px;
     }
+
+    .bestseller__hidden-page {
+        display: none;
+    }
+    
+    .bestseller__visible-page {
+        display: block;
+    }
 }
 
 .contents-ibu {

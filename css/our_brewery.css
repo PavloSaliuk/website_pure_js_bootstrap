@@ -121,8 +121,8 @@
 
 @media (min-width: 480px) {
     .brewery__slider {
-        width: 100%;
-        height: auto;
+        width: 434px;
+        height: 267px;
     }
 
     .brewery__nav_item img {
@@ -139,11 +139,21 @@
     .our__brewery_title {
         font-size: 39px;
     }
+
+    .brewery__slider {
+        width: 706px;
+        height: 434px;
+    }
 }
 
 @media (min-width: 1025px) {
     .our__brewery_title {
         width: auto;
         height: auto;
+    }
+
+    .brewery__slider {
+        width: 947px;
+        height: 582px;
     }
 }

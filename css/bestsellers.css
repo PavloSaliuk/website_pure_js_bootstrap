@@ -142,8 +142,6 @@
     max-width: 545px;
 }
 
-/* slider */
-
 .bestseller__hidden-slide {
     display: none;
 }
@@ -158,27 +156,10 @@
     .bestsellers__carousel-info h3 {
         font-size: 44px;
     }
-
+    
     .bestsellers__carousel {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .bestsellers__carousel {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 100%;
-    }
-
-    .bestsellers__bottle {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .bestsellers__carousel-content {
-        grid-column: 2;
-        grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     }
 
     .bestseller__carousel-contents-item,
@@ -192,13 +173,13 @@
         height: 32px;
     }
 
-    .bestseller__hidden-page {
+    .bestseller__hidden-slide {
         display: none;
     }
     
-    .bestseller__visible-page {
-        display: block;
-    }
+    .bestseller__visible-slide {
+        display: grid;
+    } 
 }
 
 .contents-ibu {

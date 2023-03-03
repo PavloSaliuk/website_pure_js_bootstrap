@@ -65,6 +65,7 @@
     height: 5px;
     margin: 0 5px;
     background-color: rgb(44, 153, 56);
+    cursor: pointer;
 }
 
 .bestseller__american-ale,

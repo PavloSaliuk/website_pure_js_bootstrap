@@ -58,13 +58,21 @@
     justify-content: center;
 }
 
+.bestseller__carousel-switch:hover {
+    background-color: rgb(44, 153, 56);
+}
+
+.bestseller__carousel-switch.active {
+    background-color: rgb(44, 153, 56);
+}
+
 .bestseller__carousel-switch {
     border: 0;
     border-radius: 2px;
+    background-color: rgb(34, 54, 28, 1);
     width: 30px;
     height: 5px;
     margin: 0 5px;
-    background-color: rgb(44, 153, 56);
     cursor: pointer;
 }
 

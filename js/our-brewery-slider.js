@@ -1,12 +1,12 @@
-(function() {
+(function () {
 
   const slides = [
-      '<div><img class="brewery__slider" src="images/brewery-workers.png" alt="Brewery workers"></div>', 
-      '<div><img class="brewery__slider" src="images/brewery-barrels.png" alt="Brewery barrels"></div>',    
-      '<div><img class="brewery__slider" src="images/brewery-plant.png" alt="Brewery plant"></div>',    
-      '<div><img class="brewery__slider" src="images/brewery-product.png" alt="Brewery product"></div>',    
-      '<div><img class="brewery__slider" src="images/brewery-work.png" alt="Brewery work"></div>',    
-      '<div><img class="brewery__slider" src="images/brewery-bottels.png" alt="Brewery bottels"></img></div>'
+    '<div><img class="brewery__slider" src="images/brewery-workers.png" alt="Brewery workers"></div>',
+    '<div><img class="brewery__slider" src="images/brewery-barrels.png" alt="Brewery barrels"></div>',
+    '<div><img class="brewery__slider" src="images/brewery-plant.png" alt="Brewery plant"></div>',
+    '<div><img class="brewery__slider" src="images/brewery-product.png" alt="Brewery product"></div>',
+    '<div><img class="brewery__slider" src="images/brewery-work.png" alt="Brewery work"></div>',
+    '<div><img class="brewery__slider" src="images/brewery-bottels.png" alt="Brewery bottels"></img></div>'
   ];
 
   const prevButton = document.querySelector('.brewery__slider_btn_prev');
@@ -55,12 +55,12 @@
   function handleSliderClick() {
     const modal = document.querySelector('.brewery__slider_modal');
     const sliders = document.querySelectorAll('.brewery__slider');
-  
+
     sliders.forEach((slider, i) => {
       slider.removeEventListener('click', openModal);
       slider.addEventListener('click', openModal);
     });
-  
+
     const closeBtn = document.querySelector('.items__close');
     closeBtn.addEventListener('click', () => {
       modal.style.display = 'none';
@@ -103,20 +103,29 @@
       const zoomOutButton = document.querySelector('.items__zoom_out');
       const imageModal = document.querySelector('.brewery__wrapper_modal');
       const currentScaleImg = parseFloat(localStorage.getItem('currentScaleImg')) || 1;
-      
+
       let scale = currentScaleImg;
 
       zoomInButton.addEventListener('click', () => {
+        if (scale >= 2) return;
         scale += 0.1;
+        if (scale > 2) {
+          scale = 2;
+        }
         imageModal.style.transform = `scale(${scale})`;
         localStorage.setItem('currentScaleImg', scale.toString());
+        console.log(scale);
       });
 
       zoomOutButton.addEventListener('click', () => {
         if (scale <= 0.2) return;
         scale -= 0.1;
+        if (scale < 0.2) {
+          scale = 0.2;
+        }
         imageModal.style.transform = `scale(${scale})`;
         localStorage.setItem('currentScaleImg', scale.toString());
+        console.log(scale);
       });
     }
 
@@ -136,7 +145,7 @@
   }
 
   modalItem();
-  
+
   nextButton.addEventListener('click', nextSlide);
   prevButton.addEventListener('click', prevSlide);
   navItems.forEach(item => item.addEventListener('click', handleNavItemClick));

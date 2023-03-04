@@ -127,6 +127,10 @@
         localStorage.setItem('currentScaleImg', scale.toString());
         console.log(scale);
       });
+
+      window.addEventListener('beforeunload', () => {
+        localStorage.removeItem('currentScaleImg');
+      });
     }
 
     zoomModal();

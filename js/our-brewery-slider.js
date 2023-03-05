@@ -114,7 +114,6 @@
         }
         imageModal.style.transform = `scale(${scale})`;
         localStorage.setItem('currentScaleImg', scale.toString());
-        console.log(scale);
       });
 
       zoomOutButton.addEventListener('click', () => {
@@ -125,7 +124,6 @@
         }
         imageModal.style.transform = `scale(${scale})`;
         localStorage.setItem('currentScaleImg', scale.toString());
-        console.log(scale);
       });
 
       window.addEventListener('beforeunload', () => {

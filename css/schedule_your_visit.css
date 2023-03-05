@@ -1,14 +1,21 @@
 .grid__container {
-  display: grid;
-  grid-template-columns: 2em repeat(2, minmax(0, 40rem)) 2em;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.grid__container>*:first-child {
-  grid-column: 2;
-}
+@media screen and (min-width: 768px) {
+  .grid__container {
+      display: grid;
+      grid-template-columns: 2em repeat(2, minmax(0, 40rem)) 2em;
+  }
 
-.grid__container>*:last-child {
-  grid-column: 3;
+  .grid__container>*:first-child {
+      grid-column: 2;
+  }
+
+  .grid__container>*:last-child {
+      grid-column: 3;
+  }
 }
 
 .schedule {
@@ -54,6 +61,25 @@
   }
 }
 
+.schedule__title {
+
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
 .xxx_yellow {
   font-family: var(--title-font-family);
   color: var(--subtitle-name-color);
@@ -63,10 +89,9 @@
 
 .schedule__icon {
   margin-top: 40px;
-  display: inline;
+  display: inline-block;
   margin-left: -12px;
   object-fit: cover;
-
 }
 
 .schedule__text {
@@ -88,10 +113,11 @@
 
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 484px) {
   .section__buttons {
       display: block;
   }
+
 }
 
 .section__button {
@@ -108,6 +134,7 @@
   padding: 17px 50px;
   margin-right: 15px;
   cursor: pointer;
+  display: inline-block;
 }
 
 .section__button:not(:last-child) {

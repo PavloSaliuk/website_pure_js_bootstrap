@@ -21,6 +21,15 @@
     }
 
     slides[slidePosition].classList.add("bestseller__visible-slide");
+
+    const switchButtons = document.querySelectorAll(".bestseller__carousel-switch");
+    for (let i = 0; i < switchButtons.length; i++) {
+      if (i === slidePosition) {
+        switchButtons[i].classList.add("active");
+      } else {
+        switchButtons[i].classList.remove("active");
+      }
+    }
   }
 
   function moveToNextSlide() {
@@ -40,7 +49,6 @@
     }
     updateSlidePosition();
   }
-
   document
     .getElementById("bestseller__carousel-left")
     .addEventListener("click", function () {
@@ -67,7 +75,7 @@
   }
   function moveToSecondSlide() {
     if (slidePosition === totalSlides - 1) {
-      slidePosition = 0;
+      slidePosition = 1;
     } else {
       slidePosition = 1;
     }

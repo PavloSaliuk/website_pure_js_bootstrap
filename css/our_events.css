@@ -50,6 +50,12 @@
     }
 }
 
+.timer:hover,
+.timer:active {
+    cursor: pointer;
+    color: aquamarine;
+}
+
 
 .open_day-event_content {
     justify-content: center;

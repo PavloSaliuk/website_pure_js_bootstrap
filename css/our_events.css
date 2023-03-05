@@ -1,32 +1,75 @@
-.our__events-section { 
+.our__events-section {
     background-color: var(--dark-title-color);
     padding: 90px 24px;
 }
-.brown_page-up { 
+
+.brown_page-up {
     box-sizing: border-box;
 }
-.our__events_content{
+
+.our__events_content {
     text-align: center;
 }
+
 .our__events {
     color: var(--light-title-color);
     margin: 20px 0;
 }
+
 .sibtittle__our-events {
     color: var(--light-accent-color);
     margin: 20px 0;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+
 .beer__festival {
     margin-top: 25px;
 }
+
 .beer__festival_img {
     margin-top: 30px;
     max-width: 100%;
 }
-.open_day-event_text {
-    margin: 30px 35px 0 45px;
+
+.beer__festival_book {
+    font-weight: 700;
+    text-decoration: none;
+    animation: blink 1s ease-in-out infinite alternate, highlight 2s ease-in-out infinite;
 }
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+.timer:hover,
+.timer:active {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+
+.open_day-event_content {
+    justify-content: center;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.open_day-event_text {
+    margin: 0;
+    padding: 25px;
+    background-color: var(--form-background-color);
+}
+
 .beer__festival_book {
     background-color: var(--years-color);
     color: var(--btn-text-color);
@@ -34,20 +77,58 @@
     padding: 13px 37px;
     margin: 35px 10px 10px 0;
 }
-.beer__festival_text{
+
+.beer__festival_text {
     padding: 20px 0 45px;
     text-align: left;
     margin: 0;
 }
+
 .open_day-event_name {
     color: var(--subtitle-name-color);
 }
+
 .open_day-event_cost {
     color: var(--text-picture-color);
     margin-top: 30px;
 }
+
+.open_day-event_date {
+    color: var(--text-picture-color);
+    margin-top: 30px;
+}
+
+
 @media (min-width: 768px) {
     .our__events_content {
         padding: 0 100px;
+    }
+
+    .open_day-event_content {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .beer__festival_img {
+        max-width: 50%;
+        display: flex;
+        object-fit: cover;
+    }
+
+    .open_day-event {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .beer__festival {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+    }
+
+    .open_day-event_text {
+        margin: 30px 0 0 0;
+        padding: 0 30px 30px 30px;
     }
 }

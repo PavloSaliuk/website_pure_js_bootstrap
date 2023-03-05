@@ -22,78 +22,7 @@
 <body>
 
   <!-- Petro Pinchuk -->
-  <header class="header">
-    <div class="header__contacts_wrapper">
-      <div class="header__contacts container">
-        <p class="header__address">6118 Jefferson St, West New York</p>
-        <a class="header__phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
-      </div>
-    </div>
-    <div class="header__nav ">
-      <div class="header__nav_container container">
-        <a href="#" class="header__logo-container">
-          <img class="header__logo" src="images/header_logo.svg" alt="Beer Logo">
-        </a>
-        <div class="header__navigation_burger">
-          <span></span>
-        </div>
-        <div class="header__navigation_wrapper">
-          <div class="header__menu">
-            <a href="#about_us" class="header__menu-item navigation__link">About Us</a>
-            <a href="#bestsellers" class="header__menu-item navigation__link">Beer Styles</a>
-            <a href="#testimonials" class="header__menu-item navigation__link">Testimonials</a>
-            <a href="#contacts" class="header__menu-item navigation__link">Contact Us</a>
-          </div>
-          <div class="header__social_icons">
-            <a href="https://facebook.com/" target="_blank" class="header__social_icons_item">
-              <img src="images/header_facebook-icon.svg" alt="Facebook">
-            </a>
-            <a href="https://instagram.com/" target="_blank" class="header__social_icons_item">
-              <img src="images/header_instagram-icon.svg" alt="Instagram">
-            </a>
-            <a href="https://youtube.com/" target="_blank" class="header__social_icons_item">
-              <img src="images/header_youtube-icon.svg" alt="YouTube">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="header__section">
-        <div class="header__section_main">
-          <div class="header__banner">
-            <h1 class="header__banner_title">BREWERY IN NEW YORK</h1>
-            <p class="header__banner_slogan">Sharp Taste of History</p>
-            <div class="header__spikelet">
-              <img src="images/spikelet-yellow.svg" alt="spikelet">
-            </div>
-            <p class="header__banner_text">Welcome to one of the oldest breweries of New York. We offer a variety of
-              delicious craft beers, as well as exciting tours, tastings, and master-classes for those who want to learn
-              more about the beer world.</p>
-            <br>
-            <div class="header__banner_btns">
-              <div class="header__btn">
-                <a class="header__btn_item" href="#bestsellers">Beer Types</a>
-              </div>
-              <div class="header__btn header__btn_hover">
-                <a class="header__btn_item" href="#about_us">About Us</a>
-              </div>
-            </div>
-          </div>
-          <div class="header__banner_image">
-            <img src="images/header_beer_bottle.png" alt="Beer bottle">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="modal">
-      <p>Контент містить інформацію про алкогольну продукцію.</p>
-      <p>Ви повнолітні?</p>
-      <button class="modal__button">Так. Мені 18+</button>
-    </div>
-    <div id="overlay"></div>
-    <div class="header__bottom_element"></div>
-  </header>
+  <header class="header"></header>
 
   <main>
     <!--Pavlo Saliuk-->
@@ -233,15 +162,14 @@
         <button id="bestseller__carousel-next"><img class="bestseller__carousel-arrow-icon-next"
             src="images/arrow-icon.png" alt="White arrow icon"></button>
       </div>
+      <div class="bestseller__carousel-button">
+        <button id="bestseller__carousel-left" class="bestseller__carousel-switch active"></button>
+        <button id="bestseller__carousel-center" class="bestseller__carousel-switch"></button>
+        <button id="bestseller__carousel-right" class="bestseller__carousel-switch"></button>
+      </div>
       <div class="bestseller__slider">
         <!-- Bestsellers Imperal Stout -->
         <div class="bestsellers__carousel bestseller__visible-slide">
-          <!-- <div class="bestseller__carousel-arrow">
-          <button id="bestseller__carousel-prev"><img class="bestseller__carousel-arrow-icon-prev" src="images/left-arrow-icon.png"
-              alt="White arrow icon"></button>
-          <button id="bestseller__carousel-next"><img class="bestseller__carousel-arrow-icon-next" src="images/arrow-icon.png"
-              alt="White arrow icon"></button>
-        </div> -->
           <div class="bestsellers__bottle">
             <img src="images/imperial-stout.png" alt="Imperial stout">
           </div>
@@ -298,7 +226,8 @@
               <p class="bestsellers__carousel-taste">MALT</p>
               <h3 class="bestseller__indian-ale">INDIAN PALE ALE</h3>
               <p class="bestsellers__carousel-text">
-                The main feature of this beer is that historically it was made very strong, the strength reached 12%.
+                The main feature of this beer is that historically it was made very strong, the strength reached
+                12%.
                 However,
                 with the development of brewing, we began to move away from the excessive strength, stopping at a
                 reasonable
@@ -342,7 +271,8 @@
               <p class="bestsellers__carousel-taste">FRUITY</p>
               <h3 class="bestseller__american-ale">AMERICAN PALE ALE</h3>
               <p class="bestsellers__carousel-text">
-                American pale ale is similar to Indian pale ale, but in this case, only American-made hops and malt are
+                American pale ale is similar to Indian pale ale, but in this case, only American-made hops and malt
+                are
                 used.
                 At the same time, APA is characterized by a stunning combination of citrus notes: grapefruit, lemon,
                 orange,
@@ -447,46 +377,44 @@
             <p class="signature__foto-lorems-brewimg">Lorem's Brewing Co.</p>
           </div>
         </div>
-        <div class="partners_logos_container">
-          <div class="partners__logos_beer">
-            <img class="partners__logos_img" src="images/premium-quality.svg" alt="premium quality">
-            <p class="signature__foto-premium-quality">Premium Quality Beer</p>
-          </div>
+        <div class="partners__logos_beer">
+          <img class="partners__logos_img" src="images/premium-quality.svg" alt="premium quality">
+          <p class="signature__foto-premium-quality">Premium Quality Beer</p>
         </div>
       </div>
     </section>
-
     <section class="our__events-section">
       <div class="our__events_content">
         <span class="xxx_yellow">X X X</span>
         <h2 class="our__events">Our Events</h2>
         <img src="images/spikelet-yellow.svg" alt="barley" height="32" width="150">
-        <p class="sibtittle__our-events">We regularly hold various events so that you can not only meet all types of
-          our beer but also have a great time at Craft Brewery.</p>
+        <div class="sibtittle__our-events">We regularly hold various events so that you can not only meet all types of
+          our beer but also have a great time at Craft Brewery.</div>
       </div>
-      <div class="open_day-event">
-        <img class="beer__festival_img" src="images/glassofbeer.png" alt="Glasofbeer">
-        <div class="open_day-event_text">
-          <p class="open_day-event_cost">Free</p>
-          <h3 class="open_day-event_name">Open Day</h3>
-          <p class="open_day-event_cost">AUGUST 19, 2022</p>
-          <p class="beer__festival_text open_day-event_cost">Do you want to know all the secrets of brewing? Want to
-            understand how real craft beer is made? We will tell
-            you, show you, and offer a free tasting.</p>
-          <a class="beer__festival_book" href="#contacts">Book</a>
+      <div class="open_day-event_content">
+        <div class="open_day-event">
+          <img class="beer__festival_img" src="images/glassofbeer.png" alt="Glasofbeer">
+          <div class="open_day-event_text">
+            <p class="open_day-event_cost">Free</p>
+            <h3 class="open_day-event_name">Open Day</h3>
+            <p class="open_day-event_date timer" data-date="AUGUST 19, 2023" data-text="Only X days left!" data-days="">
+              AUGUST 19, 2023</p>
+            <p class="beer__festival_text open_day-event_cost">Do you want to know all the secrets of brewing? Want to
+              understand how real craft beer is made? We will tell you, show you, and offer a free tasting.</p>
+            <a class="beer__festival_book" href="#contacts">Book</a>
+          </div>
         </div>
-      </div>
-      <div class="beer__festival">
-        <img class="beer__festival_img" src="images/cheers.png" alt="Cheers">
-        <div class="open_day-event_text">
-          <p class="open_day-event_cost">From $80</p>
-          <p class="open_day-event_name">AUTUMN BEER FESTIVAL</p>
-          <p class="open_day-event_cost">SEPTEMBER 01, 2022</p>
-          <p class="beer__festival_text open_day-event_cost">Do you want to not only enjoy beer but also have fun? We're
-            holding a festival! The best beers, live music
-            and
-            fantastic atmosphere are waiting!</p>
-          <a class="beer__festival_book" href="#contacts">Book</a>
+        <div class="beer__festival">
+          <img class="beer__festival_img" src="images/cheers.png" alt="Cheers">
+          <div class="open_day-event_text">
+            <p class="open_day-event_cost">From $80</p>
+            <p class="open_day-event_name">AUTUMN BEER FESTIVAL</p>
+            <p class="open_day-event_date timer" data-date="SEPTEMBER 01, 2023" data-text="Only X days left!"
+              data-days="">SEPTEMBER 01, 2023</p>
+            <p class="beer__festival_text open_day-event_cost">Do you want to not only enjoy beer but also have fun?
+              We're holding a festival! The best beers, live music and fantastic atmosphere are waiting!</p>
+            <a class="beer__festival_book" href="#contacts">Book</a>
+          </div>
         </div>
       </div>
     </section>
@@ -804,10 +732,12 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+  <script src="js/header.js"></script>
   <script src="js/header__modal_window.js"></script>
   <script src="js/burger-menu.js"></script>
   <script src="js/bestsellers.js"></script>
   <script src="js/video_photo_section.js"></script>
+  <script src="js/our_events-timer.js"></script>
   <script src="js/our-brewery-slider.js"></script>
   <script src="js/about_us.js"></script>
   <script src="js/accordion.js"></script>

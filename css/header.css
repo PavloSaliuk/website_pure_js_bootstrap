@@ -77,6 +77,10 @@
     height: 30px;
     margin: 0 7px;
 }
+.header__social_icons_item > img:hover {
+    transition: all 0.3s;
+    filter: invert(83%) sepia(161%) saturate(574%) hue-rotate(75deg) brightness(92%) contrast(97%);
+}
 .header__social_icons > a {
     text-decoration: none;
 }

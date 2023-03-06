@@ -1,3 +1,7 @@
+.testimonials__icon {
+    height: 32;
+    width: 15;
+}
 .testimonials__photo__carousel {
     width: 100%;
 }

@@ -90,8 +90,8 @@
 
 #id_video_block_paragr_text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    color: brown;
+    font-size: small;
+    color: rgb(97,78,68);
     padding-top: 10px;
     text-align: center;
 }

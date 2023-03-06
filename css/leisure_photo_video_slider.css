@@ -91,7 +91,7 @@
 #id_video_block_paragr_text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    color: rgb(97,78,68);
+    color: --text-primer-color;
     padding-top: 10px;
     text-align: center;
 }

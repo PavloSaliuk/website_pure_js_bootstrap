@@ -9,11 +9,11 @@
 
 :root {
     scroll-behavior: smooth;
-    --menu-color: #fff;
+    --menu-color: rgb(255, 255, 255);
     --h1-color: rgb(248,184,3);
-    --brand-color: #aa7c5a;
+    --brand-color: rgb(170, 124, 90);
     --dark-title-color: rgb(38, 29, 23);
-    --dark-shade-color: #261d17;
+    --dark-shade-color: rgb(38, 29, 23);
     --text-primer-color: rgb(97, 78, 68);
     --text-color: rgb(170, 124, 90);
     --years-color: rgb(44,133,54);
@@ -26,12 +26,12 @@
     --text-under-photo: rgba(89,68,64,0.6);
     --form-border-color: rgba(170, 124, 90, 0.15);
     --form-background-color: rgba(52, 41, 36);
-    --btn-primary-bg-color: #2c8536;
-    --btn-hover-bg-color: #0c3b10;
-    --btn-text-color: #fff;
+    --btn-primary-bg-color: rgb(44, 133, 54);
+    --btn-hover-bg-color: rgb(12, 59, 16);
+    --btn-text-color: rgb(255, 255, 255);
     --divide-color: rgb(150,90,28);
     --contacts-background-color: rgb(44, 34, 29);
-    --field-outline-color: #3b99fc;
+    --field-outline-color: rgb(59, 153, 252);
     --hover-header-color: rgb(230, 183, 10);
     --light-background-modal: rgb(242, 244, 247, 0.5);
     --dark-background-modal: rgba(0, 0, 0, 0.85);

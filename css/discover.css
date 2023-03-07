@@ -22,7 +22,7 @@
     color: var(--light-title-color);
     font-family: var(--title-font-family);
     font-size: 42px;
-    font-weight: 900px;
+    font-weight: 900;
     letter-spacing: 2px;
     margin-top: 20px;
 }
@@ -36,7 +36,7 @@
     color: var(--light-accent-color);
     font-family: var(--text-font-family);
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: 20px;
     margin-bottom: 40px;
     line-height: 32px;
@@ -114,6 +114,7 @@
 
 .discover__learn-more:hover {
     background-color: var(--non-active-learn-more-button);
+    color: var(--light-title-color);
 }
 
 .discover__carousel-image-container:hover img {
@@ -155,7 +156,7 @@
 @media (min-width: 767px) {
     .discover__carousel {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;        
     }
 }
 

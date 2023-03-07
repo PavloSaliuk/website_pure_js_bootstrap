@@ -1,7 +1,7 @@
 .discover {
     position: relative;
     background-color: var(--contacts-background-color);
-    width: 100%;    
+    width: 100%;
 }
 
 .discover-arrow {
@@ -40,6 +40,10 @@
     margin-top: 20px;
     margin-bottom: 40px;
     line-height: 32px;
+}
+
+.discover__carousel {
+    position: relative;
 }
 
 .discover__carousel-info {
@@ -126,13 +130,12 @@
     opacity: 1;
 }
 
-.discover__carousel-button {
+/* .discover__carousel-button {
     width: 100%;
     position: absolute;
     top: 92%;
     display: flex;
-    justify-content: center;  
-    
+    justify-content: center;   
 }
 
 .discover__carousel-switch {
@@ -143,17 +146,9 @@
     border-radius: 50px;
     background-color: var(--non-active-button);
     margin: 0 10px;     
-}
+} */
 
-.discover__carousel-visible {
-    display: block;
-}
-
-.discover__carousel-hiden {
-    display: none;
-}
-
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
     .discover__carousel {
         display: grid;
         grid-template-columns: 1fr 1fr;        
@@ -165,5 +160,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+} */
+
+.slick-list {
+    overflow: hidden;
 }
 
+.slick-track {
+    display: flex;
+}
+
+.discover__carousel .slick-dots li.slick-active button {
+    background-color: var(--active-button);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}

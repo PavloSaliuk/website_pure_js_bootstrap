@@ -1,64 +1,168 @@
 .discover {
+    position: relative;
     background-color: var(--contacts-background-color);
-    text-align: center;
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
+    width: 100%;    
+}
+
+.discover-arrow {
     padding: 50px 24px;
-    max-width: 100%; 
+    text-align: center;
+    padding-bottom: 80px;
 }
 
 .xxx_yellow {
-    font-family: var(--title-font-family);
     color: var(--subtitle-name-color);
+    font-family: var(--text-font-family);
     font-size: 14px;
-    font-weight: 900;
-    }
+    font-weight: 600;
+    letter-spacing: 3px;
+}
 
 .discover__title {
-    font-family: var(--title-font-family);
     color: var(--light-title-color);
-    font-size: 34px;
-    font-weight: 700;
-    margin-top: 20px;
-}
-
-.discover__info {
-    font-family: var(--text-font-family);
-    color: var(--light-accent-color);
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-    line-height: 32px;
-}
-
-.discover__carousel-name {
     font-family: var(--title-font-family);
-    font-weight: bold;
-    color: var(--light-title-color);
-    text-transform: uppercase;
-}
-
-.discover__carousel-info {
-    font-family: var(--text-font-family);
-    color: var(--text-picture-color);
+    font-size: 42px;
+    font-weight: 900px;
+    letter-spacing: 2px;
+    margin-top: 20px;
 }
 
 .discover__icon {
     width: 100px;
+    margin-top: 20px;
 }
 
-.discover__img {
+.discover__info {
+    color: var(--light-accent-color);
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 32px;
+}
+
+.discover__carousel-info {
+    margin-bottom: 20px;
+}
+
+.discover__carousel-container {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.discover__carousel-image-container {
+    margin: auto;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.discover__carousel-image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.discover__carousel-info {
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    opacity: 0;
+    width: 92%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover__carousel-name {
+    font-family: var(--title-font-family);
+    color: var(--light-title-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.discover__carousel-description {
+    font-family: var(--text-font-family);
+    color: var(--text-picture-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .discover__learn-more {
-    background-color: green;
-    color: white;
+    font-family: var(--text-font-family);
+    background-color: var(--btn-primary-bg-color);
+    padding: 10px 30px;
+    color: var(--light-title-color);
     border-radius: 25px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease;
 }
+
+.discover__learn-more:hover {
+    background-color: var(--non-active-learn-more-button);
+}
+
+.discover__carousel-image-container:hover img {
+    transform: scale(1.1);
+    opacity: 0.1;
+}
+
+.discover__carousel-image-container:hover .discover__carousel-info {
+    opacity: 1;
+}
+
+.discover__carousel-button {
+    width: 100%;
+    position: absolute;
+    top: 92%;
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.discover__carousel-switch {
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    background-color: var(--non-active-button);
+    margin: 0 10px;     
+}
+
+.discover__carousel-visible {
+    display: block;
+}
+
+.discover__carousel-hiden {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .discover__carousel {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 991px) {
+    .discover__carousel {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+

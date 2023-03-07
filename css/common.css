@@ -41,6 +41,9 @@
     --validation-field-invalid: rgb(255, 0, 0);
     --title-font-family: "Frank Ruhl Libre",serif;
     --text-font-family: 'Rubik', sans-serif;
+    --non-active-button: rgba(94, 71, 23, 1);
+    --active-button: rgba(197, 147, 9, 1);
+    --non-active-learn-more-button: rgba(12, 59, 16, 1);
 }
 
 .container {

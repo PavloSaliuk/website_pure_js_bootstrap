@@ -98,61 +98,88 @@
     <p class="about_us__bottom_element"></p>
 
     <!-- Roman Didun -->
-    <section class="discover container">
-      <div class="discover__discription">
-        <span class="xxx_yellow">X X X</span>
-        <h2 class="discover__title">Discover Our Beer</h2>
-        <img class="discover__icon" src="images/spikelet-yellow.svg" alt="Yellow spikelet">
-        <p class="discover__info">
-          We offer not only delicious beer but also an opportunity to fully get acquainted with the brewing process.
-        </p>
+    <section class="discover">
+      <div class="discover__carousel-button">
+          <button id="discover__carousel-left" class="discover__carousel-switch"></button>
+          <button id="discover__carousel-center-left" class="discover__carousel-switch"></button>
+          <button id="discover__carousel-center-right" class="discover__carousel-switch"></button>
+          <button id="discover__carousel-right" class="discover__carousel-switch"></button>
       </div>
-      <div class="discover__carousel">
-        <article class="discover__carousel-individual">
-          <img class="discover__img" src="images/individual_tour.png" alt="Beer barrel">
-          <h3 class="discover__carousel-name">
-            individual tour
-          </h3>
-          <p class="discover__carousel-info">
-            We will take you on the personal tour and show you how the beer is made from the very start to bottling or
-            barrel filling.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-grouptour">
-          <img class="discover__img" src="images/group_tour.png" alt="Beer barrels in the cellar">
-          <h3 class="discover__carousel-name">
-            group tour
-          </h3>
-          <p class="discover__carousel-info">
-            We offer exciting tours for groups of up to 10 people . You will learn more about the brewing process
-            firsthand.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-tasting">
-          <img class="discover__img" src="images/tasting.png" alt="Four glasses of beer">
-          <h3 class="discover__carousel-name">
-            tasting
-          </h3>
-          <p class="discover__carousel-info">
-            You can sign up for a delicious tasting of the most popular beer types with snacks included in the price.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-brewery">
-          <img class="discover__img" src="images/brewery_masterclass.png" alt="People drinking beer">
-          <h3 class="discover__carousel-name">
-            brewery masterclass
-          </h3>
-          <p class="discover__carousel-info">
-            Do you want to feel like a real brewer? We will teach you how to make your own beer. You will become an
-            expert.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
+      <div class="discover-arrow container">
+          <div class="discover__discription">
+              <span class="xxx_yellow">X X X</span>
+              <h2 class="discover__title">Discover Our Beer</h2>
+              <img class="discover__icon" src="images/spikelet-yellow.svg" alt="Yellow spikelet">
+              <p class="discover__info">
+                  We offer not only delicious beer but also an opportunity to fully get acquainted with the brewing
+                  process.
+              </p>
+          </div>
+          <div class="discover__carousel">
+              <article class="discover__carousel-individual discover__carousel-container">
+                  <div class="discover__carousel-image-container discover__carousel-visible">
+                      <img src="images/individual_tour.png" alt="Beer barrel">
+                      <div class="discover__carousel-info">
+                          <h3 class="discover__carousel-name">
+                              individual tour
+                          </h3>
+                          <p class="discover__carousel-description">
+                              We will take you on a personal tour and show you how the beer is made from the very
+                              start to
+                              bottling or barrel filling.
+                          </p>
+                          <a class="discover__learn-more" href="#contacts">Learn more</a>
+                      </div>
+                  </div>
+              </article>
+              <article class="discover__carousel-grouptour discover__carousel-container">
+                  <div class="discover__carousel-image-container discover__carousel-hiden">
+                      <img src="images/group_tour.png" alt="Beer barrels in the cellar">
+                      <div class="discover__carousel-info">
+                          <h3 class="discover__carousel-name">
+                              group tour
+                          </h3>
+                          <p class="discover__carousel-description">
+                              We offer exciting tours for groups of up to 10 people . You will learn more about the
+                              brewing process firsthand.
+                          </p>
+                          <a href="#contacts" class="discover__learn-more">Learn more</a>
+                      </div>
+                  </div>
+              </article>
+              <article class="discover__carousel-tasting discover__carousel-container">
+                  <div class="discover__carousel-image-container discover__carousel-hiden">
+                      <img src="images/tasting.png" alt="Four glasses of beer">
+                      <div class="discover__carousel-info">
+                          <h3 class="discover__carousel-name">
+                              tasting
+                          </h3>
+                          <p class="discover__carousel-description">
+                              You can sign up for a delicious tasting of the most popular beer types with snacks
+                              included
+                              in the price.
+                          </p>
+                          <a href="#contacts" class="discover__learn-more">Learn more</a>
+                      </div>
+                  </div>
+              </article>
+              <article class="discover__carousel-brewery discover__carousel-container">
+                  <div class="discover__carousel-image-container discover__carousel-hiden">
+                      <img src="images/brewery_masterclass.png" alt="People drinking beer">
+                      <div class="discover__carousel-info">
+                          <h3 class="discover__carousel-name">
+                              brewery masterclass
+                          </h3>
+                          <p class="discover__carousel-description">
+                              Do you want to feel like a real brewer? We will teach you how to make your own beer.
+                          </p>
+                          <a href="#contacts" class="discover__learn-more">Learn more</a>
+                      </div>
+                  </div>
+              </article>
+          </div>
       </div>
-    </section>
+  </section>
 
     <!-- Pavlo Didun -->
     <section class="bestsellers" id="bestsellers">

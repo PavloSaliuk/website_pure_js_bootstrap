@@ -152,19 +152,24 @@
 
 .discover__carousel .slick-dots li button {
     opacity: 1;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
 }
 
 .slick-dots li button:before{
     color:  var(--non-active-button);
-    height: 20px;
-    width: 20px;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: var(--non-active-button);
+    display: flex;
+    align-items: center;
 }
 
 .slick-dots li.slick-active button:before{
     color: var(--active-button);
-    height: 20px;
-    width: 20px;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: var(--active-button);
+    display: flex;
+    align-items: center;
 }

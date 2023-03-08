@@ -6,19 +6,20 @@
 
 .our_partners-intro {
     max-width: 400px;
+    margin: auto;
 }
 
 .xxx__brown-title {
     font-family: var(--text-font-family);
     color: var(--divide-color);
-    padding: 15px;
+    padding: 15px 0;
     font-size: 14px;
     text-align: left;
     letter-spacing: 1.4px;
 }
 
 .our__partners_title {
-    margin: 20px;
+    margin: 20px 0;
     font-size: 34px;
     line-height: 37.4px;
     letter-spacing: 1.632px;
@@ -26,8 +27,6 @@
     font-family: var(--title-font-family);
     font-weight: bold;
     color: var(--dark-title-color);
-    margin-top: 20px;
-
 }
 
 .our__partners_spikelet {

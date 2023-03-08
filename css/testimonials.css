@@ -17,6 +17,7 @@
 .xxx__testimonials {
     display: flex;
     justify-content: center;
+    color: var(--divide-color);
 }
 .testimonials__title {
     display: flex;

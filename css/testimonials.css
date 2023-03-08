@@ -1,5 +1,8 @@
 .testimonials {
     background-color: var(--light-accent-color);
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .testimonials__block{
     max-width: 1200px;
@@ -23,6 +26,7 @@
 .testimonials__icon {
     height: 40px;
     width: 130px;
+    margin-left: 52px;
 }
 .testimonials__img{
     display: flex;

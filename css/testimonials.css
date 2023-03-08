@@ -65,7 +65,7 @@
     color: var(--text-under-photo);
 }
 .testimonials__visitors_date {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 900;
     font-family: var(--title-font-family);
     color: var(--text-primer-color);

@@ -66,6 +66,8 @@
 }
 .testimonials__visitors_date {
     font-size: 13px;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
     font-weight: 900;
     font-family: var(--title-font-family);
     color: var(--text-primer-color);

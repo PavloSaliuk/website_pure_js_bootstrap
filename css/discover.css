@@ -130,37 +130,17 @@
     opacity: 1;
 }
 
-/* .discover__carousel-button {
-    width: 100%;
-    position: absolute;
-    top: 92%;
-    display: flex;
-    justify-content: center;   
-}
+@media (min-width: 767px) {
+    .discover__carousel-name {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 50px;    
+    }
 
-.discover__carousel-switch {
-    width: 11px;
-    height: 11px;
-    cursor: pointer;
-    border: 0;
-    border-radius: 50px;
-    background-color: var(--non-active-button);
-    margin: 0 10px;     
-} */
-
-/* @media (min-width: 767px) {
-    .discover__carousel {
-        display: grid;
-        grid-template-columns: 1fr 1fr;        
+    .discover__learn-more {
+        margin-top: 30px;
     }
 }
-
-@media (min-width: 991px) {
-    .discover__carousel {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-} */
 
 .slick-list {
     overflow: hidden;
@@ -170,9 +150,26 @@
     display: flex;
 }
 
-.discover__carousel .slick-dots li.slick-active button {
-    background-color: var(--active-button);
+.discover__carousel .slick-dots li button {
+    opacity: 1;
+}
+
+.slick-dots li button:before{
+    color:  var(--non-active-button);
+    border-radius: 50%;
     height: 10px;
     width: 10px;
+    background-color: var(--non-active-button);
+    display: flex;
+    align-items: center;
+}
+
+.slick-dots li.slick-active button:before{
+    color: var(--active-button);
     border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: var(--active-button);
+    display: flex;
+    align-items: center;
 }

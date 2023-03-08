@@ -90,6 +90,7 @@
 .schedule__icon {
   margin-top: 40px;
   display: inline-block;
+  width: 109px;
   margin-left: -12px;
   object-fit: cover;
 }

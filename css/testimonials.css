@@ -52,6 +52,8 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: 27.895% 50%;
 }
 .testimonials__visitors_feedback {
     font-size: 17px;

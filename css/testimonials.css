@@ -23,9 +23,12 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    font-size: 34px;
     font-family: var(--title-font-family);
+    font-size: 39px;
     font-weight: 700;
+    font-stretch: 100%;
+    line-height: 42.9px;
+    letter-spacing: 3px;
 }
 .testimonials__icon {
     height: 40px;

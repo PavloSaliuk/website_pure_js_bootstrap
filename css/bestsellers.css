@@ -187,10 +187,10 @@
     .bestsellers__carousel-info h3 {
         font-size: 44px;
     }
-    
+
     .bestsellers__carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .bestseller__carousel-contents-item,
@@ -207,10 +207,10 @@
     .bestseller__hidden-slide {
         display: none;
     }
-    
+
     .bestseller__visible-slide {
         display: grid;
-    } 
+    }
 }
 
 .contents-ibu {

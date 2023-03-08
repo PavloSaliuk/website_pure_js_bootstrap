@@ -98,59 +98,80 @@
     <p class="about_us__bottom_element"></p>
 
     <!-- Roman Didun -->
-    <section class="discover container">
-      <div class="discover__discription">
-        <span class="xxx_yellow">X X X</span>
-        <h2 class="discover__title">Discover Our Beer</h2>
-        <img class="discover__icon" src="images/spikelet-yellow.svg" alt="Yellow spikelet">
-        <p class="discover__info">
-          We offer not only delicious beer but also an opportunity to fully get acquainted with the brewing process.
-        </p>
-      </div>
-      <div class="discover__carousel">
-        <article class="discover__carousel-individual">
-          <img class="discover__img" src="images/individual_tour.png" alt="Beer barrel">
-          <h3 class="discover__carousel-name">
-            individual tour
-          </h3>
-          <p class="discover__carousel-info">
-            We will take you on the personal tour and show you how the beer is made from the very start to bottling or
-            barrel filling.
+    <section class="discover">
+      <div class="discover-arrow container">
+        <div class="discover__discription">
+          <span class="xxx_yellow">X X X</span>
+          <h2 class="discover__title">Discover Our Beer</h2>
+          <img class="discover__icon" src="images/spikelet-yellow.svg" alt="Yellow spikelet">
+          <p class="discover__info">
+            We offer not only delicious beer but also an opportunity to fully get acquainted with the brewing
+            process.
           </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-grouptour">
-          <img class="discover__img" src="images/group_tour.png" alt="Beer barrels in the cellar">
-          <h3 class="discover__carousel-name">
-            group tour
-          </h3>
-          <p class="discover__carousel-info">
-            We offer exciting tours for groups of up to 10 people . You will learn more about the brewing process
-            firsthand.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-tasting">
-          <img class="discover__img" src="images/tasting.png" alt="Four glasses of beer">
-          <h3 class="discover__carousel-name">
-            tasting
-          </h3>
-          <p class="discover__carousel-info">
-            You can sign up for a delicious tasting of the most popular beer types with snacks included in the price.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
-        <article class="discover__carousel-brewery">
-          <img class="discover__img" src="images/brewery_masterclass.png" alt="People drinking beer">
-          <h3 class="discover__carousel-name">
-            brewery masterclass
-          </h3>
-          <p class="discover__carousel-info">
-            Do you want to feel like a real brewer? We will teach you how to make your own beer. You will become an
-            expert.
-          </p>
-          <a href="#contacts" class="discover__learn-more">Learn more</a>
-        </article>
+        </div>
+        <div class="discover__carousel">
+          <article class="discover__carousel-individual discover__carousel-container">
+            <div class="discover__carousel-image-container">
+              <img src="images/individual_tour.png" alt="Beer barrel">
+              <div class="discover__carousel-info">
+                <h3 class="discover__carousel-name">
+                  individual tour
+                </h3>
+                <p class="discover__carousel-description">
+                  We will take you on a personal tour and show you how the beer is made from the very
+                  start to
+                  bottling or barrel filling.
+                </p>
+                <a class="discover__learn-more" href="#contacts">Learn more</a>
+              </div>
+            </div>
+          </article>
+          <article class="discover__carousel-grouptour discover__carousel-container">
+            <div class="discover__carousel-image-container">
+              <img src="images/group_tour.png" alt="Beer barrels in the cellar">
+              <div class="discover__carousel-info">
+                <h3 class="discover__carousel-name">
+                  group tour
+                </h3>
+                <p class="discover__carousel-description">
+                  We offer exciting tours for groups of up to 10 people . You will learn more about the
+                  brewing process firsthand.
+                </p>
+                <a href="#contacts" class="discover__learn-more">Learn more</a>
+              </div>
+            </div>
+          </article>
+          <article class="discover__carousel-tasting discover__carousel-container">
+            <div class="discover__carousel-image-container">
+              <img src="images/tasting.png" alt="Four glasses of beer">
+              <div class="discover__carousel-info">
+                <h3 class="discover__carousel-name">
+                  tasting
+                </h3>
+                <p class="discover__carousel-description">
+                  You can sign up for a delicious tasting of the most popular beer types with snacks
+                  included
+                  in the price.
+                </p>
+                <a href="#contacts" class="discover__learn-more">Learn more</a>
+              </div>
+            </div>
+          </article>
+          <article class="discover__carousel-brewery discover__carousel-container">
+            <div class="discover__carousel-image-container">
+              <img src="images/brewery_masterclass.png" alt="People drinking beer">
+              <div class="discover__carousel-info">
+                <h3 class="discover__carousel-name">
+                  brewery masterclass
+                </h3>
+                <p class="discover__carousel-description">
+                  Do you want to feel like a real brewer? We will teach you how to make your own beer.
+                </p>
+                <a href="#contacts" class="discover__learn-more">Learn more</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -339,7 +360,7 @@
         <div class="video_block_divider_ear_div">
           <img class="video_block_divider_ear" src="images/spikelet-brown.svg" alt="earOfWheat">
         </div>
-        <div class="video_block_divider_ear_div">
+        <div class="video_block_divider_text_div">
           <p id="id_video_block_paragr_text"> Want to see how the brewery works? Watch our video! </p>
         </div>
       </div>
@@ -421,15 +442,51 @@
 
     <!--Rosalia Kulynska-->
     <section class="testimonials" id="testimonials">
+      <div class="testimonials__block">
       <div class="testimonials__text">
         <span class="xxx__testimonials">X X X</span>
         <h2 class="testimonials__title">Testimonials</h2>
-        <img src="images/spikelet-yellow.svg" alt="Spikelet yellow" class="testimonials__icon" height="32" width="150">
-        <p class="testimonials__subtitle">Your feedback on our beer and brewery is our best reward.</p>
+        <div class="testimonials__img">
+        <img src="images/spikelet-brown.svg" alt="Spikelet brown" class="testimonials__icon">
+      </div>
+        <div class="testimonials__subtitle">Your feedback on our beer and brewery is our best reward.</div>
       </div>
       <div class="testimonials__carousel">
-
+        <div class="tom__peterson">
+          <div class="testimonials__visitors">Tom Peterson</div>
+        </div>
+        <div class="description__of__carousel">
+          <div class="description__img"> <img src="images/tom-peterson.png" alt="tom peterson" class="testimonials__photo__carousel">
+          </div>
+          <div class="testimonials__visitors_feedback">"I am a true beer fan and order beverages only from this brewery. I've tried all the beer types here, and I have my favorite styles. I love the amazing taste of Indian Pale Ale most of all. The prices are also very affordable."</div>
+        </div>
+        <div class="date__of__carousel">
+          <div class="testimonials__visitors_date">December 15.2021</div>
+        </div>
+        <div class="erica__madisson">
+         <div class="testimonials__visitors">Erica Madisson</div>
+        </div>
+        <div class="description__of__carousel">
+          <div class="description__img"> <img src="images/erica-madisson.png" alt="erica madisson" class="testimonials__photo__carousel">
+          </div>
+          <div class="testimonials__visitors_feedback">"I've always wondered how craft beer is made. I booked a group tour with friends, and I was complrtrly delighted with how everything is organithed at Craft Brewery. How I buy only craft beer as it is much better and healthier than beers sold in the usual stores."</div>
+        </div>
+        <div class="date__of__carousel">
+          <div class="testimonials__visitors_date">March 25.2022</div>
+        </div>
+        <div class="david__bowman">
+          <div class="testimonials__visitors">David Bowman</div>
+        </div>
+        <div class="description__of__carousel">
+          <div class="description__img"> <img src="images/david-bowman.png" alt="david bowman" class="testimonials__photo__carousel">
+          </div>
+          <div class="testimonials__visitors_feedback">"The Imperial Stout beer is amazing. I really love strong beer, and Imperial Stout is literally the best strong beer I've ever tasted. From the very first order. I've become a fan of Craft Brewery. Great  taste, great prices, and a great venue."</div>
+        </div>
+        <div class="date__of__carousel">
+          <div class="testimonials__visitors_date">August 01.2022</div>
+        </div>
       </div>
+    </div>
     </section>
 
     <!--Olena Korol-->
@@ -700,6 +757,9 @@
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -709,6 +769,7 @@
   <script src="js/header.js"></script>
   <script src="js/header__modal_window.js"></script>
   <script src="js/burger-menu.js"></script>
+  <script src="js/discover.js"></script>
   <script src="js/bestsellers.js"></script>
   <script src="js/video_photo_section.js"></script>
   <script src="js/our_events-timer.js"></script>

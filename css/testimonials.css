@@ -1,0 +1,80 @@
+.testimonials {
+    background-color: var(--light-accent-color);
+}
+.testimonials__block{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials__text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 24px 0 24px;
+}
+.xxx__testimonials {
+    display: flex;
+    justify-content: center;
+}
+.testimonials__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.testimonials__icon {
+    height: 40px;
+    width: 130px;
+}
+.testimonials__img{
+    display: flex;
+    justify-content: center;
+}
+.testimonials__subtitle {
+}
+.testimonials__carousel {
+}
+.testimonials__visitors{
+    color: var(--title-under-img-color);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--title-font-family);
+    display: flex;
+    justify-content: center;
+}
+.tom__peterson {
+}
+.description__of__carousel {
+}
+.description__img {
+    display: flex;
+    justify-content: center;
+}
+.testimonials__photo__carousel {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.testimonials__visitors_feedback {
+    font-size: 17px;
+    font-family: var(--text-font-family);
+    color: var(--text-under-photo);
+}
+.testimonials__visitors_date {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: var(--title-font-family);
+    color: var(--text-primer-color);
+}
+.date__of__carousel {
+    display: flex;
+    justify-content: center;
+}
+.erica__madisson {
+}
+.david__bowman {
+}
+@media (min-width: 768px) {
+    .testimonials__photo__carousel {
+        width: 170px;
+        height: 170px;
+    }
+}

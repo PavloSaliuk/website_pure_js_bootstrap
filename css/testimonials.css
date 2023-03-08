@@ -23,8 +23,9 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    font-size: inherit;
+    font-size: 34px;
     font-family: var(--title-font-family);
+    font-weight: 700;
 }
 .testimonials__icon {
     height: 40px;

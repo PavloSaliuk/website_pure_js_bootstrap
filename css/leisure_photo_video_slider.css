@@ -90,7 +90,7 @@
 
 #id_video_block_paragr_text {
     font-family: var(--text-font-family);
-    font-size: medium;
+    font-size: 20px;
     color: var(--text-primer-color);
     padding-top: 10px;
     text-align: center;

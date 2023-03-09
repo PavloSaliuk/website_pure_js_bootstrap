@@ -20,4 +20,6 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 2000);
+
+renderSlides(slides);
 })();

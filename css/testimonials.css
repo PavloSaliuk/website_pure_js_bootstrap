@@ -12,7 +12,7 @@
 .testimonials__text {
     display: flex;
     flex-direction: column;
-    padding: 50px 24px 0 24px;
+    padding: 50px 24px 90px 24px;
 }
 .xxx__testimonials {
     display: flex;

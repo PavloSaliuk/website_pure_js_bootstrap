@@ -34,6 +34,17 @@
     width: 130px;
     margin-left: 52px;
 }
+.products-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products-carousel__slides {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .testimonials__img{
     display: flex;
     justify-content: center;

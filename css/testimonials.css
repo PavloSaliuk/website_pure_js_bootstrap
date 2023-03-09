@@ -38,10 +38,6 @@
     display: flex;
     justify-content: center;
 }
-.testimonials__subtitle {
-}
-.testimonials__carousel {
-}
 .testimonials__visitors{
     color: var(--title-under-img-color);
     font-size: 22px;
@@ -49,10 +45,6 @@
     font-family: var(--title-font-family);
     display: flex;
     justify-content: center;
-}
-.tom__peterson {
-}
-.description__of__carousel {
 }
 .description__img {
     display: flex;
@@ -81,10 +73,6 @@
 .date__of__carousel {
     display: flex;
     justify-content: center;
-}
-.erica__madisson {
-}
-.david__bowman {
 }
 @media (min-width: 768px) {
     .testimonials__photo__carousel {

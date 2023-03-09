@@ -1,9 +1,9 @@
 (function () {
 
     const slides = [
-        '<div><img src="img/tom-peterson.png" alt="tom peterson"></div>',
-        '<div><img src="img/erica-maddison.png" alt="erica maddison"></div>',
-        '<div><img src="img/david-bodwan.png" alt="erica maddison"></div>',
+        '<div class="tom__peterson"></div>',
+        '<div class="erica__madisson"></div>',
+        '<div class="david__bowman"></div>',
     ];
 
     let currentSlide = 0;
@@ -18,8 +18,6 @@
         currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
         renderSlides(slides);
     }
-
-    setInterval(nextSlide, 2000);
 
     renderSlides(slides);
 
